@@ -17,6 +17,7 @@ namespace TricksterMap.Create
         public PointObjectForm PointListForm = null;
         public Dictionary<string, int> types = new Dictionary<string, int>();
         public bool isEditing = false;
+        public int EditIndex = -1;
 
         public CreatePointObject()
         {
@@ -62,43 +63,40 @@ namespace TricksterMap.Create
             return -1;
         }
         
-        private void AddObject()
+        private void AddOrUpdateObject()
         {
-            var id = int.Parse(txtId.Text);
-            var typeId = GetTypeIdFromName(cmbType.Text);
-
-            // Portals, respawns, and none should have ID 0
-            if (typeId == 0x01 || typeId == 0x02)
+            try
             {
-                id = 0;
-            }
-            else
-            {
-                // Check for a duplicate ID
-                if (Map.PointObjects.Exists(p => p.Type == typeId && p.Id == id))
+                var point = new PointObject()
                 {
-                    MessageBox.Show("Duplicate ID found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    Id = int.Parse(txtId.Text),
+                    Type = GetTypeIdFromName(cmbType.Text),
+                    MapId = int.Parse(txtMapId.Text),
+                    X = int.Parse(txtX.Text),
+                    Y = int.Parse(txtY.Text)
+                };
+
+                if (isEditing)
+                {
+                    PointListForm.PointService.Update(Map, EditIndex, point);
                 }
+                else
+                {
+                    PointListForm.PointService.Add(Map, point);
+                }
+
+                PointListForm.RepopulateData();
             }
-
-            var point = new PointObject()
+            catch (Exception ex)
             {
-                Id = id,
-                Type = typeId,
-                MapId = int.Parse(txtMapId.Text),
-                X = int.Parse(txtX.Text),
-                Y = int.Parse(txtY.Text)
-            };
-
-            Map.PointObjects.Add(point);
-            PointListForm.RepopulateData();
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void CreateAndExit(object sender, EventArgs e)
         {
+            AddOrUpdateObject();
             isEditing = false;
-            AddObject();
             Close();
         }
 

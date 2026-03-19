@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TricksterMap.Cli/1.0.0": {
+        "dependencies": {
+          "TricksterMap.Core": "1.0.0"
+        },
+        "runtime": {
+          "TricksterMap.Cli.dll": {}
+        }
+      },
+      "TricksterMap.Core/1.0.0": {
+        "runtime": {
+          "TricksterMap.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "zh/TricksterMap.Core.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Ionic.Zlib/1.9.1.5": {
+        "runtime": {
+          "Ionic.Zlib.dll": {
+            "assemblyVersion": "1.9.1.5",
+            "fileVersion": "1.9.1.5"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TricksterMap.Cli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TricksterMap.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ionic.Zlib/1.9.1.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

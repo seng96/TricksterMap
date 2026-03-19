@@ -1,0 +1,4 @@
+interface:
+  display_name: "MD3 CLI Automation"
+  short_description: "Use CLI to inspect and edit TricksterMap md3 files"
+  default_prompt: "Inspect or edit TricksterMap md3 files through the repo CLI."

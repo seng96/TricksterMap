@@ -24,7 +24,7 @@ namespace TricksterMap
                 }
                 else if (control is Control c)
                 {
-                    c.Font = new Font(Strings.PreferredFont, c.Font.Size);
+                    c.Font = new Font(Strings.PreferredFont, c.Font.Size, c.Font.Style);
                 }
             }
         }

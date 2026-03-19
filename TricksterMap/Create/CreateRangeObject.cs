@@ -17,6 +17,7 @@ namespace TricksterMap.Create
         public RangeObjectForm RangeListForm = null;
         public Dictionary<string, int> types = new Dictionary<string, int>();
         public bool isEditing = false;
+        public int EditIndex = -1;
 
         public CreateRangeObject()
         {
@@ -64,30 +65,42 @@ namespace TricksterMap.Create
             return -1;
         }
 
-        private void AddObject()
+        private void AddOrUpdateObject()
         {
-            var id = int.Parse(txtId.Text);
-            var typeId = GetTypeIdFromName(cmbType.Text);
-
-            var point = new RangeObject()
+            try
             {
-                Id = id,
-                Type = typeId,
-                Destination = int.Parse(txtMapId.Text),
-                X1 = int.Parse(txtX1.Text),
-                Y1 = int.Parse(txtY1.Text),
-                X2 = int.Parse(txtX2.Text),
-                Y2 = int.Parse(txtY2.Text)
-            };
+                var range = new RangeObject()
+                {
+                    Id = int.Parse(txtId.Text),
+                    Type = GetTypeIdFromName(cmbType.Text),
+                    Destination = int.Parse(txtMapId.Text),
+                    X1 = int.Parse(txtX1.Text),
+                    Y1 = int.Parse(txtY1.Text),
+                    X2 = int.Parse(txtX2.Text),
+                    Y2 = int.Parse(txtY2.Text)
+                };
 
-            Map.RangeObjects.Add(point);
-            RangeListForm.RepopulateData();
+                if (isEditing)
+                {
+                    RangeListForm.RangeService.Update(Map, EditIndex, range);
+                }
+                else
+                {
+                    RangeListForm.RangeService.Add(Map, range);
+                }
+
+                RangeListForm.RepopulateData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         
         private void CreateAndExit(object sender, EventArgs e)
         {
+            AddOrUpdateObject();
             isEditing = false;
-            AddObject();
             Close();
         }
 

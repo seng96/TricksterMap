@@ -16,6 +16,7 @@ namespace TricksterMap
     {
         public MapDataInfo Map = null;
         public Dictionary<string, int> types = new Dictionary<string, int>();
+        public PointObjectService PointService { get; } = new PointObjectService();
 
         public PointObjectForm()
         {
@@ -69,8 +70,8 @@ namespace TricksterMap
         {
             if (pointList.SelectedIndices.Count > 0)
             {
-                Map.PointObjects.RemoveAt(pointList.Items.IndexOf(pointList.SelectedItems[0]));
-                pointList.SelectedItems[0].Remove();
+                PointService.Delete(Map, pointList.Items.IndexOf(pointList.SelectedItems[0]));
+                RepopulateData();
             }
         }
 
@@ -101,14 +102,12 @@ namespace TricksterMap
 
                 var point = Map.PointObjects[index];
 
-                Map.PointObjects.RemoveAt(index);
-                pointList.SelectedItems[0].Remove();
-
                 var createForm = new CreatePointObject()
                 {
                     Map = Map,
                     PointListForm = this,
-                    isEditing = true
+                    isEditing = true,
+                    EditIndex = index
                 };
 
                 createForm.Text = Strings.EditPointObject;
