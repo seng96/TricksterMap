@@ -297,3 +297,16 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# Claude Code / AI agent per-user state (project-level skills, settings,
+# and shared config under .claude/ and .codex/ ARE tracked; only local
+# session/preference files are ignored)
+.claude/skills
+.claude/settings.local.json
+.claude/todos/
+.claude/sessions/
+.claude/projects/
+.claude/statsig/
+.claude/*.local.json
+.codex/settings.local.json
+
