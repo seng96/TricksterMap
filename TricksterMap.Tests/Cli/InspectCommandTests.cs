@@ -365,7 +365,7 @@ namespace TricksterMap.Tests.Cli
                 "..",
                 "TricksterMap.Cli",
                 "bin",
-                "Debug",
+                new DirectoryInfo(AppContext.BaseDirectory).Parent!.Name,
                 "net10.0",
                 "TricksterMap.Cli.dll"));
 

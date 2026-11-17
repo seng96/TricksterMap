@@ -1,257 +1,214 @@
-﻿using TricksterMap.Data;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Globalization;
 using System.Reflection;
 using System.Threading;
+using System.Windows.Forms;
+using TricksterMap.SceneView;
+using TricksterMap.Scene;
+using TricksterMap.SceneEditing;
 
 namespace TricksterMap
 {
     public partial class MDIParent : Form
     {
-        MapDataInfo Map = null;
-        bool ChangedLanguage = false;
+        private MapDocument document;
+        private string savedFingerprint;
+        private bool changedLanguage;
+        private List<MapCollisionEditorForm> collisionEditors = new List<MapCollisionEditorForm>();
+        private readonly ScenePreviewLoader sceneLoader;
+        private string savedSceneFingerprint;
+        private SceneAuthoringForm sceneEditor;
+        private SceneObjectEditorForm objectEditor;
+        private readonly SceneAnimationController animation;
+        private bool verificationMode;
+        protected override bool ShowWithoutActivation => verificationMode;
+        internal MapDocument EditingDocument => document;
+        internal SceneRenderer Preview => sceneLoader.Current;
+        internal IList<MapCollisionEditorForm> CollisionEditors => collisionEditors;
+
+        internal void PrepareVerificationView()
+        {
+            verificationMode = true; StartPosition = FormStartPosition.Manual;
+            Location = new System.Drawing.Point(-30000, -30000); ShowInTaskbar = false;
+            Opacity = 0; Size = new System.Drawing.Size(1100, 800); Show();
+        }
 
         public MDIParent()
         {
             InitializeComponent();
-
-            fileMenu.Text = Strings.File;
-            openToolStripMenuItem.Text = Strings.FileOpen;
-            saveAsToolStripMenuItem.Text = Strings.SaveAs;
-            exitToolStripMenuItem.Text = Strings.FileExit;
-            languageToolStripMenuItem.Text = Strings.Language;
-            
+            Text = "TricksterMap 0.3.1";
+            animation = new SceneAnimationController(() =>
+            {
+                foreach (var editor in collisionEditors)
+                    if (!editor.IsDisposed && !editor.Disposing && editor.Visible && editor.DetailedPreview) editor.Canvas.Invalidate();
+                if (sceneEditor != null && !sceneEditor.IsDisposed && sceneEditor.Visible) sceneEditor.RefreshView();
+                if (objectEditor != null && !objectEditor.IsDisposed && objectEditor.Visible) objectEditor.RefreshView();
+            });
+            MainMenuStrip.Items.Add(animation.Menu);
+            animation.ResourceRootRequested += ShowEffectResources;
+            sceneLoader = new ScenePreviewLoader(this);
+            sceneLoader.Ready += renderer =>
+            {
+                savedSceneFingerprint = sceneLoader.InitialFingerprint;
+                animation.Bind(renderer);
+                sceneEditor = new SceneAuthoringForm(renderer);
+                var page = new TabPage("地圖場景製作");
+                sceneEditor.TopLevel = false; sceneEditor.FormBorderStyle = FormBorderStyle.None;
+                sceneEditor.Dock = DockStyle.Fill; page.Controls.Add(sceneEditor);
+                tabControl1.TabPages.Add(page); sceneEditor.Show();
+                sceneEditor.Edited += (s, e) =>
+                {
+                    Text = "TricksterMap 0.3.1 - " + document.Md3Path + " *";
+                    foreach (var editor in collisionEditors) editor.Canvas.Invalidate();
+                    objectEditor?.RefreshView();
+                };
+                objectEditor = new SceneObjectEditorForm(renderer);
+                var objectPage = new TabPage("場景物件");
+                objectEditor.TopLevel = false; objectEditor.FormBorderStyle = FormBorderStyle.None;
+                objectEditor.Dock = DockStyle.Fill; objectPage.Controls.Add(objectEditor);
+                tabControl1.TabPages.Add(objectPage); objectEditor.Show();
+                objectEditor.Edited += (s, e) =>
+                {
+                    Text = "TricksterMap 0.3.1 - " + document.Md3Path + " *";
+                    foreach (var editor in collisionEditors) editor.Canvas.Invalidate();
+                    sceneEditor.RefreshView();
+                };
+            };
+            Disposed += (s, e) => { animation.Dispose(); sceneLoader.Dispose(); };
+            fileMenu.Text = Strings.File; openToolStripMenuItem.Text = Strings.FileOpen;
+            saveAsToolStripMenuItem.Text = Strings.SaveAs + " bundle...";
+            exitToolStripMenuItem.Text = Strings.FileExit; languageToolStripMenuItem.Text = Strings.Language;
             this.SetFonts();
+            var createMap = new ToolStripMenuItem("新建空白地圖（使用目前素材）…");
+            createMap.Click += CreateBlankMap;
+            fileMenu.DropDownItems.Insert(0, createMap);
+            var resourceArchive = new ToolStripMenuItem("匯出完整遊戲資源包 ZIP…");
+            resourceArchive.Click += (s, e) => ExportResourceArchive(); fileMenu.DropDownItems.Add(resourceArchive);
         }
 
-        private void OpenMap(string fileName)
+        public void OpenMap(string fileName) { OpenMap(fileName, true); }
+
+        private void OpenMap(string fileName, bool askToDiscard)
         {
-            using (var fileStream = File.Open(fileName, FileMode.Open))
+            if (askToDiscard && !ConfirmDiscard()) return;
+            var next = new MapDocumentService().Load(fileName);
+            animation.Bind(null);
+            while (tabControl1.TabPages.Count > 0)
             {
-                using (var reader = new BinaryReader(fileStream))
-                {
-                    var mapInfo = MapDataLoader.Load(reader);
-
-                    tabControl1.TabPages.Clear();
-
-                    var page = new TabPage()
-                    {
-                        Text = String.Format(Strings.CollisionFormTitle, fileName)
-                    };
-
-                    var collisionForm = new ConfigLayerCollisionForm
-                    {
-                        TopLevel = false,
-                        FormBorderStyle = FormBorderStyle.None,
-                        Dock = DockStyle.Fill,
-                        Visible = true
-                    };
-
-                    // Load the collision data from the layer
-                    page.Controls.Add(collisionForm);
-                    tabControl1.TabPages.Add(page);
-
-
-                    foreach (var layer in mapInfo.ConfigLayers)
-                    {
-                        if (layer.Type == 1)
-                        {
-                            collisionForm.LoadCollisionData(layer);
-                        }
-                        else if (layer.Type == 2)
-                        {
-                            Console.WriteLine("Type 2");
-                            collisionForm.LoadType2(layer);
-                        }
-                        else if (layer.Type == 3)
-                        {
-                            Console.WriteLine("Type 3");
-                            collisionForm.LoadType3(layer);
-                        }
-                        else if (layer.Type == 4)
-                        {
-                            Console.WriteLine("Type 4");
-                            collisionForm.LoadType2(layer);
-                        }
-                    }
-
-                    var pointPage = new TabPage()
-                    {
-                        Text = String.Format(Strings.PointObjectView, fileName)
-                    };
-
-                    var pointForm = new PointObjectForm
-                    {
-                        Map = mapInfo,
-                        TopLevel = false,
-                        FormBorderStyle = FormBorderStyle.None,
-                        Dock = DockStyle.Fill,
-                        Visible = true
-                    };
-
-                    pointForm.RepopulateData();
-                    pointPage.Controls.Add(pointForm);
-                    tabControl1.TabPages.Add(pointPage);
-
-                    var rangePage = new TabPage()
-                    {
-                        Text = String.Format(Strings.RangeObjectView, fileName)
-                    };
-
-                    var rangeForm = new RangeObjectForm
-                    {
-                        TopLevel = false,
-                        FormBorderStyle = FormBorderStyle.None,
-                        Dock = DockStyle.Fill,
-                        Visible = true,
-                        Map = mapInfo
-                    };
-
-                    rangeForm.RepopulateData();
-                    rangePage.Controls.Add(rangeForm);
-                    tabControl1.TabPages.Add(rangePage);
-
-                    // At this point, we need to grab the tile data
-                    var tileData = TileReader.Read(mapInfo, File.Open(fileName.Replace(".md3", ".til"), FileMode.Open));
-                    var tiles = new List<Bitmap>();
-
-                    foreach (var tile in tileData)
-                    {
-                        var bmp = new Bitmap(tile.TilesX * mapInfo.TileSizeX, tile.TilesY * mapInfo.TileSizeY);
-
-                        var tileIndex = 0;
-                        using (var g = Graphics.FromImage(bmp))
-                        {
-                            for (int i = 0; i < tile.TilesY; i++)
-                            {
-                                for (int j = 0; j < tile.TilesX; j++)
-                                {
-                                    g.DrawImage(tile.Bitmaps[tileIndex], j * mapInfo.TileSizeX, i * mapInfo.TileSizeY, mapInfo.TileSizeX, mapInfo.TileSizeY);
-                                    g.DrawString((tileIndex + 1).ToString(), new Font("Arial", 10), Brushes.Black, j * mapInfo.TileSizeX, i * mapInfo.TileSizeY);
-                                    //Console.WriteLine("{0}: ({1}, {2})", tileIndex + 1, j, i);
-                                    tileIndex++;
-                                }
-                            }
-                        }
-
-                        tiles.Add(bmp);
-                    }
-
-                    if (tiles.Count > 0)
-                    {
-                        var tilePage = new TabPage()
-                        {
-                            Text = String.Format(Strings.TileView, fileName.Replace(".md3", ".til"))
-                        };
-
-                        var tileViewForm = new TileViewForm
-                        {
-                            TopLevel = false,
-                            FormBorderStyle = FormBorderStyle.None,
-                            Dock = DockStyle.Fill,
-                            Visible = true,
-                            Map = mapInfo,
-                            tiles = tiles
-                        };
-
-                        tileViewForm.Populate();
-                        tilePage.Controls.Add(tileViewForm);
-                        tabControl1.TabPages.Add(tilePage);
-                    }
-
-                    // Get filesizes for temporary stuff
-                    mapInfo.BacFileSize = (int)new FileInfo(fileName.Replace(".md3", ".bac")).Length;
-                    mapInfo.TilFileSize = (int)new FileInfo(fileName.Replace(".md3", ".til")).Length;
-                    mapInfo.LyrFileSize = (int)new FileInfo(fileName.Replace(".md3", ".lyr")).Length;
-
-                    Text = String.Format("TricksterMap - {0}", fileName);
-                    Map = mapInfo;
-                }
+                var page = tabControl1.TabPages[0]; tabControl1.TabPages.RemoveAt(0); page.Dispose();
             }
+            document = next;
+            sceneEditor = null;
+            objectEditor = null;
+            collisionEditors = MapEditorTabs.Populate(tabControl1, next);
+            savedFingerprint = MapEditFingerprint.Compute(next.Map);
+            savedSceneFingerprint = null;
+            foreach (var editor in collisionEditors)
+                editor.Edited += (s, e) => Text = "TricksterMap 0.3.1 - " + fileName +
+                    (collisionEditors.Any(c => c.Edits.IsDirty) || (sceneEditor?.IsDirty ?? false) || (objectEditor?.IsDirty ?? false) ? " *" : "");
+            Text = "TricksterMap 0.3.1 - " + fileName;
+            sceneLoader.Load(next, collisionEditors);
+        }
+
+        private bool ConfirmDiscard()
+        {
+            sceneEditor?.FinishInteraction();
+            objectEditor?.FinishInteraction();
+            if (document == null) return true;
+            bool sceneChanged = sceneLoader.Current != null && savedSceneFingerprint != null &&
+                savedSceneFingerprint != MapEditFingerprint.ComputeScene(sceneLoader.Current.Scene);
+            if (savedFingerprint == MapEditFingerprint.Compute(document.Map) && !sceneChanged) return true;
+            return MessageBox.Show(this, "Discard unsaved map edits? Use Save As to export a new bundle.",
+                "Unsaved map", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes;
         }
 
         private void OpenFile(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog
-            {
-                Filter = Strings.OpenType + "|*.md3|All Files (*.*)|*.*"
-            };
-
-            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                OpenMap(openFileDialog.FileName);
-            }
+            using (var dialog = new OpenFileDialog { Filter = Strings.OpenType + "|*.md3|All Files (*.*)|*.*" })
+                if (dialog.ShowDialog(this) == DialogResult.OK)
+                    try { OpenMap(dialog.FileName); }
+                    catch (Exception ex) { MessageBox.Show(this, ex.Message, "Cannot open map", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
-        
-        private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
+
+        private void ExitToolsStripMenuItem_Click(object sender, EventArgs e) { Close(); }
+
+        private void CreateBlankMap(object sender, EventArgs e)
         {
-            Close();
+            if (document == null)
+            { MessageBox.Show(this, "請先開啟一張地圖作為地磚素材來源。", "新建空白地圖"); return; }
+            if (!ConfirmDiscard()) return;
+            using (var dimensions = new NewMapDialog())
+            {
+                if (dimensions.ShowDialog(this) != DialogResult.OK) return;
+                using (var output = new SaveFileDialog { Filter = "MDN 地圖|*.md3", FileName = "new_map.md3" })
+                {
+                    if (output.ShowDialog(this) != DialogResult.OK) return;
+                    try
+                    {
+                        var blank = new BlankMapService().Create(document, dimensions.MapWidth, dimensions.MapHeight);
+                        new MapBundleExportService().Export(blank.Document, output.FileName, blank.Scene, false);
+                        // The discard prompt was already handled before creation.
+                        OpenMap(output.FileName, false);
+                    }
+                    catch (Exception ex) { MessageBox.Show(this, ex.Message, "新建地圖失敗", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+                }
+            }
         }
 
         public IEnumerable<CultureInfo> GetSupportedCultures()
         {
-            CultureInfo[] culture = CultureInfo.GetCultures(CultureTypes.AllCultures);
-            string exeLocation = Path.GetDirectoryName(Uri.UnescapeDataString(new UriBuilder(Assembly.GetExecutingAssembly().CodeBase).Path));
-            return culture.Where(cultureInfo => Directory.Exists(Path.Combine(exeLocation, cultureInfo.Name)));
+            string location = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            return CultureInfo.GetCultures(CultureTypes.AllCultures)
+                .Where(culture => Directory.Exists(Path.Combine(location, culture.Name)));
         }
 
         private void MDIParent_Load(object sender, EventArgs e)
         {
-            var cultures = GetSupportedCultures();
-            
-            foreach(var culture in cultures)
+            foreach (var culture in GetSupportedCultures())
             {
-                var lang = new ToolStripMenuItem($"{(culture.TwoLetterISOLanguageName == "iv" ? "English" : culture.NativeName)}");
-
-                lang.Click += (object s, EventArgs ea) =>
+                var language = new ToolStripMenuItem(culture.TwoLetterISOLanguageName == "iv" ? "English" : culture.NativeName);
+                language.Click += (s, args) =>
                 {
-                    ChangedLanguage = true;
-                    Thread.CurrentThread.CurrentCulture = culture;
-                    Thread.CurrentThread.CurrentUICulture = culture;
-                    new MDIParent().Show();
-                    Close();
+                    if (!ConfirmDiscard()) return;
+                    changedLanguage = true;
+                    Thread.CurrentThread.CurrentCulture = culture; Thread.CurrentThread.CurrentUICulture = culture;
+                    new MDIParent().Show(); Close();
                 };
-
-                languageToolStripMenuItem.DropDownItems.Add(lang);
+                languageToolStripMenuItem.DropDownItems.Add(language);
             }
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
+            if (!changedLanguage && e.CloseReason != CloseReason.WindowsShutDown && !ConfirmDiscard())
+            { e.Cancel = true; return; }
             base.OnFormClosing(e);
-
-            if (e.CloseReason != CloseReason.WindowsShutDown && !ChangedLanguage)
-            {
-                Application.Exit();
-            }
+            if (!e.Cancel && !changedLanguage && e.CloseReason != CloseReason.WindowsShutDown) Application.Exit();
         }
 
-#pragma warning disable IDE1006 // Naming Styles
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
-#pragma warning restore IDE1006 // Naming Styles
         {
-            if( Map == null)
+            if (document == null) return;
+            using (var dialog = new SaveFileDialog { Filter = Strings.OpenType + "|*.md3", FileName = Path.GetFileNameWithoutExtension(document.Md3Path) + "_edited.md3" })
             {
-                return;
-            }
-
-            SaveFileDialog saveDialog = new SaveFileDialog
-            {
-                Filter = Strings.OpenType + "|*.md3|All Files (*.*)|*.*"
-            };
-
-            if (saveDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                MapSaveHelper.Save(saveDialog.FileName, Map);
+                if (dialog.ShowDialog(this) != DialogResult.OK) return;
+                try
+                {
+                    sceneEditor?.FinishInteraction();
+                    objectEditor?.FinishInteraction();
+                    new MapBundleExportService().Export(document, dialog.FileName, sceneLoader.Current?.Scene);
+                    savedFingerprint = MapEditFingerprint.Compute(document.Map);
+                    if (sceneLoader.Current != null)
+                        savedSceneFingerprint = MapEditFingerprint.ComputeScene(sceneLoader.Current.Scene);
+                    foreach (var editor in collisionEditors) editor.MarkSaved();
+                    sceneEditor?.MarkSaved();
+                    objectEditor?.MarkSaved();
+                    Text = "TricksterMap 0.3.1 - exported " + dialog.FileName;
+                }
+                catch (Exception ex) { MessageBox.Show(this, ex.Message, "Export failed", MessageBoxButtons.OK, MessageBoxIcon.Error); }
             }
         }
     }

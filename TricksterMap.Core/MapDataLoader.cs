@@ -1,142 +1,91 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using TricksterMap.Data;
 
 namespace TricksterMap
 {
     public class MapDataLoader
     {
-        static string ByteArrayToString(byte[] ba)
-        {
-            return BitConverter.ToString(ba).Replace("-", " ").ToUpper();
-        }
-
         public static MapDataInfo Load(BinaryReader reader)
         {
-            var mapData = new MapDataInfo();
-
-            var signature = Encoding.ASCII.GetString(reader.ReadBytes(4));
-            if (signature != "MDN_")
-            {
+            if (reader == null) throw new ArgumentNullException(nameof(reader));
+            if (!reader.BaseStream.CanSeek)
+                throw new InvalidDataException("MDN input must support seeking.");
+            long length = reader.BaseStream.Length - reader.BaseStream.Position;
+            if (length > MapBinaryGuard.MaxDocumentBytes)
+                throw new InvalidDataException("MDN exceeds the supported document size.");
+            MapBinaryGuard.Require(reader, 96, "header");
+            if (Encoding.ASCII.GetString(reader.ReadBytes(4)) != "MDN_")
                 throw new InvalidDataException(Strings.InvalidMapFileError);
-            }
-
-            mapData.Version = reader.ReadInt32();
-            mapData.TileBpp = reader.ReadInt32();
-            mapData.Param3 = reader.ReadInt32();
-            mapData.Param4 = reader.ReadInt32();
-            mapData.MapSizeSum = reader.ReadInt32();
-            mapData.Param6 = reader.ReadInt32();
-            mapData.Param7 = reader.ReadInt32();
-            mapData.MapSizeX = reader.ReadInt32();
-            mapData.MapSizeY = reader.ReadInt32();
-            mapData.TileSizeX = reader.ReadInt32();
-            mapData.TileSizeY = reader.ReadInt32();
-            mapData.TileCountX = reader.ReadInt32();
-            mapData.TileCountY = reader.ReadInt32();
-            mapData.Param14 = reader.ReadInt32();
-            mapData.LyrDataCount = reader.ReadInt32();
-            mapData.TileGroupCount = reader.ReadInt32();
-            
-            var layerCount = reader.ReadInt32();
-            Console.WriteLine("layerCount = {0}", layerCount);
-
-            var rangeCount = reader.ReadInt32();
-            Console.WriteLine("rangeCount = {0}", rangeCount);
-
-            var pointCount = reader.ReadInt32();
-            Console.WriteLine("pointCount = {0}", pointCount);
-
-            var effectCount = reader.ReadInt32();
-            Console.WriteLine("effectCount = {0}", effectCount);
-
-            mapData.Param21 = reader.ReadInt32();
-            mapData.Param22 = reader.ReadInt32();
-            mapData.Param23 = reader.ReadInt32();
-
-            for (var i = 0; i < layerCount; i++)
+            var map = new MapDataInfo();
+            map.Version = reader.ReadInt32();
+            if (map.Version < 301 || map.Version > 303)
+                throw new InvalidDataException("Unsupported MDN version: " + map.Version);
+            map.TileBpp = reader.ReadInt32();
+            map.Param3 = reader.ReadInt32();
+            map.Param4 = reader.ReadInt32();
+            if ((map.Param4 & 1) != 0)
+                throw new InvalidDataException("MDN embedded resource layout is not supported (Param4 bit 0).");
+            map.MapSizeSum = reader.ReadInt32();
+            map.Param6 = reader.ReadInt32();
+            map.Param7 = reader.ReadInt32();
+            map.MapSizeX = reader.ReadInt32();
+            map.MapSizeY = reader.ReadInt32();
+            map.TileSizeX = reader.ReadInt32();
+            map.TileSizeY = reader.ReadInt32();
+            map.TileCountX = reader.ReadInt32();
+            map.TileCountY = reader.ReadInt32();
+            map.Param14 = reader.ReadInt32();
+            map.LyrDataCount = reader.ReadInt32();
+            map.TileGroupCount = reader.ReadInt32();
+            int layers = reader.ReadInt32(), ranges = reader.ReadInt32();
+            int points = reader.ReadInt32(), effects = reader.ReadInt32();
+            map.Param21 = reader.ReadInt32();
+            map.Param22 = reader.ReadInt32();
+            map.Param23 = reader.ReadInt32();
+            MapBinaryGuard.Count(reader, layers, 20, "configuration layers");
+            MapBinaryGuard.Count(reader, ranges, 32, "ranges");
+            MapBinaryGuard.Count(reader, points, 24, "points");
+            MapBinaryGuard.Count(reader, effects, 52, "effects");
+            MapBinaryGuard.Require(reader, (long)layers * 20 + (long)ranges * 32 +
+                (long)points * 24 + (long)effects * 52, "section table");
+            for (int i = 0; i < layers; i++)
             {
-                var layer = new ConfigLayer()
-                {
-                    Type = reader.ReadInt32(),
-                    X = reader.ReadInt32(),
-                    Y = reader.ReadInt32(),
-                    BppX = reader.ReadInt32(),
-                    BppY = reader.ReadInt32()
+                MapBinaryGuard.Require(reader, 20, "configuration layer header");
+                var layer = new ConfigLayer {
+                    Type = reader.ReadInt32(), X = reader.ReadInt32(), Y = reader.ReadInt32(),
+                    BppX = reader.ReadInt32(), BppY = reader.ReadInt32()
                 };
-                
-                layer.Data = reader.ReadBytes(layer.X * layer.Y);
-                
-                Console.WriteLine("X: {0} / Y: {1} / Total length: {2} ( {2:X} )", layer.X, layer.Y, layer.X * layer.Y);
-                Console.WriteLine("Type: {0}", layer.Type);
-                Console.WriteLine("Config layer {0} length: {1:X}", i + 1, layer.Data.Length);
-                
-                mapData.ConfigLayers.Add(layer);
+                layer.Data = MapBinaryGuard.Read(reader,
+                    MapBinaryGuard.LayerLength(layer.X, layer.Y), "configuration layer data");
+                map.ConfigLayers.Add(layer);
             }
+            ReadObjects(reader, map, ranges, points, effects);
+            map.TrailingData = MapBinaryGuard.Read(reader,
+                checked((int)(reader.BaseStream.Length - reader.BaseStream.Position)), "trailing data");
+            map.OriginalSerializedLength = length;
+            return map;
+        }
 
-            Console.WriteLine("Reading rangeData");
-
-            var rangeData = reader.ReadBytes(32 * rangeCount);
-
-            for (var i = 0; i < rangeCount; i++)
-            {
-                var obj = rangeData.Skip(i * 32).Take(32).ToArray();
-
-                using (var range = new BinaryReader(new MemoryStream(obj)))
-                {
-                    mapData.RangeObjects.Add(new RangeObject()
-                    {
-                        Type = range.ReadInt32(),
-                        Id = range.ReadInt32(),
-                        Destination = range.ReadInt32(),
-                        X1 = range.ReadInt32(),
-                        Y1 = range.ReadInt32(),
-                        X2 = range.ReadInt32(),
-                        Y2 = range.ReadInt32(),
-                        Options = range.ReadInt32()
-                    });
-                }
-            }
-
-            Console.WriteLine("Reading pointData");
-
-            var pointData = reader.ReadBytes(24 * pointCount);
-
-            for (var i = 0; i < pointCount; i++)
-            {
-                var pointBytes = pointData.Skip(i * 24).Take(24).ToArray();
-
-                using (var pointReader = new BinaryReader(new MemoryStream(pointBytes)))
-                {
-                    mapData.PointObjects.Add(new PointObject()
-                    {
-                        Id = pointReader.ReadInt32(),
-                        Type = pointReader.ReadInt32(),
-                        MapId = pointReader.ReadInt32(),
-                        X = pointReader.ReadInt32(),
-                        Y = pointReader.ReadInt32(),
-                        Options = pointReader.ReadInt32()
-                    });
-                }
-            }
-
-
-            Console.WriteLine("Reading effectData");
-
-            var effectData = reader.ReadBytes(52 * effectCount);
-
-            for (int i = 0; i < effectCount; i++)
-            {
-                var effect = effectData.Skip(i * 52).Take(52).ToArray();
-                mapData.EffectObjects.Add(effect);
-                Console.WriteLine(ByteArrayToString(effect));
-            }
-
-            return mapData;
+        private static void ReadObjects(BinaryReader reader, MapDataInfo map,
+            int ranges, int points, int effects)
+        {
+            MapBinaryGuard.Require(reader, (long)ranges * 32 + (long)points * 24 +
+                (long)effects * 52, "objects");
+            for (int i = 0; i < ranges; i++)
+                map.RangeObjects.Add(new RangeObject {
+                    Type = reader.ReadInt32(), Id = reader.ReadInt32(),
+                    Destination = reader.ReadInt32(), X1 = reader.ReadInt32(), Y1 = reader.ReadInt32(),
+                    X2 = reader.ReadInt32(), Y2 = reader.ReadInt32(), Options = reader.ReadInt32()
+                });
+            for (int i = 0; i < points; i++)
+                map.PointObjects.Add(new PointObject {
+                    Id = reader.ReadInt32(), Type = reader.ReadInt32(), MapId = reader.ReadInt32(),
+                    X = reader.ReadInt32(), Y = reader.ReadInt32(), Options = reader.ReadInt32()
+                });
+            for (int i = 0; i < effects; i++)
+                map.EffectObjects.Add(MapBinaryGuard.Read(reader, 52, "effect"));
         }
     }
 }

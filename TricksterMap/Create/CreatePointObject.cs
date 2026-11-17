@@ -63,7 +63,7 @@ namespace TricksterMap.Create
             return -1;
         }
         
-        private void AddOrUpdateObject()
+        private bool AddOrUpdateObject()
         {
             try
             {
@@ -78,6 +78,7 @@ namespace TricksterMap.Create
 
                 if (isEditing)
                 {
+                    point.Options = Map.PointObjects[EditIndex].Options;
                     PointListForm.PointService.Update(Map, EditIndex, point);
                 }
                 else
@@ -86,26 +87,25 @@ namespace TricksterMap.Create
                 }
 
                 PointListForm.RepopulateData();
+                return true;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
             }
         }
 
         private void CreateAndExit(object sender, EventArgs e)
         {
-            AddOrUpdateObject();
+            if (!AddOrUpdateObject()) return;
             isEditing = false;
             Close();
         }
 
         private void CreatePointObject_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (isEditing)
-            {
-                CreateAndExit(sender, e);
-            }
+            // Closing the dialog cancels; only the explicit Create/Edit button applies changes.
         }
     }
 }

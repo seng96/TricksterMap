@@ -65,7 +65,7 @@ namespace TricksterMap.Create
             return -1;
         }
 
-        private void AddOrUpdateObject()
+        private bool AddOrUpdateObject()
         {
             try
             {
@@ -82,6 +82,7 @@ namespace TricksterMap.Create
 
                 if (isEditing)
                 {
+                    range.Options = Map.RangeObjects[EditIndex].Options;
                     RangeListForm.RangeService.Update(Map, EditIndex, range);
                 }
                 else
@@ -90,26 +91,25 @@ namespace TricksterMap.Create
                 }
 
                 RangeListForm.RepopulateData();
+                return true;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
             }
         }
         
         private void CreateAndExit(object sender, EventArgs e)
         {
-            AddOrUpdateObject();
+            if (!AddOrUpdateObject()) return;
             isEditing = false;
             Close();
         }
 
         private void CreateRangeObject_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (isEditing)
-            {
-                CreateAndExit(sender, e);
-            }
+            // Closing the dialog cancels; only the explicit Create/Edit button applies changes.
         }
     }
 }
