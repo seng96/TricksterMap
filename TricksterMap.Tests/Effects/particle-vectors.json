@@ -1,0 +1,889 @@
+{
+  "source": "tools/effect_editor/native_math.py",
+  "source_sha256": "fd085bf158258f6104cf82aa2c8ef2f7fd2bd2519a33df2121c59b24c13c4251",
+  "seed": 1729,
+  "cases": [
+    {
+      "label": "map_sq00.eff:bg_stage yun gi",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"bg_stage yun gi\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>30</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>1</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>yun gi</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern />\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 -50 0</EmitterPosition>\n\t\t<EmitterRadius>0 0 0</EmitterRadius>\n\t\t<Destination>0 200 0</Destination>\n\t\t<DestinationRadius>20 20 20</DestinationRadius>\n\t\t<Gravity>0 -1000 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>255 255 255</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>255 255 255</MainEndColor>\n\t\t<SubEndColor>255 255 255</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>45</MainEndAlpha>\n\t\t<SubEndAlpha>45</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-0.02</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.02</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0.37</StartColorDispersion>\n\t\t<StartColorBalance>-0.02</StartColorBalance>\n\t\t<EndColorDispersion>0.37</EndColorDispersion>\n\t\t<EndColorBalance>-1</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-0.02</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.02</GravityBallBalance>\n\t\t<EmissionRate>30</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.02</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>20</StartSizeX>\n\t\t<StartSizeY>20</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.02</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>50</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>50</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>100</EndSizeX>\n\t\t<EndSizeY>100</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.02</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>50</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>50</EndSizePermittedLimitPercentY>\n\t\t<Velocity>800</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.02</VelocityBalance>\n\t\t<MainAngleVelocity>100</MainAngleVelocity>\n\t\t<SubAngleVelocity>100</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.02</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.02</AngleAccelationBalance>\n\t\t<Time>0.5</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.02</TimeBalance>\n\t\t<AirResistance>500</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.02</AirResistanceBalance>\n\t\t<AnimationSpeed>100</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.02</AnimationSpeedBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          100.0,
+          -250.0,
+          0.0
+        ],
+        "velocity": [
+          4.011404991149902,
+          799.907470703125,
+          -11.488285064697266
+        ],
+        "size": [
+          22.399999618530273,
+          22.399999618530273
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 0.0,
+        "life": 0.5,
+        "remaining": 0.5,
+        "spin": 100.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          100.26309967041016,
+          -199.1727294921875,
+          -0.7534825801849365
+        ],
+        "velocity": [
+          3.834862470626831,
+          699.9117431640625,
+          -10.982684135437012
+        ],
+        "size": [
+          26.279996871948242,
+          26.279996871948242
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 20.80000114440918,
+        "life": 0.5,
+        "remaining": 0.43333327770233154,
+        "spin": 100.0,
+        "angle": 6.666667461395264,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      }
+    },
+    {
+      "label": "map_sq00.eff:bg_light 1",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"bg_light 1\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>1</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>jo mung 1</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern />\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 0 0</EmitterPosition>\n\t\t<EmitterRadius>0 0 0</EmitterRadius>\n\t\t<Destination>0 0 0</Destination>\n\t\t<DestinationRadius>0 0 0</DestinationRadius>\n\t\t<Gravity>0 0 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>255 255 255</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>255 255 255</MainEndColor>\n\t\t<SubEndColor>255 255 255</SubEndColor>\n\t\t<MainStartAlpha>254</MainStartAlpha>\n\t\t<SubStartAlpha>254</SubStartAlpha>\n\t\t<MainEndAlpha>254</MainEndAlpha>\n\t\t<SubEndAlpha>254</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-2.23517e-008</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-2.23517e-008</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-2.23517e-008</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-2.23517e-008</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-2.23517e-008</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-2.23517e-008</GravityBallBalance>\n\t\t<EmissionRate>1</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-2.23517e-008</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>300</StartSizeX>\n\t\t<StartSizeY>300</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-2.23517e-008</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>0</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>0</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>300</EndSizeX>\n\t\t<EndSizeY>300</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-2.23517e-008</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>0</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>0</EndSizePermittedLimitPercentY>\n\t\t<Velocity>0</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-2.23517e-008</VelocityBalance>\n\t\t<MainAngleVelocity>0</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-2.23517e-008</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-2.23517e-008</AngleAccelationBalance>\n\t\t<Time>100</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-2.23517e-008</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-2.23517e-008</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-2.23517e-008</AnimationSpeedBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          100.0,
+          -200.0,
+          0.0
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size": [
+          300.0,
+          300.0
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 254.0,
+        "life": 100.0,
+        "remaining": 100.0,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          100.0,
+          -200.0,
+          0.0
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size": [
+          300.0,
+          300.0
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 254.0,
+        "life": 100.0,
+        "remaining": 99.93331909179688,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "map_sq00.eff:boon soo t",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"boon soo t\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>50</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>1</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>nub ji mul</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern>Mud</Pattern>\n\t\t<PatternArguments>0 0 3 0 </PatternArguments>\n\t\t<EmitterPosition>0 0 0</EmitterPosition>\n\t\t<EmitterRadius>0 0 0</EmitterRadius>\n\t\t<Destination>0 100 0</Destination>\n\t\t<DestinationRadius>20 0 20</DestinationRadius>\n\t\t<Gravity>0 -800 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>0 255 255</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>255 255 255</MainEndColor>\n\t\t<SubEndColor>255 255 255</SubEndColor>\n\t\t<MainStartAlpha>219</MainStartAlpha>\n\t\t<SubStartAlpha>219</SubStartAlpha>\n\t\t<MainEndAlpha>0</MainEndAlpha>\n\t\t<SubEndAlpha>0</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>50</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>50</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-0.26</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.26</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.26</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.26</EndColorBalance>\n\t\t<StartAlphaDispersion>0</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-0.26</StartAlphaBalance>\n\t\t<EndAlphaDispersion>0</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-0.26</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-0.26</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.26</GravityBallBalance>\n\t\t<EmissionRate>20</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.26</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>25</StartSizeX>\n\t\t<StartSizeY>25</StartSizeY>\n\t\t<StartSizeDispersion>0.17</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.26</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>50</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>100</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>40</EndSizeX>\n\t\t<EndSizeY>40</EndSizeY>\n\t\t<EndSizeDispersion>0.17</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.26</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>50</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>50</EndSizePermittedLimitPercentY>\n\t\t<Velocity>200</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.26</VelocityBalance>\n\t\t<MainAngleVelocity>500</MainAngleVelocity>\n\t\t<SubAngleVelocity>300</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.26</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.26</AngleAccelationBalance>\n\t\t<Time>1</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.26</TimeBalance>\n\t\t<AirResistance>100</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.26</AirResistanceBalance>\n\t\t<AnimationSpeed>100</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.26</AnimationSpeedBalance>\n\t</CREAM>\n</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocity": [
+          3.687859535217285,
+          272.77069091796875,
+          -10.561680793762207
+        ],
+        "size": [
+          27.96929359436035,
+          27.96929359436035
+        ],
+        "color": [
+          189.97499084472656,
+          255.0,
+          255.0
+        ],
+        "alpha": 219.0,
+        "life": 1.0,
+        "remaining": 1.0,
+        "spin": 411.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          0.24340182542800903,
+          16.684879302978516,
+          -0.6970798373222351
+        ],
+        "velocity": [
+          3.584784507751465,
+          212.77806091308594,
+          -10.266483306884766
+        ],
+        "size": [
+          27.4826602935791,
+          27.4826602935791
+        ],
+        "color": [
+          194.3100128173828,
+          255.0,
+          255.0
+        ],
+        "alpha": 204.4000244140625,
+        "life": 1.0,
+        "remaining": 0.9333333969116211,
+        "spin": 411.0,
+        "angle": 27.400001525878906,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      }
+    },
+    {
+      "label": "mapf03a.eff:ground gas_1",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"ground gas_1\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>20</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>1</IsZAlign>\n\t\t<IsSineAlpha>1</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>yun gi</TextureName>\n\t\t<CreamBlendMode>INVMULT</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern>Bounding</Pattern>\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 0 0</EmitterPosition>\n\t\t<EmitterRadius>0 0 0</EmitterRadius>\n\t\t<Destination>0 200 0</Destination>\n\t\t<DestinationRadius>200 200 200</DestinationRadius>\n\t\t<Gravity>0 -10 0</Gravity>\n\t\t<GravityBallPosition>0 -100 0</GravityBallPosition>\n\t\t<MainStartColor>0 0 0</MainStartColor>\n\t\t<SubStartColor>128 128 128</SubStartColor>\n\t\t<MainEndColor>0 0 64</MainEndColor>\n\t\t<SubEndColor>0 0 0</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>255</MainEndAlpha>\n\t\t<SubEndAlpha>255</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-1</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>1</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.1</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.1</EndColorBalance>\n\t\t<StartAlphaDispersion>0</StartAlphaDispersion>\n\t\t<StartAlphaBalance>1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>0</EndAlphaDispersion>\n\t\t<EndAlphaBalance>1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>1</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0.45</GravityDispersion>\n\t\t<GravityBalance>-0.1</GravityBalance>\n\t\t<GravityBallPower>100</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.1</GravityBallBalance>\n\t\t<EmissionRate>5</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.1</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>50</StartSizeX>\n\t\t<StartSizeY>50</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.1</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>0</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>0</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>200</EndSizeX>\n\t\t<EndSizeY>101</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.1</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>50</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>0</EndSizePermittedLimitPercentY>\n\t\t<Velocity>100</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.1</VelocityBalance>\n\t\t<MainAngleVelocity>0</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.1</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.1</AngleAccelationBalance>\n\t\t<Time>3</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.1</TimeBalance>\n\t\t<AirResistance>50</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.1</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.1</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>360</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>0.9</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          100.0,
+          -200.0,
+          0.0
+        ],
+        "velocity": [
+          3.3959767818450928,
+          99.46797180175781,
+          -9.725757598876953
+        ],
+        "size": [
+          50.0,
+          50.0
+        ],
+        "color": [
+          95.36000061035156,
+          95.36000061035156,
+          95.36000061035156
+        ],
+        "alpha": 0.0,
+        "life": 3.0,
+        "remaining": 3.0,
+        "spin": 0.0,
+        "angle": -7.056000232696533,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          100.22334289550781,
+          -193.6305694580078,
+          -0.6396129131317139
+        ],
+        "velocity": [
+          3.2690720558166504,
+          89.0776138305664,
+          -9.36231517791748
+        ],
+        "size": [
+          51.17778015136719,
+          50.04478454589844
+        ],
+        "color": [
+          93.24089050292969,
+          93.24089050292969,
+          94.62043762207031
+        ],
+        "alpha": 22.1629638671875,
+        "life": 3.0,
+        "remaining": 2.933333396911621,
+        "spin": 0.0,
+        "angle": -7.056000232696533,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "mapf03a.eff:dust_2",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"dust_2\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>5</MaxCount>\n\t\t<IsLoop>0</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>doll</TextureName>\n\t\t<CreamBlendMode>COPY</CreamBlendMode>\n\t\t<AnimationType>3</AnimationType>\n\t\t<Pattern>Bounding</Pattern>\n\t\t<PatternArguments>0 20 -30 2 </PatternArguments>\n\t\t<EmitterPosition>0 400 0</EmitterPosition>\n\t\t<EmitterRadius>20 10 20</EmitterRadius>\n\t\t<Destination>0 0 0</Destination>\n\t\t<DestinationRadius>20 100 20</DestinationRadius>\n\t\t<Gravity>0 -300 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>128 128 192</MainStartColor>\n\t\t<SubStartColor>128 128 192</SubStartColor>\n\t\t<MainEndColor>255 255 255</MainEndColor>\n\t\t<SubEndColor>255 255 255</SubEndColor>\n\t\t<MainStartAlpha>255</MainStartAlpha>\n\t\t<SubStartAlpha>255</SubStartAlpha>\n\t\t<MainEndAlpha>0</MainEndAlpha>\n\t\t<SubEndAlpha>0</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0.37</EmitterDispersion>\n\t\t<EmitterBalance>-0.22</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.44</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.44</StartColorBalance>\n\t\t<EndColorDispersion>0.56</EndColorDispersion>\n\t\t<EndColorBalance>-0.44</EndColorBalance>\n\t\t<StartAlphaDispersion>0</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-0.44</StartAlphaBalance>\n\t\t<EndAlphaDispersion>0</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-0.44</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0.5</GravityResistance>\n\t\t<GravityDispersion>0.34</GravityDispersion>\n\t\t<GravityBalance>-0.44</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.44</GravityBallBalance>\n\t\t<EmissionRate>4</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.44</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>30</StartSizeX>\n\t\t<StartSizeY>30</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.44</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>20</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>20</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>80</EndSizeX>\n\t\t<EndSizeY>80</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.44</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>50</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>30</EndSizePermittedLimitPercentY>\n\t\t<Velocity>600</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.44</VelocityBalance>\n\t\t<MainAngleVelocity>1000</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.44</AngleVelocityBalance>\n\t\t<MainAngleAccelation>400</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.44</AngleAccelationBalance>\n\t\t<Time>2</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.44</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.44</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.44</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>0</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>-0.44</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          105.33169555664062,
+          209.31112670898438,
+          -3.849712610244751
+        ],
+        "velocity": [
+          -7.6695733070373535,
+          -599.9509887695312,
+          -0.04295165836811066
+        ],
+        "size": [
+          31.440000534057617,
+          31.440000534057617
+        ],
+        "color": [
+          128.0,
+          128.0,
+          192.0
+        ],
+        "alpha": 255.0,
+        "life": 2.0,
+        "remaining": 2.0,
+        "spin": 555.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 2,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          104.82040405273438,
+          168.9456329345703,
+          -3.852576494216919
+        ],
+        "velocity": [
+          -7.6695733070373535,
+          -614.7012329101562,
+          -0.04295165836811066
+        ],
+        "size": [
+          31.76533317565918,
+          31.76533317565918
+        ],
+        "color": [
+          132.23333740234375,
+          132.23333740234375,
+          194.0999755859375
+        ],
+        "alpha": 246.5,
+        "life": 2.0,
+        "remaining": 1.933333396911621,
+        "spin": 576.066650390625,
+        "angle": 37.87778091430664,
+        "rng": 4115893230,
+        "frame": 2,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "mapf03a.eff:dark portal_10",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"dark portal_10\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>5</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>1</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>0</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>0</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>lv up 6</TextureName>\n\t\t<CreamBlendMode>INVMULT</CreamBlendMode>\n\t\t<AnimationType>3</AnimationType>\n\t\t<Pattern />\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 -50 0</EmitterPosition>\n\t\t<EmitterRadius>40 40 40</EmitterRadius>\n\t\t<Destination>0 1000 0</Destination>\n\t\t<DestinationRadius>40 40 40</DestinationRadius>\n\t\t<Gravity>0 -250 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>0 0 0</MainStartColor>\n\t\t<SubStartColor>0 255 128</SubStartColor>\n\t\t<MainEndColor>0 0 0</MainEndColor>\n\t\t<SubEndColor>0 0 0</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>35</MainEndAlpha>\n\t\t<SubEndAlpha>35</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-0.44</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>0.58</DestinationBalance>\n\t\t<DestinationRandomness>0.56</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.44</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.44</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-0.44</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.44</GravityBallBalance>\n\t\t<EmissionRate>7</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.44</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>300</StartSizeX>\n\t\t<StartSizeY>0</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.44</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>50</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>0</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>30</EndSizeX>\n\t\t<EndSizeY>800</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.44</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>50</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>0</EndSizePermittedLimitPercentY>\n\t\t<Velocity>150</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.44</VelocityBalance>\n\t\t<MainAngleVelocity>0</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.44</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.44</AngleAccelationBalance>\n\t\t<Time>1</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.44</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.44</AirResistanceBalance>\n\t\t<AnimationSpeed>100</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.44</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>0</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>-0.28</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          10.399999618530273,
+          -11.584003448486328,
+          -7.74399995803833
+        ],
+        "velocity": [
+          -0.24616792798042297,
+          149.99879455566406,
+          0.5500925183296204
+        ],
+        "size": [
+          336.0,
+          0.0
+        ],
+        "color": [
+          0.0,
+          189.97499084472656,
+          95.36000061035156
+        ],
+        "alpha": 0.0,
+        "life": 1.0,
+        "remaining": 1.0,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 2335713752,
+        "frame": 0,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          10.383588790893555,
+          -2.0007505416870117,
+          -7.707327365875244
+        ],
+        "velocity": [
+          -0.24616792798042297,
+          133.3321075439453,
+          0.5500925183296204
+        ],
+        "size": [
+          314.6300048828125,
+          53.33333969116211
+        ],
+        "color": [
+          0.0,
+          177.3100128173828,
+          89.00267028808594
+        ],
+        "alpha": 2.3333334922790527,
+        "life": 1.0,
+        "remaining": 0.9333333969116211,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 2335713752,
+        "frame": 0,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "mapf03a.eff:dark portal_7",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"dark portal_7\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>2</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>1</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>main potal_8</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern>SizeResistance</Pattern>\n\t\t<PatternArguments>10 35 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 0 0</EmitterPosition>\n\t\t<EmitterRadius>0 0 0</EmitterRadius>\n\t\t<Destination>0 0 0</Destination>\n\t\t<DestinationRadius>0 0 0</DestinationRadius>\n\t\t<Gravity>0 0 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>0 0 0</MainStartColor>\n\t\t<SubStartColor>255 0 0</SubStartColor>\n\t\t<MainEndColor>255 0 0</MainEndColor>\n\t\t<SubEndColor>0 0 0</SubEndColor>\n\t\t<MainStartAlpha>255</MainStartAlpha>\n\t\t<SubStartAlpha>255</SubStartAlpha>\n\t\t<MainEndAlpha>0</MainEndAlpha>\n\t\t<SubEndAlpha>0</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0.17</EmitterDispersion>\n\t\t<EmitterBalance>-0.06</EmitterBalance>\n\t\t<DestinationDispersion>0.17</DestinationDispersion>\n\t\t<DestinationBalance>-0.06</DestinationBalance>\n\t\t<DestinationRandomness>1</DestinationRandomness>\n\t\t<StartColorDispersion>0.67</StartColorDispersion>\n\t\t<StartColorBalance>-0.88</StartColorBalance>\n\t\t<EndColorDispersion>0.75</EndColorDispersion>\n\t\t<EndColorBalance>-0.64</EndColorBalance>\n\t\t<StartAlphaDispersion>0</StartAlphaDispersion>\n\t\t<StartAlphaBalance>1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>0</EndAlphaDispersion>\n\t\t<EndAlphaBalance>1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-0.06</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0.37</GravityBallResistance>\n\t\t<GravityBallDispersion>1</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.06</GravityBallBalance>\n\t\t<EmissionRate>10</EmissionRate>\n\t\t<EmissionDispersion>1</EmissionDispersion>\n\t\t<EmissionBalance>0.88</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>100</StartSizeX>\n\t\t<StartSizeY>100</StartSizeY>\n\t\t<StartSizeDispersion>0.37</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.06</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>0</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>0</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>180</EndSizeX>\n\t\t<EndSizeY>180</EndSizeY>\n\t\t<EndSizeDispersion>0.56</EndSizeDispersion>\n\t\t<EndSizeBalance>0.04</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>0</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>0</EndSizePermittedLimitPercentY>\n\t\t<Velocity>100</Velocity>\n\t\t<VelocityDispersion>1</VelocityDispersion>\n\t\t<VelocityBalance>-0.06</VelocityBalance>\n\t\t<MainAngleVelocity>0</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>1</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-1</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>1</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-1</AngleAccelationBalance>\n\t\t<Time>0.5</Time>\n\t\t<TimeDispersion>0.17</TimeDispersion>\n\t\t<TimeBalance>-0.06</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.06</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>1</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.06</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>0</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>-0.04</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          100.0,
+          -200.0,
+          0.0
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size": [
+          100.0,
+          100.0
+        ],
+        "color": [
+          137.43922424316406,
+          0.0,
+          0.0
+        ],
+        "alpha": 255.0,
+        "life": 0.5,
+        "remaining": 0.5,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          100.0,
+          -200.0,
+          0.0
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size": [
+          110.66665649414062,
+          110.66665649414062
+        ],
+        "color": [
+          149.9424591064453,
+          0.0,
+          0.0
+        ],
+        "alpha": 221.0,
+        "life": 0.5,
+        "remaining": 0.43333327770233154,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "mapf03a.eff:dark portal_14",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"dark portal_14\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>5</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>1</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>1</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>skeleton_w_parts1</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>1</AnimationType>\n\t\t<Pattern />\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 150 0</EmitterPosition>\n\t\t<EmitterRadius>0 0 0</EmitterRadius>\n\t\t<Destination>0 200 0</Destination>\n\t\t<DestinationRadius>0 0 0</DestinationRadius>\n\t\t<Gravity>0 0 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>128 0 0</MainStartColor>\n\t\t<SubStartColor>128 0 0</SubStartColor>\n\t\t<MainEndColor>128 0 0</MainEndColor>\n\t\t<SubEndColor>128 0 0</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>204</MainEndAlpha>\n\t\t<SubEndAlpha>204</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-0.06</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.06</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>1</StartColorDispersion>\n\t\t<StartColorBalance>-1</StartColorBalance>\n\t\t<EndColorDispersion>1</EndColorDispersion>\n\t\t<EndColorBalance>-1</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-0.06</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.06</GravityBallBalance>\n\t\t<EmissionRate>2</EmissionRate>\n\t\t<EmissionDispersion>1</EmissionDispersion>\n\t\t<EmissionBalance>-0.06</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>101</StartSizeX>\n\t\t<StartSizeY>101</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.06</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>0</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>0</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>130</EndSizeX>\n\t\t<EndSizeY>130</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.06</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>0</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>0</EndSizePermittedLimitPercentY>\n\t\t<Velocity>10</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.06</VelocityBalance>\n\t\t<MainAngleVelocity>0</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.06</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.06</AngleAccelationBalance>\n\t\t<Time>1.2</Time>\n\t\t<TimeDispersion>1</TimeDispersion>\n\t\t<TimeBalance>-0.06</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.06</AirResistanceBalance>\n\t\t<AnimationSpeed>100</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.06</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>0</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>0</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          0.0,
+          150.0,
+          0.0
+        ],
+        "velocity": [
+          0.0,
+          10.0,
+          0.0
+        ],
+        "size": [
+          101.0,
+          101.0
+        ],
+        "color": [
+          128.0,
+          0.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "life": 1.2000000476837158,
+        "remaining": 1.2000000476837158,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          0.0,
+          150.66668701171875,
+          0.0
+        ],
+        "velocity": [
+          0.0,
+          10.0,
+          0.0
+        ],
+        "size": [
+          102.61111450195312,
+          102.61111450195312
+        ],
+        "color": [
+          128.0,
+          0.0,
+          0.0
+        ],
+        "alpha": 42.81481170654297,
+        "life": 1.2000000476837158,
+        "remaining": 1.133333444595337,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      }
+    },
+    {
+      "label": "mapf03a.eff:camp fire1",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"camp fire1\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>12</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>1</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>1</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>mun ji</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>3</AnimationType>\n\t\t<Pattern />\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 -60 0</EmitterPosition>\n\t\t<EmitterRadius>20 0 0</EmitterRadius>\n\t\t<Destination>0 -50 0</Destination>\n\t\t<DestinationRadius>20 0 0</DestinationRadius>\n\t\t<Gravity>0 100 0</Gravity>\n\t\t<GravityBallPosition>50 50 50</GravityBallPosition>\n\t\t<MainStartColor>255 255 0</MainStartColor>\n\t\t<SubStartColor>255 255 0</SubStartColor>\n\t\t<MainEndColor>255 0 0</MainEndColor>\n\t\t<SubEndColor>255 0 0</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>102</MainEndAlpha>\n\t\t<SubEndAlpha>102</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0.56</EmitterDispersion>\n\t\t<EmitterBalance>-0.12</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.44</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.44</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.44</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>1</GravityResistance>\n\t\t<GravityDispersion>1</GravityDispersion>\n\t\t<GravityBalance>-1</GravityBalance>\n\t\t<GravityBallPower>100</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.44</GravityBallBalance>\n\t\t<EmissionRate>5</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.44</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>50</StartSizeX>\n\t\t<StartSizeY>50</StartSizeY>\n\t\t<StartSizeDispersion>0.56</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.44</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>0</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>50</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>60</EndSizeX>\n\t\t<EndSizeY>80</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.44</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>50</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>0</EndSizePermittedLimitPercentY>\n\t\t<Velocity>10</Velocity>\n\t\t<VelocityDispersion>1</VelocityDispersion>\n\t\t<VelocityBalance>-1</VelocityBalance>\n\t\t<MainAngleVelocity>0</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0.37</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.04</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.44</AngleAccelationBalance>\n\t\t<Time>1</Time>\n\t\t<TimeDispersion>0.37</TimeDispersion>\n\t\t<TimeBalance>-0.44</TimeBalance>\n\t\t<AirResistance>100</AirResistance>\n\t\t<AirResistanceDispersion>1</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-1</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.44</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>40</EndAngle>\n\t\t<StartAngleDispersion>0.56</StartAngleDispersion>\n\t\t<StartAngleBalance>-0.44</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          5.832217216491699,
+          -60.0,
+          0.0
+        ],
+        "velocity": [
+          -4.088627815246582,
+          9.125958442687988,
+          0.0
+        ],
+        "size": [
+          50.0,
+          50.0
+        ],
+        "color": [
+          255.0,
+          255.0,
+          0.0
+        ],
+        "alpha": 0.0,
+        "life": 1.0,
+        "remaining": 1.0,
+        "spin": 0.0,
+        "angle": -1.0790349245071411,
+        "rng": 4115893230,
+        "frame": 2,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          5.643658638000488,
+          -59.27539825439453,
+          0.04065339267253876
+        ],
+        "velocity": [
+          -1.114479899406433,
+          13.712255477905273,
+          1.5039026737213135
+        ],
+        "size": [
+          48.72666931152344,
+          49.413330078125
+        ],
+        "color": [
+          255.0,
+          238.0,
+          0.0
+        ],
+        "alpha": 25.386667251586914,
+        "life": 1.0,
+        "remaining": 0.9333333969116211,
+        "spin": 0.0,
+        "angle": -1.0790349245071411,
+        "rng": 4115893230,
+        "frame": 2,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "map_dg06.eff:vapor_1(2)",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"vapor_1(2)\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>5</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>yun gi</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>1</AnimationType>\n\t\t<Pattern />\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 0 0</EmitterPosition>\n\t\t<EmitterRadius>20 20 20</EmitterRadius>\n\t\t<Destination>0 50 0</Destination>\n\t\t<DestinationRadius>15 20 15</DestinationRadius>\n\t\t<Gravity>0 200 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>255 255 255</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>0 0 0</MainEndColor>\n\t\t<SubEndColor>0 0 0</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>35</MainEndAlpha>\n\t\t<SubEndAlpha>33</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-0.16</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.16</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.16</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.16</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-0.16</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.16</GravityBallBalance>\n\t\t<EmissionRate>8</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.16</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>100</StartSizeX>\n\t\t<StartSizeY>100</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.16</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>0</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>0</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>200</EndSizeX>\n\t\t<EndSizeY>200</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.16</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>0</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>0</EndSizePermittedLimitPercentY>\n\t\t<Velocity>100</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.16</VelocityBalance>\n\t\t<MainAngleVelocity>100</MainAngleVelocity>\n\t\t<SubAngleVelocity>100</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.16</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.16</AngleAccelationBalance>\n\t\t<Time>0.8</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.16</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.16</AirResistanceBalance>\n\t\t<AnimationSpeed>30</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.16</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>0</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>0</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          105.19999694824219,
+          -180.79200744628906,
+          -3.871999979019165
+        ],
+        "velocity": [
+          -8.27684497833252,
+          99.63849639892578,
+          1.9139955043792725
+        ],
+        "size": [
+          100.0,
+          100.0
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 0.0,
+        "life": 0.800000011920929,
+        "remaining": 0.800000011920929,
+        "spin": 100.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.29999998211860657
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          104.64820861816406,
+          -173.81610107421875,
+          -3.7444002628326416
+        ],
+        "velocity": [
+          -8.27684497833252,
+          112.97183990478516,
+          1.9139955043792725
+        ],
+        "size": [
+          108.33334350585938,
+          108.33334350585938
+        ],
+        "color": [
+          233.75,
+          233.75,
+          233.75
+        ],
+        "alpha": 2.9166667461395264,
+        "life": 0.800000011920929,
+        "remaining": 0.73333340883255,
+        "spin": 100.0,
+        "angle": 6.666667461395264,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.29999998211860657
+      }
+    },
+    {
+      "label": "map_dg07d.eff:map_dg07",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"map_dg07\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>100</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>little light_blue</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern>Test</Pattern>\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 100 0</EmitterPosition>\n\t\t<EmitterRadius>500 500 1000</EmitterRadius>\n\t\t<Destination>0 -100 0</Destination>\n\t\t<DestinationRadius>500 500 1000</DestinationRadius>\n\t\t<Gravity>0 -90 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>255 255 255</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>0 0 0</MainEndColor>\n\t\t<SubEndColor>0 0 0</SubEndColor>\n\t\t<MainStartAlpha>168</MainStartAlpha>\n\t\t<SubStartAlpha>150</SubStartAlpha>\n\t\t<MainEndAlpha>0</MainEndAlpha>\n\t\t<SubEndAlpha>0</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>60</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-0.02</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.02</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.02</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.02</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>-0.02</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.02</GravityBallBalance>\n\t\t<EmissionRate>15</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.02</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>60</StartSizeX>\n\t\t<StartSizeY>60</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.02</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>30</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>30</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>60</EndSizeX>\n\t\t<EndSizeY>60</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.02</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>50</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>50</EndSizePermittedLimitPercentY>\n\t\t<Velocity>30</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.02</VelocityBalance>\n\t\t<MainAngleVelocity>30</MainAngleVelocity>\n\t\t<SubAngleVelocity>-30</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.02</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.02</AngleAccelationBalance>\n\t\t<Time>7</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.02</TimeBalance>\n\t\t<AirResistance>90</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.02</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.02</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>0</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>-0.02</StartAngleBalance>\n\t</CREAM>\n</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          230.0,
+          380.199951171875,
+          -193.59999084472656
+        ],
+        "velocity": [
+          -13.540125846862793,
+          -26.770599365234375,
+          0.0
+        ],
+        "size": [
+          64.31999969482422,
+          64.31999969482422
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 168.0,
+        "life": 7.0,
+        "remaining": 7.0,
+        "spin": 3.299999952316284,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          229.16024780273438,
+          378.4013977050781,
+          -193.59999084472656
+        ],
+        "velocity": [
+          -11.1142578125,
+          -27.284502029418945,
+          0.0
+        ],
+        "size": [
+          64.00170135498047,
+          64.00170135498047
+        ],
+        "color": [
+          252.5714111328125,
+          252.5714111328125,
+          252.5714111328125
+        ],
+        "alpha": 166.4000244140625,
+        "life": 7.0,
+        "remaining": 6.933332443237305,
+        "spin": 3.299999952316284,
+        "angle": 0.2200000137090683,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "map_fd07a.eff:map_snow",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"map_snow\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>1000</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>1</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>snow1</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>3</AnimationType>\n\t\t<Pattern>Bounding</Pattern>\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 100 0</EmitterPosition>\n\t\t<EmitterRadius>500 500 1000</EmitterRadius>\n\t\t<Destination>0 0 0</Destination>\n\t\t<DestinationRadius>800 500 1000</DestinationRadius>\n\t\t<Gravity>0 -50 0</Gravity>\n\t\t<GravityBallPosition>-100 0 0</GravityBallPosition>\n\t\t<MainStartColor>255 255 255</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>192 192 192</MainEndColor>\n\t\t<SubEndColor>192 192 192</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>247</MainEndAlpha>\n\t\t<SubEndAlpha>247</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-1</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-1</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.22</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.22</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0.43</GravityDispersion>\n\t\t<GravityBalance>1</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.24</GravityBallBalance>\n\t\t<EmissionRate>150</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>-0.22</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>40</StartSizeX>\n\t\t<StartSizeY>40</StartSizeY>\n\t\t<StartSizeDispersion>0.56</StartSizeDispersion>\n\t\t<StartSizeBalance>0.14</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>120</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>120</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>40</EndSizeX>\n\t\t<EndSizeY>40</EndSizeY>\n\t\t<EndSizeDispersion>0.56</EndSizeDispersion>\n\t\t<EndSizeBalance>0.14</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>150</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>150</EndSizePermittedLimitPercentY>\n\t\t<Velocity>50</Velocity>\n\t\t<VelocityDispersion>1</VelocityDispersion>\n\t\t<VelocityBalance>-0.04</VelocityBalance>\n\t\t<MainAngleVelocity>-180</MainAngleVelocity>\n\t\t<SubAngleVelocity>180</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.22</AngleVelocityBalance>\n\t\t<MainAngleAccelation>100</MainAngleAccelation>\n\t\t<SubAngleAccelation>1</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.22</AngleAccelationBalance>\n\t\t<Time>3</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>-0.04</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.04</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-0.02</AnimationSpeedBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          230.0,
+          380.199951171875,
+          -193.59999084472656
+        ],
+        "velocity": [
+          -32.1973876953125,
+          -38.25347137451172,
+          0.0
+        ],
+        "size": [
+          50.67704391479492,
+          50.67704391479492
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 0.0,
+        "life": 3.0,
+        "remaining": 3.0,
+        "spin": -19.799999237060547,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 2,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          227.853515625,
+          377.5663757324219,
+          -193.59999084472656
+        ],
+        "velocity": [
+          -32.1973876953125,
+          -41.58679962158203,
+          0.0
+        ],
+        "size": [
+          49.40635299682617,
+          49.40635299682617
+        ],
+        "color": [
+          253.5999755859375,
+          253.5999755859375,
+          253.5999755859375
+        ],
+        "alpha": 21.467655181884766,
+        "life": 3.0,
+        "remaining": 2.933333396911621,
+        "spin": -14.519330978393555,
+        "angle": -1.099972128868103,
+        "rng": 4115893230,
+        "frame": 2,
+        "animationSpeed": 0.0
+      }
+    },
+    {
+      "label": "map_fd27d_1.eff:fountain_2",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"fountain_2\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>5</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>0</IsZAlign>\n\t\t<IsSineAlpha>0</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>fountain_3</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern>Bounding</Pattern>\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>5 -265 0</EmitterPosition>\n\t\t<EmitterRadius>0 0 0</EmitterRadius>\n\t\t<Destination>5 500 0</Destination>\n\t\t<DestinationRadius>50 50 50</DestinationRadius>\n\t\t<Gravity>0 -500 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>192 192 192</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>255 255 255</MainEndColor>\n\t\t<SubEndColor>0 0 0</SubEndColor>\n\t\t<MainStartAlpha>204</MainStartAlpha>\n\t\t<SubStartAlpha>204</SubStartAlpha>\n\t\t<MainEndAlpha>0</MainEndAlpha>\n\t\t<SubEndAlpha>0</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>0</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>0</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>0</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>0</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>0</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>0</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>0</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>0</GravityBallBalance>\n\t\t<EmissionRate>5</EmissionRate>\n\t\t<EmissionDispersion>0</EmissionDispersion>\n\t\t<EmissionBalance>0</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>20</StartSizeX>\n\t\t<StartSizeY>20</StartSizeY>\n\t\t<StartSizeDispersion>0</StartSizeDispersion>\n\t\t<StartSizeBalance>0</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>10</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>50</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>60</EndSizeX>\n\t\t<EndSizeY>60</EndSizeY>\n\t\t<EndSizeDispersion>0</EndSizeDispersion>\n\t\t<EndSizeBalance>0</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>30</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>50</EndSizePermittedLimitPercentY>\n\t\t<Velocity>150</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>0</VelocityBalance>\n\t\t<MainAngleVelocity>0</MainAngleVelocity>\n\t\t<SubAngleVelocity>0</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>0</AngleVelocityBalance>\n\t\t<MainAngleAccelation>0</MainAngleAccelation>\n\t\t<SubAngleAccelation>0</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>0</AngleAccelationBalance>\n\t\t<Time>0.8</Time>\n\t\t<TimeDispersion>0</TimeDispersion>\n\t\t<TimeBalance>0</TimeBalance>\n\t\t<AirResistance>0</AirResistance>\n\t\t<AirResistanceDispersion>0</AirResistanceDispersion>\n\t\t<AirResistanceBalance>0</AirResistanceBalance>\n\t\t<AnimationSpeed>100</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-1</AnimationSpeedBalance>\n\t\t<StartAngle>0</StartAngle>\n\t\t<EndAngle>0</EndAngle>\n\t\t<StartAngleDispersion>0</StartAngleDispersion>\n\t\t<StartAngleBalance>0</StartAngleBalance>\n\t</CREAM>\n\t</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          105.0,
+          -465.0,
+          0.0
+        ],
+        "velocity": [
+          0.6228007674217224,
+          149.98809814453125,
+          -1.783642292022705
+        ],
+        "size": [
+          20.479999542236328,
+          20.479999542236328
+        ],
+        "color": [
+          238.93499755859375,
+          238.93499755859375,
+          238.93499755859375
+        ],
+        "alpha": 204.0,
+        "life": 0.800000011920929,
+        "remaining": 0.800000011920929,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          105.04153442382812,
+          -455.8341369628906,
+          -0.11890948563814163
+        ],
+        "velocity": [
+          0.6228007674217224,
+          116.65476989746094,
+          -1.783642292022705
+        ],
+        "size": [
+          22.31833267211914,
+          22.31833267211914
+        ],
+        "color": [
+          239.63623046875,
+          239.63623046875,
+          239.63623046875
+        ],
+        "alpha": 187.0,
+        "life": 0.800000011920929,
+        "remaining": 0.73333340883255,
+        "spin": 0.0,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 1.0
+      }
+    },
+    {
+      "label": "map_sq03.eff:yong am yun gi",
+      "xml": "<CAKEWAPPER NoriFileName=\"dummy.nri\"><CREAM Name=\"yong am yun gi\">\n\t\t<Name />\n\t\t<Category />\n\t\t<MaxCount>40</MaxCount>\n\t\t<IsLoop>1</IsLoop>\n\t\t<IsLink>0</IsLink>\n\t\t<IsZAlign>1</IsZAlign>\n\t\t<IsSineAlpha>1</IsSineAlpha>\n\t\t<IsStartSizePLPUseOne>1</IsStartSizePLPUseOne>\n\t\t<IsEndSizePLPUseOne>1</IsEndSizePLPUseOne>\n\t\t<TextureKind>0</TextureKind>\n\t\t<TextureName>yongam yun gi</TextureName>\n\t\t<CreamBlendMode>ADD</CreamBlendMode>\n\t\t<AnimationType>0</AnimationType>\n\t\t<Pattern>Test</Pattern>\n\t\t<PatternArguments>0 0 0 0 </PatternArguments>\n\t\t<EmitterPosition>0 -100 0</EmitterPosition>\n\t\t<EmitterRadius>500 500 1000</EmitterRadius>\n\t\t<Destination>0 100 0</Destination>\n\t\t<DestinationRadius>500 500 1000</DestinationRadius>\n\t\t<Gravity>0 1 0</Gravity>\n\t\t<GravityBallPosition>0 0 0</GravityBallPosition>\n\t\t<MainStartColor>255 255 255</MainStartColor>\n\t\t<SubStartColor>255 255 255</SubStartColor>\n\t\t<MainEndColor>0 0 0</MainEndColor>\n\t\t<SubEndColor>0 0 0</SubEndColor>\n\t\t<MainStartAlpha>0</MainStartAlpha>\n\t\t<SubStartAlpha>0</SubStartAlpha>\n\t\t<MainEndAlpha>153</MainEndAlpha>\n\t\t<SubEndAlpha>153</SubEndAlpha>\n\t\t<EmissionRatePermittedLimitPercent>0</EmissionRatePermittedLimitPercent>\n\t\t<VelocityPermittedLimitPercent>0</VelocityPermittedLimitPercent>\n\t\t<TimePermittedLimitPercent>20</TimePermittedLimitPercent>\n\t\t<AirResistancePermittedLimitPercent>50</AirResistancePermittedLimitPercent>\n\t\t<AnimationSpeedPermittedLimitPercent>0</AnimationSpeedPermittedLimitPercent>\n\t\t<EmitterDispersion>0</EmitterDispersion>\n\t\t<EmitterBalance>-0.04</EmitterBalance>\n\t\t<DestinationDispersion>0</DestinationDispersion>\n\t\t<DestinationBalance>-0.04</DestinationBalance>\n\t\t<DestinationRandomness>0</DestinationRandomness>\n\t\t<StartColorDispersion>0</StartColorDispersion>\n\t\t<StartColorBalance>-0.04</StartColorBalance>\n\t\t<EndColorDispersion>0</EndColorDispersion>\n\t\t<EndColorBalance>-0.04</EndColorBalance>\n\t\t<StartAlphaDispersion>1</StartAlphaDispersion>\n\t\t<StartAlphaBalance>-1</StartAlphaBalance>\n\t\t<EndAlphaDispersion>1</EndAlphaDispersion>\n\t\t<EndAlphaBalance>-1</EndAlphaBalance>\n\t\t<MiddleAlphaTime>0</MiddleAlphaTime>\n\t\t<MiddleAlphaAlpha>0</MiddleAlphaAlpha>\n\t\t<GravityResistance>0.17</GravityResistance>\n\t\t<GravityDispersion>0</GravityDispersion>\n\t\t<GravityBalance>0.16</GravityBalance>\n\t\t<GravityBallPower>0</GravityBallPower>\n\t\t<GravityBallResistance>0</GravityBallResistance>\n\t\t<GravityBallDispersion>0</GravityBallDispersion>\n\t\t<GravityBallBalance>-0.04</GravityBallBalance>\n\t\t<EmissionRate>10</EmissionRate>\n\t\t<EmissionDispersion>0.93</EmissionDispersion>\n\t\t<EmissionBalance>-0.82</EmissionBalance>\n\t\t<StartSize>0</StartSize>\n\t\t<StartSizeX>300</StartSizeX>\n\t\t<StartSizeY>300</StartSizeY>\n\t\t<StartSizeDispersion>0.81</StartSizeDispersion>\n\t\t<StartSizeBalance>-0.52</StartSizeBalance>\n\t\t<StartSizePermittedLimitPercent>0</StartSizePermittedLimitPercent>\n\t\t<StartSizePermittedLimitPercentX>20</StartSizePermittedLimitPercentX>\n\t\t<StartSizePermittedLimitPercentY>20</StartSizePermittedLimitPercentY>\n\t\t<EndSize>0</EndSize>\n\t\t<EndSizeX>500</EndSizeX>\n\t\t<EndSizeY>500</EndSizeY>\n\t\t<EndSizeDispersion>0.37</EndSizeDispersion>\n\t\t<EndSizeBalance>-0.04</EndSizeBalance>\n\t\t<EndSizePermittedLimitPercent>0</EndSizePermittedLimitPercent>\n\t\t<EndSizePermittedLimitPercentX>100</EndSizePermittedLimitPercentX>\n\t\t<EndSizePermittedLimitPercentY>100</EndSizePermittedLimitPercentY>\n\t\t<Velocity>0</Velocity>\n\t\t<VelocityDispersion>0</VelocityDispersion>\n\t\t<VelocityBalance>-0.04</VelocityBalance>\n\t\t<MainAngleVelocity>1</MainAngleVelocity>\n\t\t<SubAngleVelocity>5</SubAngleVelocity>\n\t\t<AngleVelocityDispersion>0</AngleVelocityDispersion>\n\t\t<AngleVelocityBalance>-0.04</AngleVelocityBalance>\n\t\t<MainAngleAccelation>5</MainAngleAccelation>\n\t\t<SubAngleAccelation>5</SubAngleAccelation>\n\t\t<AngleAccelationDispersion>0</AngleAccelationDispersion>\n\t\t<AngleAccelationBalance>-0.04</AngleAccelationBalance>\n\t\t<Time>10</Time>\n\t\t<TimeDispersion>0.68</TimeDispersion>\n\t\t<TimeBalance>-0.76</TimeBalance>\n\t\t<AirResistance>-2</AirResistance>\n\t\t<AirResistanceDispersion>0.77</AirResistanceDispersion>\n\t\t<AirResistanceBalance>-0.76</AirResistanceBalance>\n\t\t<AnimationSpeed>0</AnimationSpeed>\n\t\t<AnimationSpeedDispersion>0</AnimationSpeedDispersion>\n\t\t<AnimationSpeedBalance>-1</AnimationSpeedBalance>\n\t</CREAM>\n</CAKEWAPPER>",
+      "initial": {
+        "position": [
+          230.0,
+          180.199951171875,
+          -193.59999084472656
+        ],
+        "velocity": [
+          -0.0,
+          0.0,
+          0.0
+        ],
+        "size": [
+          290.1662902832031,
+          290.1662902832031
+        ],
+        "color": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "alpha": 0.0,
+        "life": 9.110722541809082,
+        "remaining": 9.110722541809082,
+        "spin": 2.7799999713897705,
+        "angle": 0.0,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      },
+      "steps": 4,
+      "after": {
+        "position": [
+          230.0,
+          180.20361328125,
+          -193.59999084472656
+        ],
+        "velocity": [
+          0.0,
+          0.146168515086174,
+          0.0
+        ],
+        "size": [
+          288.3251037597656,
+          288.3251037597656
+        ],
+        "color": [
+          253.13409423828125,
+          253.13409423828125,
+          253.13409423828125
+        ],
+        "alpha": 4.44547176361084,
+        "life": 9.110722541809082,
+        "remaining": 9.04405689239502,
+        "spin": 3.113332986831665,
+        "angle": 0.19922222197055817,
+        "rng": 4115893230,
+        "frame": 0,
+        "animationSpeed": 0.0
+      }
+    }
+  ]
+}

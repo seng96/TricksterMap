@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <Using Include="Xunit" />
+    <None Update="Effects\particle-vectors.json" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Include="..\TricksterMap\ViewportTransform.cs" Link="ViewportTransform.cs" />
   </ItemGroup>
 
   <ItemGroup>

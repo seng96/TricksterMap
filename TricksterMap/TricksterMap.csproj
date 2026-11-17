@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{71A3C82F-0E6F-415C-BD25-7A2B25A86B84}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>TricksterMap</RootNamespace>
     <AssemblyName>TricksterMap</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -37,11 +37,23 @@
     <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ionic.Zlib, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ionic.Zlib.1.9.1.5\lib\Ionic.Zlib.dll</HintPath>
-    </Reference>
     <Reference Include="System.Resources.Extensions">
       <HintPath>$(NuGetPackageRoot)system.resources.extensions\8.0.0\lib\net462\System.Resources.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>$(NuGetPackageRoot)system.memory\4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>$(NuGetPackageRoot)system.buffers\4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>$(NuGetPackageRoot)system.numerics.vectors\4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>$(NuGetPackageRoot)system.runtime.compilerservices.unsafe\4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib, Version=1.9.1.5, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ionic.Zlib.1.9.1.5\lib\Ionic.Zlib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -56,6 +68,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollisionCanvas.cs" />
+    <Compile Include="MapCollisionEditorForm.cs" />
+    <Compile Include="MapEditorTabs.cs" />
+    <Compile Include="MapEditFingerprint.cs" />
+    <Compile Include="MapEditorVerification.cs" />
     <Compile Include="ConfigLayerCollisionForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,7 +168,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="System.Resources.Extensions" Version="8.0.0" />
     <ProjectReference Include="..\TricksterMap.Core\TricksterMap.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Scene\**\*.cs" />
+    <Compile Include="SceneEditing\**\*.cs" />
+    <Compile Include="NewMapDialog.cs" />
+    <Compile Include="Viewport*.cs" />
+    <Compile Include="IMapSceneRenderer.cs" />
+    <Compile Include="CollisionGridImage.cs" />
+    <Compile Include="ScenePreviewLoader.cs" />
+    <Compile Include="SceneAuthoringVerification.cs" />
+    <Compile Include="SceneAnimationController.cs" />
+    <Compile Include="EffectResourcesUi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

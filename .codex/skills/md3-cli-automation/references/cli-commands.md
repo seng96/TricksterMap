@@ -15,6 +15,25 @@ Outputs:
 - `PointObjects`
 - `RangeObjects`
 
+## Config Grid Commands (editor prototype)
+
+`config list --file <md3>` prints each config layer's zero-based index, type,
+grid size and stored X/Y step. Cell coordinates are zero-based row-major grid
+coordinates, not world pixels. Run `list` first; do not infer a layer index.
+
+```powershell
+dotnet TricksterMap.Cli.dll config list --file C:\scratch\map.md3
+dotnet TricksterMap.Cli.dll config set --file C:\scratch\map.md3 --layer 0 --x 10 --y 20 --value 1
+dotnet TricksterMap.Cli.dll config rect --file C:\scratch\map.md3 --layer 0 --x1 10 --y1 20 --x2 12 --y2 22 --value 0
+```
+
+Rectangle corners are inclusive and must be ordered. Raw values must be 0..255.
+For collision Type 1, the GUI offers 0/1 brushes; other values are retained and
+must not be interpreted as ordinary blocking cells without native evidence.
+Edits validate all bounds before saving; no-op edits do not write. Modified MDN
+files preserve unknown trailing data and use an atomic same-directory save.
+Use a copied complete bundle for experiments; these commands edit in place.
+
 ## Point Commands
 
 ### Add
@@ -37,6 +56,7 @@ powershell -ExecutionPolicy Bypass -File .codex/skills/md3-cli-automation/script
 
 Notes:
 - `update` and `delete` require `--index`.
+- `update` preserves the existing opaque `Options` value, which is not exposed as a CLI parameter.
 - `PointObject` type `1` and `2` normalize the ID to `0`.
 - Duplicate IDs for the same point type are rejected.
 
@@ -62,6 +82,7 @@ powershell -ExecutionPolicy Bypass -File .codex/skills/md3-cli-automation/script
 
 Notes:
 - `update` and `delete` require `--index`.
+- `update` preserves the existing opaque `Options` value, which is not exposed as a CLI parameter.
 - A modification command fails if matching `.bac`, `.til`, or `.lyr` files are missing.
 
 ## Refresh The Bundled CLI

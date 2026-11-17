@@ -11,8 +11,8 @@ namespace TricksterMap.Data
         #region Header
 
         /// <summary>
-        /// 0x012F or 0x012E
-        /// 0x012F = Data files are compressed
+        /// MDN format revision (301, 302 or 303). Companion compression is
+        /// identified by each companion's envelope, not by this value alone.
         /// </summary>
         public int Version { get; set; }
 
@@ -130,6 +130,12 @@ namespace TricksterMap.Data
         /// Effect object list (TODO)
         /// </summary>
         public List<byte[]> EffectObjects { get; set; } = new List<byte[]>();
+
+        /// <summary>Uninterpreted bytes after known MDN sections, preserved verbatim.</summary>
+        public byte[] TrailingData { get; set; } = new byte[0];
+
+        // Preserve aggregate-header discrepancies and adjust only by MDN size delta.
+        internal long? OriginalSerializedLength { get; set; }
 
         #endregion
 

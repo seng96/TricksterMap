@@ -13,4 +13,8 @@
       <HintPath>..\packages\Ionic.Zlib.1.9.1.5\lib\Ionic.Zlib.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.IO.Compression" />
+  </ItemGroup>
 </Project>

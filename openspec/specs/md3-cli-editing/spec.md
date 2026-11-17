@@ -3,6 +3,22 @@
 ## Purpose
 TBD - created by archiving change add-md3-cli-and-agent-skill. Update Purpose after archive.
 ## Requirements
+### Requirement: CLI can inspect and edit raw configuration grids
+系統 MUST 提供 `config list|set|rect`，依實際圖層索引編輯 row-major byte grid。
+座標 MUST 為從零開始的格子索引，矩形包含兩端點；值限 0..255。
+
+#### Scenario: Edit a configuration rectangle
+- **WHEN** 使用者指定既有圖層、合法且有序的兩端點與 byte 值
+- **THEN** 系統 MUST 只改選取區域，保留其他格值與未知尾段，再以原子替換保存
+
+#### Scenario: Reject an invalid configuration edit
+- **WHEN** 使用者指定越界座標、反向矩形、未知或重複參數、超出 byte 的值
+- **THEN** 系統 MUST 回傳非零退出碼，原檔逐 byte 保持相同
+
+#### Scenario: Inspect configuration grids
+- **WHEN** 使用者執行 `config list --file <path>`
+- **THEN** 系統 MUST 列出圖層索引、類型、格尺寸和儲存的 X/Y step，且不寫入檔案
+
 ### Requirement: CLI can inspect md3 map metadata and object counts
 系統 MUST 提供命令列介面來讀取指定 `.md3` 檔案，並輸出足以快速判斷地圖內容的摘要資訊，至少包含地圖尺寸、圖層數量、`PointObject` 數量與 `RangeObject` 數量。
 

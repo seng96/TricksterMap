@@ -24,6 +24,8 @@ namespace TricksterMap.Cli
             {
                 switch (args[0].ToLowerInvariant())
                 {
+                    case "config":
+                        return Commands.ConfigCommand.Run(args, output);
                     case "inspect":
                         return RunInspect(args, output, error);
                     case "point":
@@ -89,7 +91,12 @@ namespace TricksterMap.Cli
                     output.WriteLine("Point added.");
                     return 0;
                 case "update":
-                    pointObjectService.Update(document, GetRequiredInt(args, "--index"), CreatePoint(args));
+                    var pointIndex = GetRequiredInt(args, "--index");
+                    var point = CreatePoint(args);
+                    if (pointIndex < 0 || pointIndex >= document.Map.PointObjects.Count)
+                        throw new InvalidOperationException("The specified point index does not exist: " + pointIndex);
+                    point.Options = document.Map.PointObjects[pointIndex].Options;
+                    pointObjectService.Update(document, pointIndex, point);
                     documentService.Save(document);
                     output.WriteLine("Point updated.");
                     return 0;
@@ -141,7 +148,12 @@ namespace TricksterMap.Cli
                     output.WriteLine("Range added.");
                     return 0;
                 case "update":
-                    rangeObjectService.Update(document, GetRequiredInt(args, "--index"), CreateRange(args));
+                    var rangeIndex = GetRequiredInt(args, "--index");
+                    var range = CreateRange(args);
+                    if (rangeIndex < 0 || rangeIndex >= document.Map.RangeObjects.Count)
+                        throw new InvalidOperationException("The specified range index does not exist: " + rangeIndex);
+                    range.Options = document.Map.RangeObjects[rangeIndex].Options;
+                    rangeObjectService.Update(document, rangeIndex, range);
                     documentService.Save(document);
                     output.WriteLine("Range updated.");
                     return 0;
@@ -197,6 +209,7 @@ namespace TricksterMap.Cli
         private static void WriteUsage(TextWriter writer)
         {
             writer.WriteLine("Usage:");
+            writer.WriteLine("  config list|set|rect --file <path> [--layer <index> --value <0..255> --x <cell> --y <cell>]");
             writer.WriteLine("  inspect --file <path-to-md3>");
             writer.WriteLine("  point add --file <path> --type <id> --id <id> --map-id <id> --x <value> --y <value>");
             writer.WriteLine("  point update --file <path> --index <value> --type <id> --id <id> --map-id <id> --x <value> --y <value>");

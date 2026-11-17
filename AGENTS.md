@@ -11,9 +11,9 @@ C# multi-project solution for reading/writing **Trickster Online** map data file
 | `TricksterMap.Core` | .NET Framework 4.8 **and** .NET 10.0 (dual-target) | Headless library — format parser, serializer, data model, services. Consumed by Cli + Tests. |
 | `TricksterMap.Cli` | .NET 10.0 | Console executable (`inspect`, `point {add\|update\|delete}`, `range {add\|update\|delete}`). Hand-rolled arg parser, no CommandLineParser/Spectre. |
 | `TricksterMap.Tests` | .NET 10.0, **xUnit 2.9.3** | Integration tests that spawn the published CLI as a subprocess; fixtures synthesize temp `.md3` + companion files in `%TEMP%`. |
-| `TricksterMap` | .NET Framework 4.8, WinForms | **Legacy** MDI GUI. Has its own duplicate copy of the data model and loaders (see warning below). |
+| `TricksterMap` | .NET Framework 4.8, WinForms | **Legacy** MDI GUI. Consumes the Core model/loaders; obsolete duplicate source files remain excluded from compilation. |
 
-Both `Core` and `TricksterMap` use root namespace `TricksterMap`, with the data model under `TricksterMap.Data`. The only NuGet runtime dependency is **Ionic.Zlib 1.9.1.5** (referenced as a loose DLL under `packages/`), used to decompress `.md3` (version `0x012F`) and `.til` payloads.
+Both `Core` and `TricksterMap` use root namespace `TricksterMap`, with the data model under `TricksterMap.Data`. Core retains **Ionic.Zlib 1.9.1.5** as a loose legacy dependency under `packages/`; the current Scene envelope reader/writer uses platform DEFLATE and independent Adler instead. The GUI additionally uses System.Resources.Extensions and its transitive runtime DLLs. MDN revisions301/302/303 use a raw header and configuration/object sections in the verified corpus; do not assume revision303 makes the MDN body zlib-compressed. Companion compression is identified by its envelope and native reader path.
 
 ## Common commands
 
@@ -36,19 +36,20 @@ dotnet test --filter "ClassName=InspectCommandTests"
 dotnet test --filter "FullyQualifiedName~InspectCommandTests.Inspect_existing"
 ```
 
-The legacy WinForms project builds only on Windows with the .NET Framework 4.8 targeting pack installed. There is no headless way to exercise its UI.
+The WinForms project builds on Windows with the .NET Framework 4.8 targeting pack and .NET SDK 10. `--verify-map <md3> --output <new-dir>` exercises an offscreen, transparent, nonactivating UI without system input injection; see `EDITOR_PROTOTYPE.md`. Ship System.Resources.Extensions and its transitive runtime DLLs with the GUI.
 
 ## Architecture
 
 ### `.md3` file model (authoritative version lives in `TricksterMap.Core`)
 
-- **Header** (~96 bytes): signature `MDN_`, version (`0x012E` raw / `0x012F` zlib-compressed body), tile bpp, map pixel size, tile size/count, then four section counts (LayerCount, RangeCount, PointCount, EffectCount).
+- **Header** (96 bytes): signature `MDN_`, revision (301/302/303), tile bpp, map maximum pixel coordinates, tile size/count, then four section counts (LayerCount, RangeCount, PointCount, EffectCount). Pixel extents are maximum coordinates plus one. `Param4 & 1` selects an embedded-resource layout in the native reader and is explicitly unsupported by the editing Core until implemented.
 - **Sections, in order:**
   1. **ConfigLayers** (variable): 5-int header (`Type, X, Y, BppX, BppY`) + `X*Y` bytes. Types 1–4 = collision / special-effect / ground-type / height.
   2. **RangeObjects** (32 bytes each): 8×int32 — portals, debris, monster movement, gather, NPC movement, spawn zones.
   3. **PointObjects** (24 bytes each): 6×int32 — portals, respawns, NPCs (general/shop/skill), teleport items/NPCs, NORI entities.
   4. **EffectObjects** (52 bytes each): currently parsed as raw blobs.
-- **Companion files** (must sit next to the `.md3`): `.bac` (collision/blocking), `.til` (tile images, zlib-compressed), `.lyr` (layer data). The loader refuses to operate when companions are missing.
+- **Trailing bytes** after known MDN sections are retained verbatim in `TrailingData`; their meaning is unknown. Preserve them on every save.
+- **Companion files** (same basename next to the `.md3`): `.bac` (NORI scene sprites/animations), `.til` (tile images), `.lyr` (visual layer data). Config Type 1 inside MDN supplies the collision grid. Core `Load()` can inspect standalone MDN; `MapDocumentService.Save()` requires all three companions. Companion payloads may have their own compression envelopes.
 
 ### Service layer (in `TricksterMap.Core`)
 
@@ -56,23 +57,24 @@ The CLI is the canonical consumer; mirror this entry pattern when adding new ope
 
 - `MapDocumentService` (`TricksterMap.Core/MapDocumentService.cs`) — load/save orchestration, computes companion paths, returns a `MapDocument` wrapping `MapDataInfo`.
 - `MapDataLoader` (`TricksterMap.Core/MapDataLoader.cs`) — binary parser.
-- `MapSaveHelper` (`TricksterMap.Core/MapSaveHelper.cs`) — binary serializer (mirrors loader section-for-section).
+- `MapSaveHelper` / `MapSerializer`: validated serialization and same-directory atomic save. Loaded documents preserve their aggregate header value, adjusting only by MDN serialized-size delta; no-op saves preserve all bytes. Do not replace it by the actual companion-size sum, because original files can contain discrepancies.
 - `PointObjectService` / `RangeObjectService` — CRUD + validation (duplicate-ID rejection lives here; CLI relies on it).
 - `CompressedFileLoader` — Ionic.Zlib wrapper for compressed payloads.
+- `Scene/` — lossless LYR/TIL models/codecs, typed envelopes, tile/object edit histories, image-buffer import and blank map authoring. Scene envelopes use platform raw DEFLATE plus independent RFC1950 Adler: legacy Ionic output can have an incorrect checksum on real edited maps.
+- `MapBundleExportService` — staged export of MDN plus current Scene LYR/TIL and byte-preserved BAC/EFF. New maps omit template EFF. Newly generated companions may replace a missing input; existing outputs are never overwritten.
 - Data POCOs in `TricksterMap.Core/Data/`: `MapDataInfo`, `ConfigLayer`, `PointObject`, `RangeObject`, `EffectObject`. Each typed object exposes lookup helpers for type-id ↔ human name.
 
 ### CLI surface (`TricksterMap.Cli/CliApplication.cs`)
 
 Hand-written dispatcher: `args[0]` → `inspect | point | range`; flag values pulled with `GetRequiredValue` / `GetRequiredInt`. `point` and `range` further switch on `add | update | delete`; `update` and `delete` always require `--index`. Full reference at `.codex/skills/md3-cli-automation/references/cli-commands.md`.
 
-### Legacy WinForms project — important caveat
+### Legacy WinForms project: compilation boundary
 
-`TricksterMap\` declares `<ProjectReference>` to `TricksterMap.Core`, **but does not import any Core types**. It carries its own near-identical copies of the loader, save helper, and `Data/` POCOs. Both copies share the namespace `TricksterMap.Data`, so `using TricksterMap.Data;` in the WinForms code resolves to the local duplicates, not Core.
+`TricksterMap/` references `TricksterMap.Core` and its explicit `.csproj` Compile list excludes obsolete duplicate `MapDataLoader.cs`, `MapSaveHelper.cs`, `CompressedFileLoader.cs` and principal `Data/` POCOs. They remain in the source tree but do not define runtime behavior. `Data/EffectObject.cs` and `Data/TileData.cs` are GUI-specific and still compiled.
 
-Implications:
-- **Bug fixes to the format MUST be applied in both places** until the WinForms project is ported onto Core, otherwise the GUI and the CLI/tests will silently diverge. When you touch `MapDataLoader.cs`, `MapSaveHelper.cs`, or any class under `Data/`, search the other tree and replicate.
-- New features should land in `TricksterMap.Core` first, with the CLI and tests exercising them; the WinForms migration is a follow-up.
-- Tests only cover the Core path. The WinForms project has no automated coverage.
+Apply format fixes in Core and verify the actual Compile list before changing legacy source. Do not copy fixes into excluded files or create a third data model. New headless features should land in Core with CLI/service tests. Legacy form behavior still needs separate GUI validation.
+
+The interactive editor now uses a fixed viewport transform for collision and visual scene pixels. `Scene/` in the GUI decodes/renders images; `SceneEditing/` provides tile/object authoring, while the authoritative mutable models remain in Core. Large scenes load through a serialized background worker with epoch/cancellation checks; only the UI thread attaches shared renderers. Dispose stale/queued images and do not give child tabs ownership of a shared renderer.
 
 ### Localization
 
