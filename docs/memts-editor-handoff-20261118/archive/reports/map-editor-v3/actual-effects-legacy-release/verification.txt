@@ -1,0 +1,11 @@
+PASS: actual EFF produces particles and changed pixels; portable archive exported; source unchanged.
+Map: C:\Memts\new-memts\deliverables\map\map_dg05b_2.md3
+Anchor: 811,549
+Changed pixels: 38030
+Animated pixels: 43025
+Particles: 94
+Render at1s ms: 128
+Source SHA256: 849e035f46981840dff3c6a31e7a35b37510b33bbdab395677e5f354ab042fe2
+EFF 使用固定種子／60秒離線循環；深度排序、GPU alpha-test 與遊戲事件時序尚未逐像素驗收。
+NORI 零位移表依完整版本化影格鏈驗證至檔尾；原檔不變。
+精細預覽：場景深度遮擋尚未與遊戲逐像素驗收。

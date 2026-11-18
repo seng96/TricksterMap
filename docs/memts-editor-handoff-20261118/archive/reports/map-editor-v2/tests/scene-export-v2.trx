@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f8c74ad2-057d-4c9e-88c1-c70bd45b9143" name="owner@DESKTOP-T5DUR46 2026-11-17 12:37:18" runUser="DESKTOP-T5DUR46\owner" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-17T12:37:18.7614367+08:00" queuing="2026-11-17T12:37:18.7614370+08:00" start="2026-11-17T12:37:17.9151094+08:00" finish="2026-11-17T12:37:18.7670584+08:00" />
+  <TestSettings name="default" id="50e68156-40bb-4b1d-9f61-fc94dd4d68b3">
+    <Deployment runDeploymentRoot="owner_DESKTOP-T5DUR46_2026-11-17_12_37_18" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e32de25f-a8cd-4f5a-87f6-487661837d4f" testId="e421afaf-b773-8e7e-5adb-113c4303d3cd" testName="TricksterMap.Tests.Scene.SceneBundleExportTests.Scene_edits_export_with_current_MDN_and_preserve_source_and_opaque_records(version: 301, compressed: False)" computerName="DESKTOP-T5DUR46" duration="00:00:00.0130579" startTime="2026-11-17T12:37:18.6374143+08:00" endTime="2026-11-17T12:37:18.6498815+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e32de25f-a8cd-4f5a-87f6-487661837d4f" />
+    <UnitTestResult executionId="1bce77e2-942f-4ea9-bba2-0555434eaa11" testId="d7929b7b-1c96-04cc-c1d6-fd22618d4bea" testName="TricksterMap.Tests.Scene.SceneBundleExportTests.Scene_edits_export_with_current_MDN_and_preserve_source_and_opaque_records(version: 303, compressed: True)" computerName="DESKTOP-T5DUR46" duration="00:00:00.0242920" startTime="2026-11-17T12:37:18.6274090+08:00" endTime="2026-11-17T12:37:18.6367697+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bce77e2-942f-4ea9-bba2-0555434eaa11" />
+    <UnitTestResult executionId="275aa908-ae1e-434c-9d28-f471edc09978" testId="55af4fe1-68b6-40b8-88a1-c4b79e176b27" testName="TricksterMap.Tests.Scene.SceneBundleExportTests.Scene_from_another_document_is_rejected_without_output" computerName="DESKTOP-T5DUR46" duration="00:00:00.0360834" startTime="2026-11-17T12:37:18.5692560+08:00" endTime="2026-11-17T12:37:18.6122076+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="275aa908-ae1e-434c-9d28-f471edc09978" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TricksterMap.Tests.Scene.SceneBundleExportTests.Scene_from_another_document_is_rejected_without_output" storage="c:\memts\new-memts\tools\map_editor\upstream\trickstermap.tests\bin\release\net10.0\trickstermap.tests.dll" id="55af4fe1-68b6-40b8-88a1-c4b79e176b27">
+      <Execution id="275aa908-ae1e-434c-9d28-f471edc09978" />
+      <TestMethod codeBase="C:\Memts\new-memts\tools\map_editor\upstream\TricksterMap.Tests\bin\Release\net10.0\TricksterMap.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="TricksterMap.Tests.Scene.SceneBundleExportTests" name="Scene_from_another_document_is_rejected_without_output" />
+    </UnitTest>
+    <UnitTest name="TricksterMap.Tests.Scene.SceneBundleExportTests.Scene_edits_export_with_current_MDN_and_preserve_source_and_opaque_records(version: 301, compressed: False)" storage="c:\memts\new-memts\tools\map_editor\upstream\trickstermap.tests\bin\release\net10.0\trickstermap.tests.dll" id="e421afaf-b773-8e7e-5adb-113c4303d3cd">
+      <Execution id="e32de25f-a8cd-4f5a-87f6-487661837d4f" />
+      <TestMethod codeBase="C:\Memts\new-memts\tools\map_editor\upstream\TricksterMap.Tests\bin\Release\net10.0\TricksterMap.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="TricksterMap.Tests.Scene.SceneBundleExportTests" name="Scene_edits_export_with_current_MDN_and_preserve_source_and_opaque_records" />
+    </UnitTest>
+    <UnitTest name="TricksterMap.Tests.Scene.SceneBundleExportTests.Scene_edits_export_with_current_MDN_and_preserve_source_and_opaque_records(version: 303, compressed: True)" storage="c:\memts\new-memts\tools\map_editor\upstream\trickstermap.tests\bin\release\net10.0\trickstermap.tests.dll" id="d7929b7b-1c96-04cc-c1d6-fd22618d4bea">
+      <Execution id="1bce77e2-942f-4ea9-bba2-0555434eaa11" />
+      <TestMethod codeBase="C:\Memts\new-memts\tools\map_editor\upstream\TricksterMap.Tests\bin\Release\net10.0\TricksterMap.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="TricksterMap.Tests.Scene.SceneBundleExportTests" name="Scene_edits_export_with_current_MDN_and_preserve_source_and_opaque_records" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e421afaf-b773-8e7e-5adb-113c4303d3cd" executionId="e32de25f-a8cd-4f5a-87f6-487661837d4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7929b7b-1c96-04cc-c1d6-fd22618d4bea" executionId="1bce77e2-942f-4ea9-bba2-0555434eaa11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55af4fe1-68b6-40b8-88a1-c4b79e176b27" executionId="275aa908-ae1e-434c-9d28-f471edc09978" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="不在清單中的結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有載入的結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.0)&#xD;
+[xUnit.net 00:00:00.08]   Discovering: TricksterMap.Tests&#xD;
+[xUnit.net 00:00:00.15]   Discovered:  TricksterMap.Tests&#xD;
+[xUnit.net 00:00:00.18]   Starting:    TricksterMap.Tests&#xD;
+[xUnit.net 00:00:00.29]   Finished:    TricksterMap.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

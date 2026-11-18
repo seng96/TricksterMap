@@ -1,0 +1,4 @@
+PASS: hidden MDI; fine/simple modes; anchor wheel zoom; middle/right/space pan; sized brush; undo/redo; scene export/reload; image import; blank map; source preservation
+Source SHA256: b40eb21b0f0e7d479f77caa247532c4041b821251673364bed40aa27a5929194
+場景動畫可選播放；時序未與遊戲內事件同步。
+精細預覽：場景深度遮擋尚未與遊戲逐像素驗收。

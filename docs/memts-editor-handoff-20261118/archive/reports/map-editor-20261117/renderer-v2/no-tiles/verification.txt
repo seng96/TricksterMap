@@ -1,0 +1,6 @@
+PASS: C# Core scene load, overview/detail/animation viewport render, source SHA unchanged
+MDN SHA256: B40EB21B0F0E7D479F77CAA247532C4041B821251673364BED40AA27A5929194
+Scene size: 1888x1760
+Animated objects: True
+場景動畫可選播放；時序未與遊戲內事件同步。
+精細預覽：場景深度遮擋尚未與遊戲逐像素驗收。

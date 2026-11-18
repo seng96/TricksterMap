@@ -1,0 +1,69 @@
+{
+  "version": "0.3.1",
+  "cause": "Incorrect unconditional vertical reversal inside each TIL tile, inherited from a BMP bottom-up assumption.",
+  "storage": "tile-major RGB555, top-down rows within a tile",
+  "changes": [
+    "Shared Core pixel codec for preview/palette/import",
+    "Flag bit0 horizontal and bit1 vertical only when set",
+    "Native top-down atlas encoding",
+    "Independent asymmetric pixel and raw encoded-byte regressions"
+  ],
+  "automated_tests": {
+    "total": "141",
+    "executed": "141",
+    "passed": "141",
+    "failed": "0",
+    "error": "0",
+    "timeout": "0",
+    "aborted": "0",
+    "inconclusive": "0",
+    "passedButRunAborted": "0",
+    "notRunnable": "0",
+    "notExecuted": "0",
+    "disconnected": "0",
+    "warning": "0",
+    "completed": "0",
+    "inProgress": "0",
+    "pending": "0"
+  },
+  "full_corpus_rendered": 700,
+  "full_corpus_failed": 0,
+  "full_corpus_skipped": 3,
+  "mdn_byte_identical_roundtrips": 700,
+  "scene_byte_identical_roundtrips": 699,
+  "packaged_preview_matches_corrected_comparison": true,
+  "source_bundle_preserved": true,
+  "native_source_sha256": "4bb6843be21f5bd52d3e61e4d3a036a8cd49d2ac9f8af47401f81f7dc80dfd43",
+  "native_carrier_sha256": "89b680c90fea876d8e5ef8e37a7dd889230db079c408c7f4baf3a0ccac134205",
+  "native_source_ranges_verified": 5,
+  "native_evidence": [
+    {
+      "id": "ev_08ec77964f198042ec674221703eae68379d9e980e6a753c2a4d07e63db8034b",
+      "procedure": "0x579a40"
+    },
+    {
+      "id": "ev_a6300909d149f103405f422eab4097ac79d1e617cb59df04b94a07a2170adf21",
+      "procedure": "0x57a780"
+    },
+    {
+      "id": "ev_cab8a81a4a13b94960e8b16c5578ae03f7061f4f9c62235c38109b92ffb9f634",
+      "procedure": "0x57caa0"
+    },
+    {
+      "id": "ev_d97e48387976054839743ea689b711a4dd7dfc4707c067f7597879b21c8dc3e6",
+      "procedure": "0x57a060"
+    },
+    {
+      "id": "ev_f07b0e4398966e8d68f9b33bdd2eefbf5de46a52d81d1c7a7b3bb6478b93b8b0",
+      "procedure": "0x57f670"
+    },
+    {
+      "id": "ev_f36968bf2cd852d9fea284ed163679659dd163a75d34acf4a1c90a15a0bd3538",
+      "procedure": "0x57cdc0"
+    }
+  ],
+  "current_game_runtime_pixel_comparison": false,
+  "game_files_changed": false,
+  "exe_sha256": "81d57e3fcf2bc712e19cbc472ee5b194f5567587ee640f2904bca2dd8757597e",
+  "zip_sha256": "a901a1d2a7886d0af8f2dfa7d94d36edb6222eef52e5e129cc095900011c4d04"
+}

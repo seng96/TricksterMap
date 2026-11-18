@@ -1,0 +1,4902 @@
+[
+  {
+    "name": "map_dg01d.md3",
+    "version": 302,
+    "bytes": 194268,
+    "declared_sum": 3441442,
+    "computed_sum": 194268,
+    "parsed_end": 194268,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      249,
+      11
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "4dacd1d819af58d9d304753c8171b16aaa76c361f39ac87a37791f6dbf7db0fe",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg03e.md3",
+    "version": 302,
+    "bytes": 191428,
+    "declared_sum": 3861654,
+    "computed_sum": 3861654,
+    "parsed_end": 191428,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      83,
+      33
+    ],
+    "missing_companions": [],
+    "sha256": "e9ec7b17fcc6131eb19d60c5e8de811a0fb6c76999f33fa30e5bb6459423c97a",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg05g_ev.md3",
+    "version": 302,
+    "bytes": 33456,
+    "declared_sum": 1411556,
+    "computed_sum": 1411556,
+    "parsed_end": 33456,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        126,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      64,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "8f2435d8c7ba51465eed9f33934c082d818c9ac02801cf75ecf6dabb5e01d891",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg06.md3",
+    "version": 303,
+    "bytes": 26180,
+    "declared_sum": 2207411,
+    "computed_sum": 26180,
+    "parsed_end": 26180,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        134,
+        94,
+        16,
+        16
+      ],
+      [
+        3,
+        134,
+        94,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      22,
+      5
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "51628eba06a3e08f0283f497b0a59f1730eb8537924b61edf9569af5a62eb69f",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg06d.md3",
+    "version": 303,
+    "bytes": 151388,
+    "declared_sum": 2677663,
+    "computed_sum": 151388,
+    "parsed_end": 151388,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        268,
+        184,
+        16,
+        16
+      ],
+      [
+        3,
+        268,
+        184,
+        16,
+        16
+      ],
+      [
+        4,
+        268,
+        184,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      4,
+      132,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "e8c4302cdde58a63c88c70ebf29b25368b0eb385aebb15559a9513d68a5044c6",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg08.md3",
+    "version": 302,
+    "bytes": 25940,
+    "declared_sum": 2694232,
+    "computed_sum": 25940,
+    "parsed_end": 25940,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        116,
+        110,
+        16,
+        16
+      ],
+      [
+        3,
+        116,
+        110,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      7,
+      1
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "3bd24bc2412a58663cfde544a2119df1cd4399e618bee65bbefe6c55f9e71ff3",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg09.md3",
+    "version": 302,
+    "bytes": 6624,
+    "declared_sum": 960218,
+    "computed_sum": 6624,
+    "parsed_end": 6624,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        64,
+        48,
+        16,
+        16
+      ],
+      [
+        3,
+        64,
+        48,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      13,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "097d7ac0398fea1355644cdc3013a3a1a2799595a288c20132100402d2fa9586",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg09f_1_ev.md3",
+    "version": 302,
+    "bytes": 57312,
+    "declared_sum": 2624010,
+    "computed_sum": 2624034,
+    "parsed_end": 57288,
+    "tail": 24,
+    "error": null,
+    "layers": [
+      [
+        1,
+        186,
+        96,
+        16,
+        16
+      ],
+      [
+        3,
+        186,
+        96,
+        16,
+        16
+      ],
+      [
+        4,
+        186,
+        96,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      132,
+      7
+    ],
+    "missing_companions": [],
+    "sha256": "824c98ee46777ff210d5fd0f143afedc1b9d409f6063934702b8649276fe8652",
+    "tail_hex": "72655f626c7565004484da73ca06610021000000ca066100"
+  },
+  {
+    "name": "map_dg18_memts.md3",
+    "version": 302,
+    "bytes": 42728,
+    "declared_sum": 3640660,
+    "computed_sum": 3640660,
+    "parsed_end": 42728,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        140,
+        140,
+        16,
+        16
+      ],
+      [
+        3,
+        140,
+        140,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      140,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "1acc8fdd7339b3e3893f520b53dd3c89bb13eaa8ce5593b81b5eb35fd0533ccc",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg18j_3.md3",
+    "version": 303,
+    "bytes": 95568,
+    "declared_sum": 1383867,
+    "computed_sum": 1383867,
+    "parsed_end": 95568,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        176,
+        178,
+        16,
+        16
+      ],
+      [
+        3,
+        176,
+        178,
+        16,
+        16
+      ],
+      [
+        4,
+        176,
+        178,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      30,
+      13
+    ],
+    "missing_companions": [],
+    "sha256": "87d22a33addff86a8dda9e31c2c9ab856533170824a5bc55a6ae136ad11a8a13",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg18k_6.md3",
+    "version": 303,
+    "bytes": 63592,
+    "declared_sum": 1217798,
+    "computed_sum": 63592,
+    "parsed_end": 63592,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        160,
+        130,
+        16,
+        16
+      ],
+      [
+        3,
+        160,
+        130,
+        16,
+        16
+      ],
+      [
+        4,
+        160,
+        130,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      5,
+      17
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "20f9bd949573a951e8366deb9151cb187ceb28958e66fe1c429903cb8d4df983",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg27k.md3",
+    "version": 303,
+    "bytes": 81240,
+    "declared_sum": 489661,
+    "computed_sum": 81240,
+    "parsed_end": 81240,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        106,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        106,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        106,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      0,
+      66,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "43f1c735fcc1fe127b2d09cf83713ec4ae32930b122ad106a36cfda23911eb66",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg31.md3",
+    "version": 303,
+    "bytes": 17504,
+    "declared_sum": 691259,
+    "computed_sum": 691259,
+    "parsed_end": 17504,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        88,
+        64,
+        16,
+        16
+      ],
+      [
+        3,
+        88,
+        64,
+        16,
+        16
+      ],
+      [
+        4,
+        88,
+        64,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      11,
+      3
+    ],
+    "missing_companions": [],
+    "sha256": "b9bdae68f1c6e3dab35255a08edf136525c53a802bfa0819542dd1ae2829e3e9",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg32a_11.md3",
+    "version": 303,
+    "bytes": 42172,
+    "declared_sum": 518162,
+    "computed_sum": 42172,
+    "parsed_end": 42172,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      23,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "b33c8a5ce94c8858152bd102ced3d50cea68db0da1b564ce8bcc24a7400d6a27",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg32d.md3",
+    "version": 303,
+    "bytes": 41796,
+    "declared_sum": 748945,
+    "computed_sum": 748945,
+    "parsed_end": 41796,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      0,
+      10,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "7523532c490ede02d6f2417f6a071d5229cbb3be8672cbb05645e543197a78a2",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a.md3",
+    "version": 303,
+    "bytes": 41740,
+    "declared_sum": 517729,
+    "computed_sum": 517729,
+    "parsed_end": 41740,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      5,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "9826ec07099ea7a71f883ab827dc3894c0814fbe5f87e18a3b17b28ba416290a",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_1.md3",
+    "version": 303,
+    "bytes": 42820,
+    "declared_sum": 518809,
+    "computed_sum": 518809,
+    "parsed_end": 42820,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      50,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "6395106efeef54c39b2be204cb258772a58bfe2e94ec1b31e6bd611b62f4ea1c",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_10.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "75e0aabe5174708a94c58759a6997c4c31e0d79b754a3852be9132161680169e",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_11.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "6c11987d21eabfd6920fcfbedfdc7f4ac4292dfb1e11dda30e3c546dbf90e72e",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_12.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "ee7dfd6e0b102f5fee4dc15ff765818bea711d762da9025401dcf590b979f73f",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_13.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "cc8d7ebf675d6c35f22a411d695fbf97d19eae1379d0d3ee9228b1a45c5d6989",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_14.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "d57a0c7b462fa27ab57b9907c0d4f08abfdeca8b5c03d2eef7d572d421ae2431",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_15.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "a168a32bae9af11c51259a3a7e25698be19c6b58c0f915238bcaac8da2d2496c",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_16.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "c0556d71861f479564cc98895f9dfbece5f7a7505cf7de1d4bbf3c53b27b7643",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_17.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "6f8e917f26d9d2577167113667ba8f6eb490a55278c5202e3f5ca04706a0f8d9",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_18.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "d15410621313fd4102fe6e7285fad53ec38684b497852f4324fa99b9b26c112b",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_2.md3",
+    "version": 303,
+    "bytes": 42820,
+    "declared_sum": 518809,
+    "computed_sum": 518809,
+    "parsed_end": 42820,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      50,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "33d9650e0aaf5cef0c5d9ebabe7a8d784fc5a5db7b682e753411a45813512473",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_3.md3",
+    "version": 303,
+    "bytes": 42820,
+    "declared_sum": 518809,
+    "computed_sum": 518809,
+    "parsed_end": 42820,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      50,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "04d34342fe2afe73d051b042788dd6eed711561da7b80ba76c28eed9cdac28f2",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_4.md3",
+    "version": 303,
+    "bytes": 42820,
+    "declared_sum": 518809,
+    "computed_sum": 518809,
+    "parsed_end": 42820,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      50,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "6f3bded4c03a0a83af0de9222c1248f75481a07914dbaa1678f7fb0561e78b1f",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_5.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "71f8404fb1b117485e760bfac6163364d7aa4347f698517411a97e1257f0bb2b",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_6.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "177331e10aa90ebec74c2110e66c031e1e19c24912e921e6b5cbf70f67a7ff53",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_7.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "2012bcd852def49743297c74a238553b375d67e4ebaeec81af5ac878fcaa7a0a",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_8.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "37ea7b69257cb874e815a1a66434cd6dccba7f69f37c3a32af75d07221a1ed12",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33a_9.md3",
+    "version": 303,
+    "bytes": 42868,
+    "declared_sum": 518857,
+    "computed_sum": 518857,
+    "parsed_end": 42868,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "739ce1c1225262d06b6ee995b9420e55455ff93177df422d9a0a005ccbafc802",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "c84134d5fc508e1a365abe8f3c9e9f316b708582ab23324e0226deb635df0b34",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_1.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "0d841dcd2d4b743a603abee9445e66a8d9223e84820f0eebfcd741723ea3287c",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_10.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "c8c23a488af6d45b254aaa69b836566676e8f53c53d9a24b83cab351b621c609",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_11.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "4374ca939cf526ed7e63a95009f5e1a4dc361e312e51d14be26fbe55e05a81c0",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_12.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "573cdc0b280a6e3fe29fa5b1200526c05dd500931011f19ce863fed9ea46cffb",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_13.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "0daf55e709a6d3fcb1d902643b61f1312dabca9527905e63d96ebb562821ca8e",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_2.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "8b00b63fc07e704ff8a2a947e7b495c3f1a4f7bdd4be9da3131bce9bd2e0b85c",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_3.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "a05bb36e1c048a08c5895f52762de4b7eb03295f795c614da521d3560c44a86a",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_4.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "dfd3c01b9ed8138441bcfa5a85caa591bc4a6ac7a3f7611a87f95e52484ba7e8",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_5.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "35b9324c75b9e51add0f6ac0f3f018f9adc934e44839e38e3af4bae9aff0d0ed",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_6.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "762682680cb4bffa2b972cf9a4095ca189a81b1a01820266db7279cea315c293",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_7.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "ace952fdb7f9fc29bb28e29eb0a03b06e485789ef924965189c9fb29cdea6b27",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_8.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "a89402bd3f18f75795c22548f7a807b405de155515655f0308eafae0f8efe3bb",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33b_9.md3",
+    "version": 303,
+    "bytes": 20060,
+    "declared_sum": 381115,
+    "computed_sum": 381115,
+    "parsed_end": 20060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        80,
+        80,
+        16,
+        16
+      ],
+      [
+        4,
+        80,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "3177352c77b45d9a9e111e85b9f67fe5185908c46e69e55d2ac9dfc6dbf45ab3",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c.md3",
+    "version": 303,
+    "bytes": 86012,
+    "declared_sum": 618464,
+    "computed_sum": 618464,
+    "parsed_end": 86012,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        200,
+        142,
+        16,
+        16
+      ],
+      [
+        3,
+        200,
+        142,
+        16,
+        16
+      ],
+      [
+        4,
+        200,
+        142,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      26,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "0ea7a8d0755d7a7ac38e9d1824b48508008db8c1fb2fdaf468a84df2fbd293fc",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_1.md3",
+    "version": 303,
+    "bytes": 41684,
+    "declared_sum": 748833,
+    "computed_sum": 748833,
+    "parsed_end": 41684,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      4,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "ed5c45c49d51f8e42fdbdc7ea53eaaa162b58b1418536e8cdb0be518813abb59",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_10.md3",
+    "version": 303,
+    "bytes": 41684,
+    "declared_sum": 748777,
+    "computed_sum": 748833,
+    "parsed_end": 41628,
+    "tail": 56,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      0,
+      3,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "883edc1cccf90629e90e210509395b1271de37ae778d2c335d43d0d306eef19e",
+    "tail_hex": "000000000200000000000000640400008d030000000000006404000000000000000000000100000038020000ee0100007804000000000000"
+  },
+  {
+    "name": "map_dg33c_2.md3",
+    "version": 303,
+    "bytes": 43004,
+    "declared_sum": 750153,
+    "computed_sum": 750153,
+    "parsed_end": 43004,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      59,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "53928fc9c2638d802ccb699981e00f59cded6290b31d09d3fd987307a5d3637e",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_3.md3",
+    "version": 303,
+    "bytes": 41684,
+    "declared_sum": 748833,
+    "computed_sum": 748833,
+    "parsed_end": 41684,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      4,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "48f0b50bac1a93dd5c3f854343cf8aa8ea12ca1424fbe29d8cb1031f6bf7673b",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_4.md3",
+    "version": 303,
+    "bytes": 41684,
+    "declared_sum": 748833,
+    "computed_sum": 748833,
+    "parsed_end": 41684,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      4,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "069a71a77f8f7b198c2791fe46b480a184cd8b40b22d74073f57f24ddb76eafb",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_5.md3",
+    "version": 303,
+    "bytes": 42884,
+    "declared_sum": 750033,
+    "computed_sum": 750033,
+    "parsed_end": 42884,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      54,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "302c4a9b00fc044e44ff436a6538ae5617f3dc2a9b445994f77d361aa984922e",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_6.md3",
+    "version": 303,
+    "bytes": 41684,
+    "declared_sum": 748833,
+    "computed_sum": 748833,
+    "parsed_end": 41684,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      4,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "79c8c5e13244cbf964c76eab84d085147e0aea998e803204a4be932d06a34583",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_7.md3",
+    "version": 303,
+    "bytes": 42980,
+    "declared_sum": 750129,
+    "computed_sum": 750129,
+    "parsed_end": 42980,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      58,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "79b288de469d51143da9984f953b6b361223b258173b57f6be7836c87ff6341f",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_8.md3",
+    "version": 303,
+    "bytes": 41684,
+    "declared_sum": 748833,
+    "computed_sum": 748833,
+    "parsed_end": 41684,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      4,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "41a30cbcc705057a41e5cbeb1342c8bbc5b3b8965217c42137eb0641f4944827",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_dg33c_9.md3",
+    "version": 303,
+    "bytes": 41684,
+    "declared_sum": 748777,
+    "computed_sum": 748833,
+    "parsed_end": 41628,
+    "tail": 56,
+    "error": null,
+    "layers": [
+      [
+        1,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        3,
+        138,
+        100,
+        16,
+        16
+      ],
+      [
+        4,
+        138,
+        100,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      0,
+      3,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "d886e6624243e424fa4b9812d2fc0d702e7c26058fb89290c3dc5ba20ac85cda",
+    "tail_hex": "6f04000000000000000000000700000000000000ee0100006104000000000000000000000100000038020000ef0100007504000000000000"
+  },
+  {
+    "name": "map_fd00i.md3",
+    "version": 303,
+    "bytes": 31964,
+    "declared_sum": 3083348,
+    "computed_sum": 1383477,
+    "parsed_end": 31964,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        142,
+        110,
+        16,
+        16
+      ],
+      [
+        3,
+        142,
+        110,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      11,
+      5
+    ],
+    "missing_companions": [],
+    "sha256": "53973b66390634cf5994d6c7bbaacfc8263b6817409935151138ffe75cc8f5cc",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd05a.md3",
+    "version": 303,
+    "bytes": 193840,
+    "declared_sum": 2791673,
+    "computed_sum": 193840,
+    "parsed_end": 193840,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      255,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "7f5e5c85628bac021482cea7f1587e5dbd6cde8ea63e870a45243e2c4b76645e",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd06g.md3",
+    "version": 303,
+    "bytes": 49760,
+    "declared_sum": 1707052,
+    "computed_sum": 1707108,
+    "parsed_end": 49704,
+    "tail": 56,
+    "error": null,
+    "layers": [
+      [
+        1,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        4,
+        126,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      57,
+      10
+    ],
+    "missing_companions": [],
+    "sha256": "fc6318aa23e8cc2b756ce6a1522c87c0056105d86a4bc02239b238285ee21577",
+    "tail_hex": "650000000000000078020000d2050000f8ada8b7060000006d61705f666430360000c8b9f9b233005f00540053002e006500780065000000"
+  },
+  {
+    "name": "map_fd07memts.md3",
+    "version": 303,
+    "bytes": 53344,
+    "declared_sum": 919830,
+    "computed_sum": 919886,
+    "parsed_end": 53288,
+    "tail": 56,
+    "error": null,
+    "layers": [
+      [
+        1,
+        130,
+        130,
+        16,
+        16
+      ],
+      [
+        3,
+        130,
+        130,
+        16,
+        16
+      ],
+      [
+        4,
+        130,
+        130,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      100,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "8b01bd211f459a4859dd867727afac8612be836702735a5c14dfe1f2febf27ef",
+    "tail_hex": "6c0300000000000008000000010000004a020000c60700006f0300000000000000000000010000003b010000ae0000007e05000000000000"
+  },
+  {
+    "name": "map_fd10a.md3",
+    "version": 302,
+    "bytes": 33540,
+    "declared_sum": 6244768,
+    "computed_sum": 33540,
+    "parsed_end": 33540,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        130,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        130,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      22,
+      1
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "bca8d372e75b4ab2b07a1032b977573327a666ca9d9335aa87ca0b35b4cdbff7",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd10b.md3",
+    "version": 302,
+    "bytes": 35072,
+    "declared_sum": 6644832,
+    "computed_sum": 35072,
+    "parsed_end": 35048,
+    "tail": 24,
+    "error": null,
+    "layers": [
+      [
+        1,
+        130,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        130,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      87,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "9004fe79606d68f94c6315a6f99638ec862ced86a08cd0f13d2702f20204cb27",
+    "tail_hex": "0000000001000000c401000098000000c806000000000000"
+  },
+  {
+    "name": "map_fd11d.md3",
+    "version": 302,
+    "bytes": 124372,
+    "declared_sum": 12377626,
+    "computed_sum": 12377626,
+    "parsed_end": 124372,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        220,
+        180,
+        16,
+        16
+      ],
+      [
+        3,
+        220,
+        180,
+        16,
+        16
+      ],
+      [
+        4,
+        220,
+        180,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      8,
+      215,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "62d41d4463d04586769e615fbc28e42be2f3c96e9e7cec3a8a9bbf74faf1c8ec",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd11f.md3",
+    "version": 302,
+    "bytes": 137124,
+    "declared_sum": 9798610,
+    "computed_sum": 9798610,
+    "parsed_end": 137124,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        202,
+        220,
+        16,
+        16
+      ],
+      [
+        3,
+        202,
+        220,
+        16,
+        16
+      ],
+      [
+        4,
+        202,
+        220,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      3,
+      148,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "5a92f91e90e932f83662d93f8e2aee15af6d2282347831cfa898ad2f1f25b391",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd11g.md3",
+    "version": 302,
+    "bytes": 58036,
+    "declared_sum": 16421456,
+    "computed_sum": 16421520,
+    "parsed_end": 57972,
+    "tail": 64,
+    "error": null,
+    "layers": [
+      [
+        1,
+        136,
+        136,
+        16,
+        16
+      ],
+      [
+        3,
+        136,
+        136,
+        16,
+        16
+      ],
+      [
+        4,
+        136,
+        136,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      0,
+      97,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "45a5a6b72052ad78db150dcc412a8075a4f512504bc078d8862b99352a739723",
+    "tail_hex": "0101000000000000010000000400000000000000f4010000c8000000000000000a01000000000000000000000100000000000000990100000101000000000000"
+  },
+  {
+    "name": "map_fd11i_memt.md3",
+    "version": 303,
+    "bytes": 49664,
+    "declared_sum": 2492875,
+    "computed_sum": 2492875,
+    "parsed_end": 49664,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        4,
+        126,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      77,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "30f0860f9a824266e17a968f31480ae25352a41b2f538ccd3ebcd130737b9adf",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd13memts.md3",
+    "version": 302,
+    "bytes": 109432,
+    "declared_sum": 3236516,
+    "computed_sum": 3236516,
+    "parsed_end": 109432,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        218,
+        166,
+        16,
+        16
+      ],
+      [
+        3,
+        218,
+        166,
+        16,
+        16
+      ],
+      [
+        4,
+        218,
+        166,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      27,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "9dbf11cc3fada2c9f0be7095b081d236a0dfd04d60b2dc49e6800c393801b25e",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd15b.md3",
+    "version": 302,
+    "bytes": 194488,
+    "declared_sum": 3421476,
+    "computed_sum": 194488,
+    "parsed_end": 194488,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      282,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "09ab0af0f3bb8696fb7674e218984a1aa82fa21db082d0d7174b00f65b8ea7c7",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd24a.md3",
+    "version": 303,
+    "bytes": 47600,
+    "declared_sum": 5011061,
+    "computed_sum": 47600,
+    "parsed_end": 47544,
+    "tail": 56,
+    "error": null,
+    "layers": [
+      [
+        1,
+        164,
+        94,
+        16,
+        16
+      ],
+      [
+        3,
+        164,
+        94,
+        16,
+        16
+      ],
+      [
+        4,
+        164,
+        94,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      34,
+      5
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "5c2934bdc7bf02c98342306df40bcdb0b245460bef435c2a980573b341b34534",
+    "tail_hex": "6500000000000000ca030000ac040000200000000300000062675f67686f73743100c8b9f9b233005f00540053002e006500780065000000"
+  },
+  {
+    "name": "map_fd24b_memts.md3",
+    "version": 302,
+    "bytes": 70068,
+    "declared_sum": 1832016,
+    "computed_sum": 1832016,
+    "parsed_end": 70068,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        198,
+        116,
+        16,
+        16
+      ],
+      [
+        3,
+        198,
+        116,
+        16,
+        16
+      ],
+      [
+        4,
+        198,
+        116,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      3,
+      38,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "34ddec3cd6107fde0b21fbe187ae4f7a6e30f53f5e06f46b9373e8399a421120",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fd27a_ev.md3",
+    "version": 303,
+    "bytes": 189820,
+    "declared_sum": 2933061,
+    "computed_sum": 2933245,
+    "parsed_end": 189636,
+    "tail": 184,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      79,
+      1
+    ],
+    "missing_companions": [],
+    "sha256": "6e6ae286b56a3cee9e7aa9188410d92770e47792f14669d85d47a7b68ae263cd",
+    "tail_hex": "6203000015030000000000000000000003000000000000008a070000a70d000000000000000000000300000000000000a60600005a0e0000000000000000000003000000000000000d060000820b0000000000000000000001000000690200002b0300002a030000000000000200000004000000000000007c0600001e06000000000000000000000d0300003502000074006500060000006e657065666600b75c0034d2e4b45c000200000068d1cb0b980bcc0b48005501"
+  },
+  {
+    "name": "map_fd28g.md3",
+    "version": 303,
+    "bytes": 123248,
+    "declared_sum": 1596130,
+    "computed_sum": 1596730,
+    "parsed_end": 122648,
+    "tail": 600,
+    "error": null,
+    "layers": [
+      [
+        1,
+        238,
+        170,
+        16,
+        16
+      ],
+      [
+        3,
+        238,
+        170,
+        16,
+        16
+      ],
+      [
+        4,
+        238,
+        170,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      45,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "92a907e3ee20cdfcc3e8a7fa9ab0069a641801e47e8eaf884db6b6d744498aab",
+    "tail_hex": "000000000100000000000000680500003806000000000000000000000100000000000000d8020000c803000000000000000000000100000000000000280c0000a803000000000000000000000100000000000000980a00006804000000000000000000000100000000000000180900002805000000000000000000000100000000000000a8070000e80500000000000000000000010000000000000028060000a806000000000000000000000100000000000000880d00006804000000000000000000000100000000000000180c00001805000000000000000000000100000000000000880a0000e80500000000000000000000010000000000000018090000a806000000000000000000000100000000000000a80700006807000000000000000000000100000000000000480a00003807000000000000000000000100000000000000680b0000f806000000000000000000000100000000000000080c00009806000000000000000000000100000000000000480c0000c805000000000000000000000100000000000000880c00004802000000000000000000000100000000000000d80b00009801000000000000000000000100000000000000880a00002801000000000000000000000100000000000000d8040000580100000000000000000000010000000000000098030000780100000000000000000000010000000000000098020000e80100000000000000000000010000000000000088020000880200000000000000000000010000000000000028090000a803000000000000000000000100000000000000680800001804000000000000"
+  },
+  {
+    "name": "map_fd28h.md3",
+    "version": 303,
+    "bytes": 122816,
+    "declared_sum": 1596298,
+    "computed_sum": 1596298,
+    "parsed_end": 122816,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        238,
+        170,
+        16,
+        16
+      ],
+      [
+        3,
+        238,
+        170,
+        16,
+        16
+      ],
+      [
+        4,
+        238,
+        170,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      52,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "cf9588c45eedb3931541593c7deb64d984f19fd7a1065952a7b2275f1930f54a",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fs06.md3",
+    "version": 303,
+    "bytes": 49728,
+    "declared_sum": 1707076,
+    "computed_sum": 1707076,
+    "parsed_end": 49728,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        4,
+        126,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      58,
+      10
+    ],
+    "missing_companions": [],
+    "sha256": "9273f84b38094fe7516c35d435eb7d524faa16fae1a5efe692403c86a67dd093",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_fs06_1.md3",
+    "version": 303,
+    "bytes": 49728,
+    "declared_sum": 1707076,
+    "computed_sum": 1707076,
+    "parsed_end": 49728,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        126,
+        126,
+        16,
+        16
+      ],
+      [
+        4,
+        126,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      58,
+      10
+    ],
+    "missing_companions": [],
+    "sha256": "66f32fe2adb3ee55e725a83d65548c4ba6db83b8134eea93cd44253da8a396d4",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_mn07.md3",
+    "version": 302,
+    "bytes": 42432,
+    "declared_sum": 6124402,
+    "computed_sum": 42432,
+    "parsed_end": 42432,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        150,
+        140,
+        16,
+        16
+      ],
+      [
+        3,
+        150,
+        140,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      11,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "2115a938fbe6189d3cefbb50411592e63202cf21ab2aa4044f283f0a97318e49",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04.md3",
+    "version": 303,
+    "bytes": 57876,
+    "declared_sum": 2164904,
+    "computed_sum": 57876,
+    "parsed_end": 57876,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        180,
+        156,
+        16,
+        16
+      ],
+      [
+        3,
+        180,
+        156,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      4,
+      41,
+      9
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "1b1544b5ebe65855604996046d516f17f03185b179d170272fad61e037a016b8",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04_15.md3",
+    "version": 302,
+    "bytes": 22784,
+    "declared_sum": 7144080,
+    "computed_sum": 7144080,
+    "parsed_end": 22784,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        64,
+        174,
+        16,
+        16
+      ],
+      [
+        3,
+        64,
+        174,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      13,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "f7dd968261e5e4b33b873deb54c05868f035b0e4ac6e2326193cde2044ffa66a",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04_16.md3",
+    "version": 302,
+    "bytes": 66392,
+    "declared_sum": 5866536,
+    "computed_sum": 5866536,
+    "parsed_end": 66392,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        222,
+        148,
+        16,
+        16
+      ],
+      [
+        3,
+        222,
+        148,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      20,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "afc2710f4be104eacca73fd789a38eb383b67f07c54d637c39793d9e7cec3208",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04_16b.md3",
+    "version": 302,
+    "bytes": 66312,
+    "declared_sum": 5866456,
+    "computed_sum": 5866456,
+    "parsed_end": 66312,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        222,
+        148,
+        16,
+        16
+      ],
+      [
+        3,
+        222,
+        148,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      18,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "468ad06451719ebb8cfd4a63ae5b945130daa3d5891fdd4d24ab852b05ba64b3",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04_19.md3",
+    "version": 302,
+    "bytes": 66152,
+    "declared_sum": 6072428,
+    "computed_sum": 6072428,
+    "parsed_end": 66152,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        222,
+        148,
+        16,
+        16
+      ],
+      [
+        3,
+        222,
+        148,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      10,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "379019a036eaccf757e46f584988763bc63edc93a1ab4fa7e00a594279a1e826",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04_19a.md3",
+    "version": 302,
+    "bytes": 69600,
+    "declared_sum": 4332000,
+    "computed_sum": 4332000,
+    "parsed_end": 69600,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        222,
+        148,
+        16,
+        16
+      ],
+      [
+        3,
+        222,
+        148,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      155,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "73845a6b8df23d2516263befe28669faed5d95c1263dc22703c3da8583428050",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04_19b.md3",
+    "version": 302,
+    "bytes": 69792,
+    "declared_sum": 4329672,
+    "computed_sum": 69792,
+    "parsed_end": 69792,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        222,
+        148,
+        16,
+        16
+      ],
+      [
+        3,
+        222,
+        148,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      163,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "90d6bf3cd7f322784d6cd2dc8ef816285e07ec284cdf85269f188091ea92e7ac",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa04_20.md3",
+    "version": 302,
+    "bytes": 198244,
+    "declared_sum": 6951668,
+    "computed_sum": 198244,
+    "parsed_end": 198244,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      286,
+      71
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "d941ee875224e684373cdcfd6fbec067d0f3929253c81634b397d22c67f0fdab",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_pa22e.md3",
+    "version": 302,
+    "bytes": 59064,
+    "declared_sum": 3745168,
+    "computed_sum": 59064,
+    "parsed_end": 59064,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        210,
+        140,
+        16,
+        16
+      ],
+      [
+        3,
+        210,
+        140,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      1,
+      4,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "db1bb94b5a0887a747fffeb926865f81cdf84af06f082690bbe54597870f6547",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq00.md3",
+    "version": 303,
+    "bytes": 76156,
+    "declared_sum": 4105698,
+    "computed_sum": 4105698,
+    "parsed_end": 76156,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        280,
+        260,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      10,
+      74,
+      22
+    ],
+    "missing_companions": [],
+    "sha256": "1ad68550385c103044457fb4acbe9b0f4ca97dedf1aa63d31b9319c9b09536ab",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq00_01.md3",
+    "version": 302,
+    "bytes": 31280,
+    "declared_sum": 4459636,
+    "computed_sum": 4459636,
+    "parsed_end": 31280,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        100,
+        76,
+        16,
+        16
+      ],
+      [
+        3,
+        100,
+        76,
+        16,
+        16
+      ],
+      [
+        4,
+        100,
+        76,
+        16,
+        16
+      ],
+      [
+        2,
+        100,
+        76,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      4,
+      1,
+      28,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "02ad994c3081fcbfa22e5ce59e308440a021c67ee848b921c8c4ec1a9e6946ce",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq00_event01.md3",
+    "version": 303,
+    "bytes": 75820,
+    "declared_sum": 4303836,
+    "computed_sum": 4303836,
+    "parsed_end": 75820,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        280,
+        260,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      11,
+      76,
+      14
+    ],
+    "missing_companions": [],
+    "sha256": "fdfe2dce963a90a9f314877d3bf6405e6d443cd1df6dfca3b2b6f287f99b5928",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq00_event02.md3",
+    "version": 303,
+    "bytes": 75740,
+    "declared_sum": 4490858,
+    "computed_sum": 4490858,
+    "parsed_end": 75740,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        280,
+        260,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      10,
+      74,
+      14
+    ],
+    "missing_companions": [],
+    "sha256": "974445bebcac4cdf6604d6b5b71807bdf2c78105bca9ef77ccd1191d95428933",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq00_event03.md3",
+    "version": 303,
+    "bytes": 76060,
+    "declared_sum": 10764164,
+    "computed_sum": 4119563,
+    "parsed_end": 76060,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        280,
+        260,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      10,
+      70,
+      22
+    ],
+    "missing_companions": [],
+    "sha256": "731b1fcad054702853bde888465f8cc49b66a0ee7116b7de012873e359a3f9fa",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq00_event04.md3",
+    "version": 303,
+    "bytes": 76140,
+    "declared_sum": 10780334,
+    "computed_sum": 4147051,
+    "parsed_end": 76140,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        280,
+        260,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      11,
+      72,
+      22
+    ],
+    "missing_companions": [],
+    "sha256": "052f572f81286e94665a56c5162fdd117d336a5dad99b80508bef1d40ac2c2b3",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq03.md3",
+    "version": 302,
+    "bytes": 28856,
+    "declared_sum": 8050064,
+    "computed_sum": 28856,
+    "parsed_end": 28856,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        160,
+        168,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      4,
+      44,
+      13
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "bf1f0571fab54e94c9f7404a3ebce9966dda3455056b0b5d5905abf34b13dcaa",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq04.md3",
+    "version": 302,
+    "bytes": 37500,
+    "declared_sum": 7997592,
+    "computed_sum": 37500,
+    "parsed_end": 37500,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        240,
+        152,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      5,
+      31,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "2ec5af80cd8b6b59ea08b98c1f08f43c52c31b21014b71104221fab4e94af3bd",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq07.md3",
+    "version": 303,
+    "bytes": 116544,
+    "declared_sum": 3103624,
+    "computed_sum": 116544,
+    "parsed_end": 116544,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        224,
+        126,
+        16,
+        16
+      ],
+      [
+        2,
+        224,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        224,
+        126,
+        16,
+        16
+      ],
+      [
+        4,
+        224,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      4,
+      5,
+      47,
+      42
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "d3161f636da1ef9cf2399705e362be12428a0e15e1c4a974dfea07547ccee5f8",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq11.md3",
+    "version": 303,
+    "bytes": 63448,
+    "declared_sum": 3613542,
+    "computed_sum": 3613542,
+    "parsed_end": 63448,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        188,
+        166,
+        16,
+        16
+      ],
+      [
+        2,
+        188,
+        166,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      4,
+      32,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "5efd82d261ef8cccf099250d125ea5162d93871e7b52dc6769888eaf5232fc7a",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq11_01.md3",
+    "version": 302,
+    "bytes": 4924,
+    "declared_sum": 2565186,
+    "computed_sum": 4924,
+    "parsed_end": 4924,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        74,
+        60,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      1,
+      14,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "40ac09cd427cf28d19c3df1cfeb1c39db0e751abae59cb869a3d252461e8682b",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq11_14_1.md3",
+    "version": 302,
+    "bytes": 2660,
+    "declared_sum": 1326990,
+    "computed_sum": 1326990,
+    "parsed_end": 2660,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        52,
+        46,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      1,
+      5,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "236a72c00cc936453f8bb9d4bf2a95f74d89d128c5182ea5f15960fd4e4dcfc0",
+    "tail_hex": ""
+  },
+  {
+    "name": "map_sq14a.md3",
+    "version": 302,
+    "bytes": 32636,
+    "declared_sum": 3084020,
+    "computed_sum": 3084020,
+    "parsed_end": 32636,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        142,
+        110,
+        16,
+        16
+      ],
+      [
+        3,
+        142,
+        110,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      39,
+      5
+    ],
+    "missing_companions": [],
+    "sha256": "a313237eeabb822ff2c4b4793a67167cf9aefca0d354f139f22bebfc4cda0f61",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapf01d.md3",
+    "version": 302,
+    "bytes": 195136,
+    "declared_sum": 5327830,
+    "computed_sum": 195136,
+    "parsed_end": 195136,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      8,
+      301,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "ba44861c7ac3c83378d043ad9df62789635b39c3c802b7de8371e2f92d944535",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapf01e.md3",
+    "version": 302,
+    "bytes": 198192,
+    "declared_sum": 6083500,
+    "computed_sum": 198192,
+    "parsed_end": 198192,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      3,
+      435,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "336906406df7bc3fa3dbe4fc067f9a26aed552328dea61f606505281ef7226bd",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapf01f.md3",
+    "version": 302,
+    "bytes": 193832,
+    "declared_sum": 6369668,
+    "computed_sum": 193832,
+    "parsed_end": 193832,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      4,
+      252,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "a9e9cbe1c66a8e3f4465e402d9daf3357726f9d52581371b3436ff54f15ed591",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapf03b.md3",
+    "version": 302,
+    "bytes": 188416,
+    "declared_sum": 6275358,
+    "computed_sum": 188416,
+    "parsed_end": 188416,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      29,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "bd7ae2bafd6388ebda039508cf0b774207a4eb68d674a18b3cda699e4b253199",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapf03d.md3",
+    "version": 302,
+    "bytes": 192680,
+    "declared_sum": 7480952,
+    "computed_sum": 192680,
+    "parsed_end": 192680,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        250,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      4,
+      204,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "05d79244eb0c451566ae495411d86d335fc1e4264cf97b8ae74455231f74bf02",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapg01.md3",
+    "version": 303,
+    "bytes": 25680,
+    "declared_sum": 2472759,
+    "computed_sum": 2472759,
+    "parsed_end": 25680,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        152,
+        82,
+        16,
+        16
+      ],
+      [
+        3,
+        152,
+        82,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      2,
+      23,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "2efae0b3da3f81a4c92d6e0b823e25a688f5e09cc229062a09fbf170f4f46b4d",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapg04.md3",
+    "version": 302,
+    "bytes": 24824,
+    "declared_sum": 7152572,
+    "computed_sum": 24824,
+    "parsed_end": 24824,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        150,
+        80,
+        16,
+        16
+      ],
+      [
+        3,
+        150,
+        80,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      8,
+      18,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "9bd4d16044bd4cc4d81a5e980f4f60932365dd053dd937a10a4aef686499407b",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapg05.md3",
+    "version": 302,
+    "bytes": 26648,
+    "declared_sum": 7724652,
+    "computed_sum": 26648,
+    "parsed_end": 26648,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        116,
+        110,
+        16,
+        16
+      ],
+      [
+        3,
+        116,
+        110,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      7,
+      32,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "2203bdfa62486dc2f89e8c96b1437b9dad7de3ad79698d80a79cee005c89aa9c",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapg06.md3",
+    "version": 303,
+    "bytes": 26728,
+    "declared_sum": 7545250,
+    "computed_sum": 26728,
+    "parsed_end": 26728,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        118,
+        110,
+        16,
+        16
+      ],
+      [
+        3,
+        118,
+        110,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      4,
+      21,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "0c79bf92808cb1663dd18496a5827cffafd9fd438c2fb113ac59bd4ce218019a",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapp01.md3",
+    "version": 302,
+    "bytes": 197052,
+    "declared_sum": 5033030,
+    "computed_sum": 197052,
+    "parsed_end": 197052,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        220,
+        290,
+        16,
+        16
+      ],
+      [
+        3,
+        220,
+        290,
+        16,
+        16
+      ],
+      [
+        4,
+        220,
+        290,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      3,
+      225,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "e81136999537ccc5f05b5b5a65d81010347552229c1c0aa53c431b6112da7353",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapp01a.md3",
+    "version": 302,
+    "bytes": 72760,
+    "declared_sum": 3616996,
+    "computed_sum": 3616996,
+    "parsed_end": 72760,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        214,
+        110,
+        16,
+        16
+      ],
+      [
+        3,
+        214,
+        110,
+        16,
+        16
+      ],
+      [
+        4,
+        214,
+        110,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      80,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "82a8d80872979706f41b920bf8fa96e05d5a622f1943256fa149fd23c9ceb026",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapp01a_1.md3",
+    "version": 302,
+    "bytes": 72712,
+    "declared_sum": 3616892,
+    "computed_sum": 3616948,
+    "parsed_end": 72656,
+    "tail": 56,
+    "error": null,
+    "layers": [
+      [
+        1,
+        214,
+        110,
+        16,
+        16
+      ],
+      [
+        3,
+        214,
+        110,
+        16,
+        16
+      ],
+      [
+        4,
+        214,
+        110,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      77,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "d2bea76bb19706fb7584e692e2935eac3f2b57ce3058608f2e98361812197071",
+    "tail_hex": "ce04000000000000050000000400000000000000f8060000e800000000000000060000000400000000000000bc0b0000a804000000000000"
+  },
+  {
+    "name": "mapp02.md3",
+    "version": 302,
+    "bytes": 200732,
+    "declared_sum": 4354042,
+    "computed_sum": 200732,
+    "parsed_end": 200732,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        300,
+        220,
+        16,
+        16
+      ],
+      [
+        3,
+        300,
+        220,
+        16,
+        16
+      ],
+      [
+        4,
+        300,
+        220,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      4,
+      102,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "184825f1d03b9ce96dcb885d96854e1a38e7a33fd02054e130420f83867f3ae4",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapp02_1.md3",
+    "version": 302,
+    "bytes": 200540,
+    "declared_sum": 4353850,
+    "computed_sum": 4353850,
+    "parsed_end": 200540,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        300,
+        220,
+        16,
+        16
+      ],
+      [
+        3,
+        300,
+        220,
+        16,
+        16
+      ],
+      [
+        4,
+        300,
+        220,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      1,
+      98,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "c53e379df40cecd26ba07a808370e2c9ff6c673089724580f45e62dd23dcf0fc",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapp02a.md3",
+    "version": 302,
+    "bytes": 60988,
+    "declared_sum": 2149598,
+    "computed_sum": 60988,
+    "parsed_end": 60988,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        100,
+        200,
+        16,
+        16
+      ],
+      [
+        3,
+        100,
+        200,
+        16,
+        16
+      ],
+      [
+        4,
+        100,
+        200,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      2,
+      32,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "904afd0da0728b2cabc6af59f26bdae2225a89c6d8eb2e327bfa2fbe8e7e5524",
+    "tail_hex": ""
+  },
+  {
+    "name": "mapp03a.md3",
+    "version": 302,
+    "bytes": 96160,
+    "declared_sum": 4170146,
+    "computed_sum": 96160,
+    "parsed_end": 96160,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        126,
+        16,
+        16
+      ],
+      [
+        3,
+        250,
+        126,
+        16,
+        16
+      ],
+      [
+        4,
+        250,
+        126,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      3,
+      5,
+      56,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "1dbde14b006e2af60f2e5553a4282a0bb378b5ff534224c755bcfbb7bb7afff9",
+    "tail_hex": ""
+  },
+  {
+    "name": "maps01.md3",
+    "version": 303,
+    "bytes": 95784,
+    "declared_sum": 5805498,
+    "computed_sum": 5805498,
+    "parsed_end": 95784,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        188,
+        16,
+        16
+      ],
+      [
+        2,
+        250,
+        188,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      2,
+      10,
+      51,
+      2
+    ],
+    "missing_companions": [],
+    "sha256": "8454569f8efd88128187b21e6dbf211907e3688f84c2fba67e7f9d71076aa9b6",
+    "tail_hex": ""
+  },
+  {
+    "name": "maps02.md3",
+    "version": 302,
+    "bytes": 31088,
+    "declared_sum": 4840720,
+    "computed_sum": 31088,
+    "parsed_end": 31088,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        174,
+        170,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      9,
+      46,
+      0
+    ],
+    "missing_companions": [
+      ".bac",
+      ".til",
+      ".lyr"
+    ],
+    "sha256": "961371f78e51a46332eae6baf407983d581694e63919a3e0262cd9d343a426cf",
+    "tail_hex": ""
+  },
+  {
+    "name": "maps03.md3",
+    "version": 301,
+    "bytes": 63392,
+    "declared_sum": 5986116,
+    "computed_sum": 5986116,
+    "parsed_end": 63392,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      10,
+      19,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "2cafca931e67ead090fa9490bdbe9ed61ae0fe53a0f124b5f2e22d61daeec84b",
+    "tail_hex": ""
+  },
+  {
+    "name": "maps03_1.md3",
+    "version": 301,
+    "bytes": 63312,
+    "declared_sum": 5986036,
+    "computed_sum": 5986036,
+    "parsed_end": 63312,
+    "tail": 0,
+    "error": null,
+    "layers": [
+      [
+        1,
+        250,
+        250,
+        16,
+        16
+      ]
+    ],
+    "counts": [
+      1,
+      9,
+      17,
+      0
+    ],
+    "missing_companions": [],
+    "sha256": "4bd746f8635de8490d3b42da8b2161e04b445c070d95d659b3394e58fceb9df2",
+    "tail_hex": ""
+  }
+]

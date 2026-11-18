@@ -1,0 +1,6 @@
+PASS: orientation variants rendered; source bundle unchanged.
+data\map\map_sq14a.md3 SHA256 a313237eeabb822ff2c4b4793a67167cf9aefca0d354f139f22bebfc4cda0f61
+data\map\map_sq14a.lyr SHA256 2b16a65ab468afe2b7c8565b3954fccbafa4cf26e7342c7d3b4ac929738a023e
+data\map\map_sq14a.til SHA256 0dfd781a68d280a24bcb00d78835ac4feafee4c39f60a85ffd78c455929ba3b1
+data\map\map_sq14a.bac SHA256 27485ddc0cfb3548a8d577664c61bed89d506990d3b4f43a4ce28c880c285eba
+data\map\map_sq14a.eff SHA256 dae8da435865388b3d02fce0b1d34984bfbe2eb74cfc66b27556c70f00615793

@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "tests_passed": 115,
+  "tests_failed": 0,
+  "mdn_byte_identical": 700,
+  "scene_byte_identical": 699,
+  "rendered_corpus": 700,
+  "packaged_gui": {
+    "package-sq14a": "PASS: hidden MDI; fine/simple modes; anchor wheel zoom; middle/right/space pan; sized brush; undo/redo; scene export/reload; image import; blank map; source preservation",
+    "package-sq00": "PASS: hidden MDI; fine/simple modes; anchor wheel zoom; middle/right/space pan; sized brush; undo/redo; scene export/reload; image import; blank map; source preservation",
+    "package-no-tiles": "PASS: hidden MDI; fine/simple modes; anchor wheel zoom; middle/right/space pan; sized brush; undo/redo; scene export/reload; image import; blank map; source preservation"
+  },
+  "gui_sha256": "aa8c043acce0cc714013d5c18734cb6b8fd3753d8f0c01da392457e559cb3925",
+  "archive_sha256": "7180062aa6b6c1acf92eef3d64e4333d70a336ed0bfc435592dc29bd59ea5de3",
+  "archive_bytes": 1765925,
+  "game_runtime_verified": true,
+  "native_runtime_acceptance": {
+    "logical_channel": 3,
+    "map_id": 148,
+    "native_load_passed": true,
+    "original_disk_bundle_restored": true,
+    "gameplay_verified": true,
+    "report": "game-acceptance/REPORT.md",
+    "visual_and_collision_user_confirmed": true,
+    "portal_roundtrip_user_confirmed": true,
+    "relogin_user_confirmed": true,
+    "verification_scope": "Map 148 on Adventure Island 3: authored ground, wall/gap collision, portal roundtrip and relogin; user-confirmed gameplay, native load/entry logs; excludes full rendering/effects fidelity."
+  },
+  "game_runtime_verification_scope": "Map 148 on Adventure Island 3: authored ground, wall/gap collision, portal roundtrip and relogin; user-confirmed gameplay, native load/entry logs; excludes full rendering/effects fidelity."
+}

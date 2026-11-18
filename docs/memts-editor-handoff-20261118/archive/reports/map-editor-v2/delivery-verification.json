@@ -1,0 +1,12 @@
+{
+  "manifest_files_verified": 33,
+  "source_archive_crc_ok": true,
+  "packaged_cli_real_edit_changed_only_selected_byte": true,
+  "source_preserved": true,
+  "cli_list": "Layer 0: Type=1 Grid=280x260 Step=16x16 Bytes=72800\n",
+  "gui_smoke_reports": [
+    "package-sq14a",
+    "package-sq00",
+    "package-no-tiles"
+  ]
+}

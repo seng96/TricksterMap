@@ -1,0 +1,67 @@
+{
+  "version": "0.3.0",
+  "automated_tests": {
+    "total": "135",
+    "executed": "135",
+    "passed": "135",
+    "failed": "0",
+    "error": "0",
+    "timeout": "0",
+    "aborted": "0",
+    "inconclusive": "0",
+    "passedButRunAborted": "0",
+    "notRunnable": "0",
+    "notExecuted": "0",
+    "disconnected": "0",
+    "warning": "0",
+    "completed": "0",
+    "inProgress": "0",
+    "pending": "0"
+  },
+  "mdn_roundtrip": 700,
+  "scene_roundtrip": 699,
+  "corpus_rendered": 700,
+  "corpus_failed": 0,
+  "corpus_skipped": 3,
+  "eff_documents": 155,
+  "eff_visible_in_sample": 138,
+  "eff_active_particles": 140,
+  "eff_dependency_blocked": 82,
+  "eff_missing_material": 14,
+  "all_eff_corpus_sources_preserved": true,
+  "portable_reopen_png_identical": true,
+  "portable_asset_manifest_verified": true,
+  "source_carrier_ranges_verified": 17,
+  "native_evidence": [
+    {
+      "id": "ev_282a6ca51ace4245d2216b256f7dd0b67e697725d991301ccac3a2c6d6f146ac",
+      "procedure": "0x985e00"
+    },
+    {
+      "id": "ev_2aae5c733760509580bfdf575f738c9294e6a091b165793d6655604613dc5ff9",
+      "procedure": "0x9830c0"
+    },
+    {
+      "id": "ev_6dcb90231a5dc1675644b9252b2d06913f2180c691d5c6b12e57a67c28cf5123",
+      "procedure": "0x983420"
+    },
+    {
+      "id": "ev_c2fc5ee644f045c078e212c62a644b5e125d0de2004e99767fcb11585a38c620",
+      "procedure": "0x983560"
+    },
+    {
+      "id": "ev_da371a9263f9ec50995e2f06c56c432dc6743878ffab955709823bfd0984de1c",
+      "procedure": "0x983310"
+    }
+  ],
+  "final_package_gui_reports": [
+    "package-final-sq14a",
+    "package-final-sq00",
+    "package-final-no-tiles"
+  ],
+  "full_corpus_gui_build_note": "Product renderer unchanged; only offscreen diagnostics screenshot harness updated after the full corpus render. Final package separately exercised through three GUI cases and effect archive reopen.",
+  "native_effect_pixel_fidelity_verified": false,
+  "live_game_files_changed": false,
+  "exe_sha256": "65b87b943d662ae40a19836ec9b178c984c792f85b2badd89b005ccc79df57b0",
+  "zip_sha256": "702e055ae8e98f98de54baefb9adb47d9cba16d5ac3f98d757cd58bff6daa099"
+}

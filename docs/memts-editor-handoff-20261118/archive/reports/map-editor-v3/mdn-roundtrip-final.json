@@ -1,0 +1,5608 @@
+{
+  "root": "C:\\Memts\\new-memts\\deliverables\\map",
+  "checkedCount": 700,
+  "skipped": 2,
+  "files_with_trailing_data": 32,
+  "results": [
+    {
+      "file": "map_dg01a.md3",
+      "version": 302,
+      "bytes": 194212,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "23e2601efb2c585a0cd7a435ae8e668bf95e62d40e1625390663d5e1777bc062"
+    },
+    {
+      "file": "map_dg01b.md3",
+      "version": 302,
+      "bytes": 194804,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ab02db292602b3fbbee06324a931d76e0d97a6b72d503247276ba9349350f906"
+    },
+    {
+      "file": "map_dg01c.md3",
+      "version": 302,
+      "bytes": 194012,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e25f17f457c514426948bf906ce462854d4d7d5a04bee6b1cc10fde978686a31"
+    },
+    {
+      "file": "map_dg01d.md3",
+      "version": 302,
+      "bytes": 194268,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4dacd1d819af58d9d304753c8171b16aaa76c361f39ac87a37791f6dbf7db0fe"
+    },
+    {
+      "file": "map_dg01e.md3",
+      "version": 302,
+      "bytes": 198516,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "9bfc86547b7d77dfc578f3a7df1acdceec226b8429ec7f6814181d286cd91cb0"
+    },
+    {
+      "file": "map_dg01f.md3",
+      "version": 302,
+      "bytes": 199048,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a21a04632a899fb263519619e371d141b7df0177c194b77d927dfaaf7919d260"
+    },
+    {
+      "file": "map_dg01g.md3",
+      "version": 302,
+      "bytes": 90224,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d57b7fe5ec7c0a099b57778293178da253aad74dc68fd652471f6f8c48884ae5"
+    },
+    {
+      "file": "map_dg01h_1.md3",
+      "version": 302,
+      "bytes": 417540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3c464671ce87d18adaf358d1543526b08bd66007f3b1b25d0773c25936cb012f"
+    },
+    {
+      "file": "map_dg01h_2.md3",
+      "version": 302,
+      "bytes": 272580,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "eb39e1cd080bcf64da6c363a5a9999921dbb8fc8146963ecd71e179c41e24ebb"
+    },
+    {
+      "file": "map_dg01h_3.md3",
+      "version": 302,
+      "bytes": 48888,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ee1a0453e1a7305e7eaeaaf2f908d8ff2bea43f34bd4e863392c77b446339b6c"
+    },
+    {
+      "file": "map_dg01h.md3",
+      "version": 302,
+      "bytes": 48840,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4d41ee2b565aa5fed7d414cb281b5ccc712a2c00049a2674701057ec480af3f7"
+    },
+    {
+      "file": "map_dg01i.md3",
+      "version": 302,
+      "bytes": 48944,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f48ed499bb11c7621fc23d230d9d0163924e4e1a173f2ddccb6a6f2dd63e6409"
+    },
+    {
+      "file": "map_dg02a.md3",
+      "version": 302,
+      "bytes": 238132,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "197e9fbc6d52c6a2d1ed6757c4ca71de28c08223166e1f9c166afe1bd6c89116"
+    },
+    {
+      "file": "map_dg02b_1.md3",
+      "version": 302,
+      "bytes": 175956,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cdba46caa3a7112af0fc83e5d4aa53614f1ef188128972bffdd054762db9b6c6"
+    },
+    {
+      "file": "map_dg02b_2.md3",
+      "version": 302,
+      "bytes": 206232,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f13ffa391cbcb21fde31ad905ac72a520826e42488ffafb4c40c2ea3dff5bf59"
+    },
+    {
+      "file": "map_dg02b_3.md3",
+      "version": 302,
+      "bytes": 606932,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5a006e3c82553445bb4e5cc33ef8d45800ac6b61ccf06c290520e7a87c4acf60"
+    },
+    {
+      "file": "map_dg02b_4.md3",
+      "version": 302,
+      "bytes": 106588,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e26ea0039c3a4a6733e6625be94d164c2447c730aa76ae8a19ea93e352e36d4e"
+    },
+    {
+      "file": "map_dg02b_5.md3",
+      "version": 302,
+      "bytes": 13676,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c2afedc1aef7cc2c2a71185f3b84e15035a76d8a8ec0f81ffa37c302764a2eae"
+    },
+    {
+      "file": "map_dg03a.md3",
+      "version": 302,
+      "bytes": 196504,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4368727a82b7f8d869f32239259cc095897a365160ca8cab433e4e6734e2e416"
+    },
+    {
+      "file": "map_dg03b.md3",
+      "version": 302,
+      "bytes": 193588,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7f850381b5193aa2c895eacb66e02dd1c7ed5fe942f2563f9d556761c5b742ad"
+    },
+    {
+      "file": "map_dg03c.md3",
+      "version": 302,
+      "bytes": 195424,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "774e14fcda2e2cdab28499bfc5e82ccaae78f8fabd6b9856c476ca5fb34fa12f"
+    },
+    {
+      "file": "map_dg03d.md3",
+      "version": 302,
+      "bytes": 195204,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fed4df29b3af35e70be274c45ae093e3446f6f341fb272c4f06f171afdf07496"
+    },
+    {
+      "file": "map_dg03e.md3",
+      "version": 302,
+      "bytes": 191428,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e9ec7b17fcc6131eb19d60c5e8de811a0fb6c76999f33fa30e5bb6459423c97a"
+    },
+    {
+      "file": "map_dg03f_1.md3",
+      "version": 302,
+      "bytes": 193080,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "65e04603a39da4e2e70dd90d7a6b6cc957687c3030941818cde5a26157ea46c7"
+    },
+    {
+      "file": "map_dg03f_2.md3",
+      "version": 302,
+      "bytes": 190552,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "96728cc0cc027d19153932754912cf63f98fe50f32460af658e52ba499674044"
+    },
+    {
+      "file": "map_dg03f_4.md3",
+      "version": 302,
+      "bytes": 75556,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dfd3c169b372124fc48fdff327b449618b78687c2339081dad4373984fbf5243"
+    },
+    {
+      "file": "map_dg04a.md3",
+      "version": 302,
+      "bytes": 194056,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a2be3433a03492a98178d18c6769ff4183340cbc429a6864d4302b1c3f748ef9"
+    },
+    {
+      "file": "map_dg04b.md3",
+      "version": 302,
+      "bytes": 194200,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e138efd42ecd1d7701cc26e774419e0d927b147fe793300f1c6cb886021894d2"
+    },
+    {
+      "file": "map_dg04c.md3",
+      "version": 302,
+      "bytes": 193936,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a69f3b2b04e7cc8339b9cdd9d0fb6ff12c4efa720f450dbe4245796b5c61d268"
+    },
+    {
+      "file": "map_dg04d.md3",
+      "version": 302,
+      "bytes": 193720,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "80f5047091f0b873cdfa117164365753a52d9621598b342b928f30d9d48771d0"
+    },
+    {
+      "file": "map_dg04e.md3",
+      "version": 302,
+      "bytes": 193864,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4b6891684b708531b43fa46e8529f762ae63c0b50bec4e0b9ff04e983fb65cca"
+    },
+    {
+      "file": "map_dg04f.md3",
+      "version": 302,
+      "bytes": 193480,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6151ecbfbe54a87ca7198a3d3f89f8093221cbca9dae582d93c2c7a5d311aefd"
+    },
+    {
+      "file": "map_dg04g.md3",
+      "version": 302,
+      "bytes": 49536,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "48040709525f2c36e06c866bea7094c3ff486100ee422e0274a40afe8619b39a"
+    },
+    {
+      "file": "map_dg04h_1.md3",
+      "version": 302,
+      "bytes": 54544,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "00b501fb2ed130e7116a259eab8e12bfd9a15e1c1d8ef572e2c46bc22c6c53f7"
+    },
+    {
+      "file": "map_dg04h_2.md3",
+      "version": 302,
+      "bytes": 54472,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bb39050dcf80c748d75d71dd8b905acad285f8958fe5b4b8105b18434c254b2b"
+    },
+    {
+      "file": "map_dg04h_3.md3",
+      "version": 302,
+      "bytes": 54448,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "79a9687c3eb6d4abaa6c9eba3c4530ab41e36a7336003c02d91ee0a177d4d57d"
+    },
+    {
+      "file": "map_dg04h_4.md3",
+      "version": 302,
+      "bytes": 49104,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "73ddfef5ac60d777d6ca19685b3e6d2472d92fb11411cbdf6c20ee7501a02c58"
+    },
+    {
+      "file": "map_dg04h_5.md3",
+      "version": 302,
+      "bytes": 33120,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4caa5b11b73fb25cd88401ba6e09d9986e2759b6fafdee4c2d7d21760386ae4e"
+    },
+    {
+      "file": "map_dg04h_6.md3",
+      "version": 302,
+      "bytes": 19972,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6fbcdbb8ad275e8ffa75c4fed314f3a38c0ea3b296c1eeeacbbde10064241084"
+    },
+    {
+      "file": "map_dg05_15.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a76596e58e4c85d2265c6ab6507f4c774320010d2b00d34197537d5848290244"
+    },
+    {
+      "file": "map_dg05.md3",
+      "version": 302,
+      "bytes": 16756,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c8585b005f363a1c1f7f206bbbb7d391d0e70e935dddad9056c334f556bac201"
+    },
+    {
+      "file": "map_dg05a_1.md3",
+      "version": 302,
+      "bytes": 100416,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "053bb7cb464edea0161b0ea3b92dfc4c1c02000fa4b330ac93789815ae03cb6c"
+    },
+    {
+      "file": "map_dg05a_2.md3",
+      "version": 302,
+      "bytes": 124148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "643f35bff8115eb5b896e0a9155a47f96708c7c2e9937ed7e89ee5251c4a27b2"
+    },
+    {
+      "file": "map_dg05a_3.md3",
+      "version": 302,
+      "bytes": 62144,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0a2cd36d6c314b9f375b554c7cd5d5f62bb322dd34e105a16470654ffeeb3a79"
+    },
+    {
+      "file": "map_dg05a_4.md3",
+      "version": 302,
+      "bytes": 46364,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0990239aea004c04ab5d7de1bbc0aa7474ae7076a53cf85ea14f831eeea3a660"
+    },
+    {
+      "file": "map_dg05a.md3",
+      "version": 302,
+      "bytes": 122188,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "79eb7c52d10d7367ff7c181617b0acd468bf6d5cf09caedceec232c272e57e22"
+    },
+    {
+      "file": "map_dg05b_1.md3",
+      "version": 302,
+      "bytes": 24596,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4465dbd0c8606d6e0b36362470fbaa49bbd20e8cd3a4d1215a5e611565bf5ecf"
+    },
+    {
+      "file": "map_dg05b_2.md3",
+      "version": 302,
+      "bytes": 35388,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "849e035f46981840dff3c6a31e7a35b37510b33bbdab395677e5f354ab042fe2"
+    },
+    {
+      "file": "map_dg05b_3.md3",
+      "version": 302,
+      "bytes": 36980,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e6297b7db7ff4e5d417d0c1911b84dc861e3ef6b57dc37b255cb3e8096adbf9f"
+    },
+    {
+      "file": "map_dg05b_4.md3",
+      "version": 302,
+      "bytes": 38168,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0c4d98a7b4b0fed04b35e38e93d248525452c2daf05a53011b371fcf24258f5f"
+    },
+    {
+      "file": "map_dg05b.md3",
+      "version": 302,
+      "bytes": 36248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "53809c18d913806d06126b90892387803a2ea42d041438a61abf97a1d95e136b"
+    },
+    {
+      "file": "map_dg05c_1.md3",
+      "version": 302,
+      "bytes": 35720,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e797aba9860be7e0dc54db4104de423a03010b64a36fd4665751af29247511c2"
+    },
+    {
+      "file": "map_dg05c_2.md3",
+      "version": 302,
+      "bytes": 35748,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8f2317afdf2859a476e25fc2902614d676784bcbead2b9965e5ee8a741d859e6"
+    },
+    {
+      "file": "map_dg05c_3.md3",
+      "version": 302,
+      "bytes": 36188,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c58278abb7d676cfb39563d8ddd4a0e5daeea8811a07257f9a5dc09dcef0e9c8"
+    },
+    {
+      "file": "map_dg05c_4.md3",
+      "version": 302,
+      "bytes": 44756,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d071cb2df8c56ff49b247b4e475fd762641ed4fb03c931e11fdf60c21d4b5aa3"
+    },
+    {
+      "file": "map_dg05c.md3",
+      "version": 302,
+      "bytes": 36272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d1cef833d4a50646fb5768682885f22cd2685f6c4d548f1ff86f51012f772064"
+    },
+    {
+      "file": "map_dg05d_1.md3",
+      "version": 302,
+      "bytes": 36076,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d4bdbeb2d7627232291fe4ba0c521075e3b159cf15db3b0e65d9402669a7f8d5"
+    },
+    {
+      "file": "map_dg05d_2.md3",
+      "version": 302,
+      "bytes": 35864,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8f1c29c971819c11d429a67e49a06995234ac33a1b4878355008b9004f95396b"
+    },
+    {
+      "file": "map_dg05d.md3",
+      "version": 302,
+      "bytes": 42556,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7b87a0517ab5f4d6ca67b409f64171d20244948241e826cce6f5e559dc5c27f0"
+    },
+    {
+      "file": "map_dg05e_1.md3",
+      "version": 302,
+      "bytes": 36224,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3908cbe89b133d340bc9059d2fcac9115bcee16ae9cd70b29ba3521b87513562"
+    },
+    {
+      "file": "map_dg05e_2.md3",
+      "version": 302,
+      "bytes": 35152,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c2b08ea4e73eae68956148d4f9c5a1e3ccf3939f121f5f292692f44d53891bc4"
+    },
+    {
+      "file": "map_dg05e.md3",
+      "version": 302,
+      "bytes": 42632,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d414e6d904da4a47e6f7c05f38d98cea5dc70a74e26f0dd38b0f157ff32d4799"
+    },
+    {
+      "file": "map_dg05f_1.md3",
+      "version": 302,
+      "bytes": 38156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8910d2a4fcf682cf026d2f502f735c74279dfee72b10205ddcf640460cf026a3"
+    },
+    {
+      "file": "map_dg05f_2.md3",
+      "version": 302,
+      "bytes": 38252,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a599779ab53783c5da8677cb47ce3d870777b92fe28fcb6a3482cc460201d8b4"
+    },
+    {
+      "file": "map_dg05f_3.md3",
+      "version": 302,
+      "bytes": 34796,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6b0145d4e31c1832ea0ec55edeb0a090a0892474ffc178663f4aa99b937c954a"
+    },
+    {
+      "file": "map_dg05f.md3",
+      "version": 302,
+      "bytes": 34820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4706c0c0048ef46cfd7d1fb4bbbb396d60c64c20044aae2c034955982dd9556f"
+    },
+    {
+      "file": "map_dg05g_ev.md3",
+      "version": 302,
+      "bytes": 33456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8f2435d8c7ba51465eed9f33934c082d818c9ac02801cf75ecf6dabb5e01d891"
+    },
+    {
+      "file": "map_dg05g.md3",
+      "version": 302,
+      "bytes": 33456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fd66a8771f00895563653c4f22bd25056c9efcd3697b8c9f0f9333994d09febe"
+    },
+    {
+      "file": "map_dg05h.md3",
+      "version": 302,
+      "bytes": 48260,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0831036ef95593899bd4196d86624b51b7068a1d37db9f8214d6e65d00ffb009"
+    },
+    {
+      "file": "map_dg05i_1.md3",
+      "version": 302,
+      "bytes": 35276,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4543d3e8241567ea8c297375fd91bfa84f208bf100b5f925a6f6e07019a7a4f5"
+    },
+    {
+      "file": "map_dg05i_2.md3",
+      "version": 302,
+      "bytes": 35588,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8c248d8e2bbd835cde0b6fbc28deed3c1b14e63a553e8f32515928db9afb4018"
+    },
+    {
+      "file": "map_dg05i_3.md3",
+      "version": 302,
+      "bytes": 99380,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fef945d159699d31eb95ac368b518b245e97065e074965ca13939c967959b18e"
+    },
+    {
+      "file": "map_dg05i_4.md3",
+      "version": 302,
+      "bytes": 53048,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "723fa6e314b9b4c132fecb4cdafb3737efdd76d9719bf8d39f82bfad061ddf96"
+    },
+    {
+      "file": "map_dg05i_5.md3",
+      "version": 302,
+      "bytes": 63476,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5d4d9c3825d44584afd398a46a60c9433ff0d8d1766a171576748283a0d1046e"
+    },
+    {
+      "file": "map_dg06.md3",
+      "version": 303,
+      "bytes": 26180,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "51628eba06a3e08f0283f497b0a59f1730eb8537924b61edf9569af5a62eb69f"
+    },
+    {
+      "file": "map_dg06a.md3",
+      "version": 303,
+      "bytes": 152776,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "afa1521810cde81c07035f0d1c7641198fce668adce58aedd8fd8d2bbbd4a66a"
+    },
+    {
+      "file": "map_dg06b.md3",
+      "version": 303,
+      "bytes": 151424,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d4f1f71afb068aac2b3748dcd4f05b827294d396084a547a5de996b9a4e43a97"
+    },
+    {
+      "file": "map_dg06c.md3",
+      "version": 303,
+      "bytes": 152820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "feef09da13619f8610d4d4b7c522b5a1050146e8af0257b91cc59df5156e13ff"
+    },
+    {
+      "file": "map_dg06d.md3",
+      "version": 303,
+      "bytes": 151388,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e8c4302cdde58a63c88c70ebf29b25368b0eb385aebb15559a9513d68a5044c6"
+    },
+    {
+      "file": "map_dg06e.md3",
+      "version": 303,
+      "bytes": 43400,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fee32fbafbc616e0e6aa35d5ce7e4124c46db49bacf22020cb92a9786635e5f5"
+    },
+    {
+      "file": "map_dg06g.md3",
+      "version": 303,
+      "bytes": 9420,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "461674dbcbc589da00c090240671e09024d14f848039deabde76edce25f0b215"
+    },
+    {
+      "file": "map_dg06h.md3",
+      "version": 303,
+      "bytes": 14316,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1158177aa4d5f9a4e374770eea35dcae19243abc5eae443f5dabef059fdba293"
+    },
+    {
+      "file": "map_dg06i.md3",
+      "version": 303,
+      "bytes": 14796,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ce92cd12fb2d902f541e568469a4c77d3222b56b9c1db207b88ac47acfdc8f51"
+    },
+    {
+      "file": "map_dg06j.md3",
+      "version": 303,
+      "bytes": 13532,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "75924ff6cf641b64cc0bd31349532416da36dce8b9908ee1b6e75ac8613cb8d1"
+    },
+    {
+      "file": "map_dg06k.md3",
+      "version": 303,
+      "bytes": 102072,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f8f56e2b62a97e5790191165985887e2eb0718b200abfa64b96683e657da44c5"
+    },
+    {
+      "file": "map_dg06m.md3",
+      "version": 303,
+      "bytes": 47060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c2a1161138023461207b87561a1f6135a75fab03241a848d7423a2b41604de51"
+    },
+    {
+      "file": "map_dg07.md3",
+      "version": 303,
+      "bytes": 6660,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8eeba8863fd7ff739ec9cd1158263e5dad96eaadd34ef3c918c3ed52bbe02947"
+    },
+    {
+      "file": "map_dg07a.md3",
+      "version": 303,
+      "bytes": 195448,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f0f140f6ee07d6df66d179ba74f42e1d6d4b73502af5b50392fdab5419f4ad58"
+    },
+    {
+      "file": "map_dg07b.md3",
+      "version": 303,
+      "bytes": 193576,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2f954b5168c5dfd0b01d038db36a507d5a84f5944efab5b36965f7f296a7e97f"
+    },
+    {
+      "file": "map_dg07c.md3",
+      "version": 302,
+      "bytes": 193664,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "07bf6df7743c6079389e6603fbf14c16e80931276c04c1055ca8d1834136cd86"
+    },
+    {
+      "file": "map_dg07d.md3",
+      "version": 302,
+      "bytes": 193400,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "80420f5329e31b2ad7ee968e85c3fb4ae58d59f3fb8b49f5282f94706a5728b8"
+    },
+    {
+      "file": "map_dg07e.md3",
+      "version": 302,
+      "bytes": 49680,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "47389b66a0a6390f1251bc9c271d771ad53715af525108bbad588f252e45daf1"
+    },
+    {
+      "file": "map_dg07f.md3",
+      "version": 302,
+      "bytes": 49760,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "44a16176b3d79481fb25197e5dd40d98bbe5614191c073e9080abb2430d5eee0"
+    },
+    {
+      "file": "map_dg07g_1.md3",
+      "version": 302,
+      "bytes": 30484,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0cf1b94bc1f1dcab880f89b025120f491106523d4da0407e672d9bc79ed94cd4"
+    },
+    {
+      "file": "map_dg07g_2.md3",
+      "version": 302,
+      "bytes": 136292,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f16409771457f8a4f3ffa34e56524bc5f2662bb394a14c4a3f3a0833c8a2cded"
+    },
+    {
+      "file": "map_dg07g_3.md3",
+      "version": 302,
+      "bytes": 113408,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9397cd2c1bd07af45244575f545a171f47bd5f8bd6f42a929fd76bc7486b909b"
+    },
+    {
+      "file": "map_dg07g_4.md3",
+      "version": 302,
+      "bytes": 45540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "647523be76fb9ebae626b2f20414c93f550bbed6419968f874f8d9fa8d03af3b"
+    },
+    {
+      "file": "map_dg07g_5.md3",
+      "version": 302,
+      "bytes": 49200,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7761ec147735327c278126a933ffc383d944b4f7ef4a8e12aa9e1108d4bdafa7"
+    },
+    {
+      "file": "map_dg07g_6.md3",
+      "version": 302,
+      "bytes": 49272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "428aa5b1c3c946e015821f3a9f846c34ddbeaa6df4af15c974bba4ff8c6d6210"
+    },
+    {
+      "file": "map_dg07g_7.md3",
+      "version": 302,
+      "bytes": 49008,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "66b2f577ad3bdf3e9bdcb09e8ad516181cf59f9eca7abc6660d7647698f46908"
+    },
+    {
+      "file": "map_dg08.md3",
+      "version": 302,
+      "bytes": 25940,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3bd24bc2412a58663cfde544a2119df1cd4399e618bee65bbefe6c55f9e71ff3"
+    },
+    {
+      "file": "map_dg08a_1.md3",
+      "version": 302,
+      "bytes": 255956,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "15c38f389f84da02b49db74793cfd083740f7406313ec372091cdfac5e317f11"
+    },
+    {
+      "file": "map_dg08a_2.md3",
+      "version": 302,
+      "bytes": 255956,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "deb4b3b68e498bd60b271e9c8b3bbbf3033db287a924c9a76ee71f1aff051ec3"
+    },
+    {
+      "file": "map_dg08a_3.md3",
+      "version": 302,
+      "bytes": 42996,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f03994840d5f9196998f6ca5895f9e5fb057e95a6a77bec4b1c04ffd6b48865e"
+    },
+    {
+      "file": "map_dg08a_4.md3",
+      "version": 302,
+      "bytes": 256664,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ee2fe1bb46125952bc948fba4a5b5a605f6e0237ce2ded4f5b8855a2436c5aa5"
+    },
+    {
+      "file": "map_dg08a_5.md3",
+      "version": 302,
+      "bytes": 42340,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "332fb6c25b7e309c59b459d80d85ffed4bcd413f76972dd7880413be916366e8"
+    },
+    {
+      "file": "map_dg09.md3",
+      "version": 302,
+      "bytes": 6624,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "097d7ac0398fea1355644cdc3013a3a1a2799595a288c20132100402d2fa9586"
+    },
+    {
+      "file": "map_dg09a.md3",
+      "version": 302,
+      "bytes": 195156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c7f7b0422d60a02afc618ecf05a00ae0042b8721297c5953e88169558457f0be"
+    },
+    {
+      "file": "map_dg09b.md3",
+      "version": 302,
+      "bytes": 195748,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "98dace50babec510064f06f9846819d2ec0e7fe515d10c49628e3cc6f7363399"
+    },
+    {
+      "file": "map_dg09c.md3",
+      "version": 302,
+      "bytes": 153036,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "30864a911bd87a70581e02f59ff05dcf8f4041dc1c1c96c3e16f65dd5f0e02ab"
+    },
+    {
+      "file": "map_dg09d.md3",
+      "version": 302,
+      "bytes": 186340,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "61e21ad538bba3327343618100c84662233e7be9b74e386954372c43e26a6e18"
+    },
+    {
+      "file": "map_dg09e.md3",
+      "version": 302,
+      "bytes": 191924,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bdc8c3d1bb03ac104e7c87540a837970faed355862ce696933e851e1306b75a3"
+    },
+    {
+      "file": "map_dg09f_1_ev.md3",
+      "version": 302,
+      "bytes": 57312,
+      "trailing_bytes": 24,
+      "byte_identical": true,
+      "sha256": "824c98ee46777ff210d5fd0f143afedc1b9d409f6063934702b8649276fe8652"
+    },
+    {
+      "file": "map_dg09f_1.md3",
+      "version": 302,
+      "bytes": 57312,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "411a809c937d037f47e4bbac07b66f8eee0e5107aaca3e8ec0e5eeeb0774161a"
+    },
+    {
+      "file": "map_dg09f_2.md3",
+      "version": 302,
+      "bytes": 57180,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "025f060ed6ec5617a3fb36d60449de9fb732891545b5738f6a475b58bb12929e"
+    },
+    {
+      "file": "map_dg09f_3.md3",
+      "version": 302,
+      "bytes": 600548,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ec730966edddf0eda9c661369bb97cc68e98063c1509e601a86c2d0ff69bd401"
+    },
+    {
+      "file": "map_dg09f_4.md3",
+      "version": 302,
+      "bytes": 137100,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7dbf9092b5860b1717e5186edc7d0448510d9bf082fa44351183119191f98cc3"
+    },
+    {
+      "file": "map_dg09f_5.md3",
+      "version": 302,
+      "bytes": 137100,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "48696aa0c52859009cae5a5f90a89efa56be3d2766fcbaa205d8e09e1de9d169"
+    },
+    {
+      "file": "map_dg09f.md3",
+      "version": 302,
+      "bytes": 54240,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c1df953b320d3795c3815d59044085374559f0d99835edb3daa9b36a522caa38"
+    },
+    {
+      "file": "map_dg11a.md3",
+      "version": 302,
+      "bytes": 175844,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "34942c38572b576c936f3caece750920f3b6f702ead6eb18bb825a8407361b5f"
+    },
+    {
+      "file": "map_dg11b.md3",
+      "version": 302,
+      "bytes": 104044,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "912d2c4b7fce37f4257d3dc2cb6579c1f860c7252033a035455abb44e6bf27ef"
+    },
+    {
+      "file": "map_dg12.md3",
+      "version": 302,
+      "bytes": 12536,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c2a7a6c2d3f30883f04e8ea10a352a115b239bd82881dfd67d4bf91e7dcd848c"
+    },
+    {
+      "file": "map_dg12a.md3",
+      "version": 302,
+      "bytes": 192760,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a5f7af7b035ac4afd6dfb2dbe88ede28801933d26daa2b0f787c83e3cacf7efe"
+    },
+    {
+      "file": "map_dg12b.md3",
+      "version": 302,
+      "bytes": 192448,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f1e2e79274577aeaed29288952e15933098d1079ece2dcc1c50f0a88ada18560"
+    },
+    {
+      "file": "map_dg12c.md3",
+      "version": 303,
+      "bytes": 192592,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "300214e68306e5885abba6435bd02a42c06ec441b86120e4bb4ab005db1b174b"
+    },
+    {
+      "file": "map_dg12d.md3",
+      "version": 302,
+      "bytes": 192760,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3dfaea6e3d9a08cf0b6cb5c534bacea07586fe902924f3c210cb9afc97cbc419"
+    },
+    {
+      "file": "map_dg12e.md3",
+      "version": 302,
+      "bytes": 192760,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e51e9a35e428b390be9cb4e3dce04713a31e75225f054ea4c4f51cd4acecc28b"
+    },
+    {
+      "file": "map_dg12f_1.md3",
+      "version": 302,
+      "bytes": 7928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "711c4c85172418292a10d40770f741795dd050932db799cebbbd5508fa0ddbd0"
+    },
+    {
+      "file": "map_dg12f_2.md3",
+      "version": 302,
+      "bytes": 7928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "38665065ed41ca1d2bf3c2aed901f86b3b920d66b8e86a10ade981ed9971a422"
+    },
+    {
+      "file": "map_dg12f_3.md3",
+      "version": 302,
+      "bytes": 7928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2cf70a021b5a06517b466c42b0953ba0bb8f84c34aaefb0afb79d8ed97f98f5e"
+    },
+    {
+      "file": "map_dg12f_4.md3",
+      "version": 302,
+      "bytes": 7928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2cf70a021b5a06517b466c42b0953ba0bb8f84c34aaefb0afb79d8ed97f98f5e"
+    },
+    {
+      "file": "map_dg12f_5.md3",
+      "version": 302,
+      "bytes": 7928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2cf70a021b5a06517b466c42b0953ba0bb8f84c34aaefb0afb79d8ed97f98f5e"
+    },
+    {
+      "file": "map_dg12f_6.md3",
+      "version": 302,
+      "bytes": 7928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2cf70a021b5a06517b466c42b0953ba0bb8f84c34aaefb0afb79d8ed97f98f5e"
+    },
+    {
+      "file": "map_dg15.md3",
+      "version": 302,
+      "bytes": 10396,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8b5ccfaa75e595c8565c49d74eb564b3ff4ed4df8e6487f704eb17e1df4f42f9"
+    },
+    {
+      "file": "map_dg15a.md3",
+      "version": 302,
+      "bytes": 52396,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5c1c33eb25766a129ffb60c3fc8ac167ac1a4b3a6df3bc24b3a839c06642dc3f"
+    },
+    {
+      "file": "map_dg15b.md3",
+      "version": 302,
+      "bytes": 134400,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "605967174560a9e63e2644d6c2ca33d2ad83d7bddb39d597a6ee78d52909cf51"
+    },
+    {
+      "file": "map_dg16a.md3",
+      "version": 302,
+      "bytes": 190824,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9c6fe80683190e318b01b7b45bb8b21ac14e35324936bbc05cbb7f16a9273645"
+    },
+    {
+      "file": "map_dg16b.md3",
+      "version": 302,
+      "bytes": 191096,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "eacd5fff684bbae41858416984031c45b11b1906a2abcf61a42e2c77d366b4a7"
+    },
+    {
+      "file": "map_dg16c.md3",
+      "version": 302,
+      "bytes": 43868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3cfb13fa9c018bf332010fa887a2505b8a9675f88e87a35753c45f3a494998e8"
+    },
+    {
+      "file": "map_dg16d.md3",
+      "version": 302,
+      "bytes": 29040,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "eea4bb6ed7dbf482685f5d6b95993e830ac8a4f953e5fcf3a25b6d619534d222"
+    },
+    {
+      "file": "map_dg16e.md3",
+      "version": 302,
+      "bytes": 36348,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e5a92b54a0a22675be028ee31888b1ffccbd821e7e62e56081ca30435b3fa69a"
+    },
+    {
+      "file": "map_dg18_memts.md3",
+      "version": 302,
+      "bytes": 42728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1acc8fdd7339b3e3893f520b53dd3c89bb13eaa8ce5593b81b5eb35fd0533ccc"
+    },
+    {
+      "file": "map_dg18a_2.md3",
+      "version": 303,
+      "bytes": 32820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f79bfb7508245334232dae34765370b89f86db8b393ae40205a9dd67df258839"
+    },
+    {
+      "file": "map_dg18a_3.md3",
+      "version": 303,
+      "bytes": 190464,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1bbee75ede0e8958c770a8f2333b5bf6d887d1e91b750ff71d8d7b886f275257"
+    },
+    {
+      "file": "map_dg18a_4.md3",
+      "version": 302,
+      "bytes": 8540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "57c2fa62deb25b89e48d716f7f9de4a3609018603125d485866cdf1a52113937"
+    },
+    {
+      "file": "map_dg18a_5.md3",
+      "version": 302,
+      "bytes": 8540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1affb79331b2cd52ada32f4fee290ec4fa33cc8597b27df0585aeb7d31eda56a"
+    },
+    {
+      "file": "map_dg18a.md3",
+      "version": 303,
+      "bytes": 33060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2b8a117a99266078ca71f1439b05924f5460ddd11654af979697cb0580ee8423"
+    },
+    {
+      "file": "map_dg18b_1.md3",
+      "version": 302,
+      "bytes": 129056,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3a58f581ab71854ae59be654b851e4210335e9a447071a4358b8ec3e30af5039"
+    },
+    {
+      "file": "map_dg18b_2.md3",
+      "version": 303,
+      "bytes": 95128,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ae6758c07f3a6dee8de4aad91cc528a7b369675496b1a3c95496647a86aeee4a"
+    },
+    {
+      "file": "map_dg18b_3.md3",
+      "version": 303,
+      "bytes": 95568,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ec9851561124732f02ddf7ff5a972e849f770e001638fa98cf60c321267864da"
+    },
+    {
+      "file": "map_dg18b_4.md3",
+      "version": 302,
+      "bytes": 129040,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7494e4ef5e8a7578aff97669c04daec503e2323afcf1f456ba256fdf0d45f8bc"
+    },
+    {
+      "file": "map_dg18b_5.md3",
+      "version": 302,
+      "bytes": 129040,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2d6018b836b259a14483a8e043d5035ebd534889b4be522ef8821989e780a8e4"
+    },
+    {
+      "file": "map_dg18b.md3",
+      "version": 303,
+      "bytes": 95448,
+      "trailing_bytes": 8,
+      "byte_identical": true,
+      "sha256": "ce9024f8a693556a4b35ad70533583277144c119a1c7a69216716124fba8c98b"
+    },
+    {
+      "file": "map_dg18c_2.md3",
+      "version": 303,
+      "bytes": 177152,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "435cbe4182fb287f9fa2518290920c39e972b82b5322152e7bc9cabe3f8b7348"
+    },
+    {
+      "file": "map_dg18c_3.md3",
+      "version": 303,
+      "bytes": 153040,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "628c30f8dfdd7046a9ff24fda9c77693a4e4b5840187445b793c70ec07a31b18"
+    },
+    {
+      "file": "map_dg18c_4.md3",
+      "version": 302,
+      "bytes": 129416,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ae9f4f1b4e08cf2d5f792039370454fa45068168a37d59d2d951662ce99f0f11"
+    },
+    {
+      "file": "map_dg18c_5.md3",
+      "version": 302,
+      "bytes": 129416,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5839cd59c68ef7bb048f971bdc03431624e46fe8142f7f84014f882e16fb5efe"
+    },
+    {
+      "file": "map_dg18c_6.md3",
+      "version": 303,
+      "bytes": 126224,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "263f38369bf2e893cb2c0a6e97949f3f831bad3342c09d634f1fba68bcc7c163"
+    },
+    {
+      "file": "map_dg18c.md3",
+      "version": 303,
+      "bytes": 152020,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c5d176ab130f4e597af402ff465007a8372a069ca08a86e419b9bad0b8929fd2"
+    },
+    {
+      "file": "map_dg18d_2.md3",
+      "version": 303,
+      "bytes": 177152,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "866d65a04e22bb7a164399d45abd163fb8c78ebb1c186e460872f388d7639c3d"
+    },
+    {
+      "file": "map_dg18d_3.md3",
+      "version": 303,
+      "bytes": 177968,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "850b0ccdb99498e80d19e80c7f73507a20e8267058559f2bcd6b236755e058b4"
+    },
+    {
+      "file": "map_dg18d_4.md3",
+      "version": 302,
+      "bytes": 29168,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0cf67a004942bc85304d19b951580e9b94e59ceff260b7bcddc5383fa6d34d94"
+    },
+    {
+      "file": "map_dg18d_5.md3",
+      "version": 302,
+      "bytes": 29168,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "63b860ae0091c70c1e370614563546f5703f9e71f571970e7c61326d357d578c"
+    },
+    {
+      "file": "map_dg18d.md3",
+      "version": 303,
+      "bytes": 95440,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "88d3e6c32fd389103ede492a8c07da469a29c856db80c4f80b2edace2af03a09"
+    },
+    {
+      "file": "map_dg18e_2.md3",
+      "version": 303,
+      "bytes": 189636,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2e0e4c48c07d0be6e63c8af9dfbe023e3823b222ae3bd1f1398db93906b049cd"
+    },
+    {
+      "file": "map_dg18e_3.md3",
+      "version": 303,
+      "bytes": 32976,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "af54437b0a1fb4739184722e766d1df78cfacc1e6279fedfcb3f95049a5e1cf0"
+    },
+    {
+      "file": "map_dg18e_4.md3",
+      "version": 302,
+      "bytes": 31272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b9b1c8807b36aafb541b35c65528037db2dd0f1e5e9d1be335a34d3ca04eb1fc"
+    },
+    {
+      "file": "map_dg18e_5.md3",
+      "version": 302,
+      "bytes": 31272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ae238605033978ab0d58b5d8aeded7c50f9b1769a028f8068bc39fbde6b304fd"
+    },
+    {
+      "file": "map_dg18e_6.md3",
+      "version": 303,
+      "bytes": 63520,
+      "trailing_bytes": 32,
+      "byte_identical": true,
+      "sha256": "e2b152e3f036ad430f47a265830f54f7492f452f8ad0698945951d9f1223cecb"
+    },
+    {
+      "file": "map_dg18e.md3",
+      "version": 303,
+      "bytes": 177248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b915c281bc2b538e17b6cae5799d51399c535bcc82ebbda83212da2fe05d28f9"
+    },
+    {
+      "file": "map_dg18f_2.md3",
+      "version": 303,
+      "bytes": 95712,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bd910552cb2455507f95ee01aa934abef23918ee676861fcd524dc81b2f54909"
+    },
+    {
+      "file": "map_dg18f_3.md3",
+      "version": 303,
+      "bytes": 95568,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fe0f7498cf6568b4b82c9c3390e14ee525c3a6442ac10c6c03f02cdcd279b773"
+    },
+    {
+      "file": "map_dg18f_4.md3",
+      "version": 302,
+      "bytes": 31272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d406b8a53bb0fd0c7068395135a0dde4f307b54946cd92f32e0f8cb176baf73b"
+    },
+    {
+      "file": "map_dg18f_5.md3",
+      "version": 302,
+      "bytes": 31272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5d6e568e7f7db82b4548d4d44150ecdcbe04edddd587ec751b25b450bb627697"
+    },
+    {
+      "file": "map_dg18f_6.md3",
+      "version": 303,
+      "bytes": 63520,
+      "trailing_bytes": 32,
+      "byte_identical": true,
+      "sha256": "aaa98058e2d425bb8db66ecfba524d086d985e89b22eaf1595d1cace92882c2e"
+    },
+    {
+      "file": "map_dg18f.md3",
+      "version": 303,
+      "bytes": 95416,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "09f924893c9f3cb92249b0fb2870f16a269731d0805b8ac36d09ab6cade01b7b"
+    },
+    {
+      "file": "map_dg18g_2.md3",
+      "version": 303,
+      "bytes": 32820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3f1b65791d2d27351be170657d7d392ccf1ca14c3954028e9bb2b202bdb68bda"
+    },
+    {
+      "file": "map_dg18g_3.md3",
+      "version": 303,
+      "bytes": 177968,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8e56a3a2dcf51e637f39e33575968a1168a77422f3a1cbeec9c1b39d5e1c37ea"
+    },
+    {
+      "file": "map_dg18g_4.md3",
+      "version": 302,
+      "bytes": 31272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cd8b11981e387f12ed8b5fbf684e205ea1d261ce61ceaadcf98e68a94871c9e3"
+    },
+    {
+      "file": "map_dg18g_5.md3",
+      "version": 302,
+      "bytes": 31272,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "50932edfeb07c0ae46e752657cc2b900c54a2e0943d7c31419d2d7efb8483427"
+    },
+    {
+      "file": "map_dg18g_6.md3",
+      "version": 303,
+      "bytes": 63520,
+      "trailing_bytes": 32,
+      "byte_identical": true,
+      "sha256": "d1cd4a510571a65b03a01f6f0122762d1ff6ea3498a083e04aca9bb76cd4dc1b"
+    },
+    {
+      "file": "map_dg18g.md3",
+      "version": 303,
+      "bytes": 32820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b9cc3e542a6c4791bd24db02321d348f71db12579407d80a01f920372377844c"
+    },
+    {
+      "file": "map_dg18h_2.md3",
+      "version": 303,
+      "bytes": 95712,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "042d8e7b793b3e35d3780fb22949d35288847f8af2e8b7e4aba2ff0e212c11ba"
+    },
+    {
+      "file": "map_dg18h_3.md3",
+      "version": 303,
+      "bytes": 177968,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4924faa9cd483ca1faf3f67b07a88f3e64a64459076951dc3c3d0238215b6d5b"
+    },
+    {
+      "file": "map_dg18h_4.md3",
+      "version": 302,
+      "bytes": 29168,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "058486a9b036ff92577039f8a078d1978710da45c6632ed9ccfee12179960d64"
+    },
+    {
+      "file": "map_dg18h_5.md3",
+      "version": 302,
+      "bytes": 29168,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1409f283e2e2e0c63a602689523b30dade5348344da9483570f9ef34fc279387"
+    },
+    {
+      "file": "map_dg18h_6.md3",
+      "version": 303,
+      "bytes": 63520,
+      "trailing_bytes": 32,
+      "byte_identical": true,
+      "sha256": "06a4d2403cac8d9500708b9382c7d484fcefaedcdb1f3717ad7c20c513e9609e"
+    },
+    {
+      "file": "map_dg18h.md3",
+      "version": 303,
+      "bytes": 152020,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b1a078bb985770551ffab73959cc346fa3a414bc06104b32344c7db701ad4189"
+    },
+    {
+      "file": "map_dg18i_2.md3",
+      "version": 303,
+      "bytes": 190464,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9c6c316ab307aff85e4825316954ee9aa245dda020f9485a9d05804cef86e51b"
+    },
+    {
+      "file": "map_dg18i_3.md3",
+      "version": 303,
+      "bytes": 153040,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fea06668ca3ce30922521f0c7e5e0c56fc77f3c8015d6dd28e4b6240e0bab7a2"
+    },
+    {
+      "file": "map_dg18i_4.md3",
+      "version": 302,
+      "bytes": 31248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "023212a52940c02b1821141c616e9cc4fe8b585f7e424ab7be78c00044e88e85"
+    },
+    {
+      "file": "map_dg18i_5.md3",
+      "version": 302,
+      "bytes": 31248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "641cc46ba1bc66581a50d6579a6faf06428b35a7ccc79b230dfa926da7e5d1a0"
+    },
+    {
+      "file": "map_dg18i_6.md3",
+      "version": 303,
+      "bytes": 63520,
+      "trailing_bytes": 32,
+      "byte_identical": true,
+      "sha256": "938268547a85887ad95878f919ad296e6bd430ea54a6b69cf4146bbec36a17b0"
+    },
+    {
+      "file": "map_dg18i.md3",
+      "version": 303,
+      "bytes": 189608,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2c975cc3e4bfa8ab519a50fd915c1423db367a52d24af627926b717f8f3e2819"
+    },
+    {
+      "file": "map_dg18j_2.md3",
+      "version": 303,
+      "bytes": 95712,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7a0097f66078e7bb68c2af3546b34b93390af8c6f505ca1bed5a9f09137d25ab"
+    },
+    {
+      "file": "map_dg18j_3.md3",
+      "version": 303,
+      "bytes": 95568,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "87d22a33addff86a8dda9e31c2c9ab856533170824a5bc55a6ae136ad11a8a13"
+    },
+    {
+      "file": "map_dg18j_4.md3",
+      "version": 302,
+      "bytes": 31248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1502975069ebaad0f9a019aac4fad6387768348afbdc1bf6e7716f84a03200de"
+    },
+    {
+      "file": "map_dg18j_5.md3",
+      "version": 302,
+      "bytes": 31248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e911f9062ff99330e7eb8644335fb8b263002cf9622cc41d97bbf9698c19dd36"
+    },
+    {
+      "file": "map_dg18j_6.md3",
+      "version": 303,
+      "bytes": 63520,
+      "trailing_bytes": 32,
+      "byte_identical": true,
+      "sha256": "b0306f0ac72a15a973b1cd90f5e018eb94d3dcd4d6c093b3256e5dfb42990abc"
+    },
+    {
+      "file": "map_dg18j.md3",
+      "version": 303,
+      "bytes": 95144,
+      "trailing_bytes": 16,
+      "byte_identical": true,
+      "sha256": "5a39d408ed8639d9c042a9b64e9739772801aa3ee4ca94bf913677c7d594d96f"
+    },
+    {
+      "file": "map_dg18k_2.md3",
+      "version": 303,
+      "bytes": 177968,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "28503f9bddedf4f342640eadc98e57ff3a11268ddc1352b626f9bb45458422a0"
+    },
+    {
+      "file": "map_dg18k_3.md3",
+      "version": 302,
+      "bytes": 31248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "89d6b6593fc545244be178e0e9a08da9f70a2b9528a6785ab8862c8bdffec367"
+    },
+    {
+      "file": "map_dg18k_4.md3",
+      "version": 302,
+      "bytes": 31248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7bc7a6284a82a37eaaf90362d705b9ae21d2f89c5abe839ca4bd65a443c3f514"
+    },
+    {
+      "file": "map_dg18k_5.md3",
+      "version": 302,
+      "bytes": 31248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cd49a1eb6852f98f9e49280fa4cb8e477fec1a72c5f57e11187d7b7f80e22e8e"
+    },
+    {
+      "file": "map_dg18k_6.md3",
+      "version": 303,
+      "bytes": 63592,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "20f9bd949573a951e8366deb9151cb187ceb28958e66fe1c429903cb8d4df983"
+    },
+    {
+      "file": "map_dg18k.md3",
+      "version": 303,
+      "bytes": 189636,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1a7ca6755ce4a8b1cad8a566ddf8cc82720299a566f2e2c02962ae6bb218a765"
+    },
+    {
+      "file": "map_dg18l_2.md3",
+      "version": 303,
+      "bytes": 95712,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1e1aa6ab3eee63170483bb88778702a601cf8c59ec9fcbb9c3399acf2b4e8b6f"
+    },
+    {
+      "file": "map_dg18l_3.md3",
+      "version": 302,
+      "bytes": 42704,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d10dfb5cfca821b0282462871c872bb6c068830a5b2a4f5af393144d42eccd97"
+    },
+    {
+      "file": "map_dg18l_4.md3",
+      "version": 302,
+      "bytes": 42728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e6311b676d1996956c3edf5ad299f1b6efefe77900c8e9674d37da6723ee7ea5"
+    },
+    {
+      "file": "map_dg18l_5.md3",
+      "version": 302,
+      "bytes": 42728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2e843963220c69efb656ee0067fa118ef2af813accebf913f1fc974a17eba742"
+    },
+    {
+      "file": "map_dg18l.md3",
+      "version": 303,
+      "bytes": 177152,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dc16cfc655d35c1de0a3e0520c6a3517008e89628be52d086db5165a86b341f2"
+    },
+    {
+      "file": "map_dg18m_2.md3",
+      "version": 303,
+      "bytes": 32976,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3f73a21e991362f8c5f705e950c2c25e1ad19018f5d3c11446bb71243b938747"
+    },
+    {
+      "file": "map_dg18m_3.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d0fbb11c265b34d936dccc00c64fd42736a8b33d3c48115fd028a9f6a77a01a2"
+    },
+    {
+      "file": "map_dg18m_4.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d0fbb11c265b34d936dccc00c64fd42736a8b33d3c48115fd028a9f6a77a01a2"
+    },
+    {
+      "file": "map_dg18m_5.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d0fbb11c265b34d936dccc00c64fd42736a8b33d3c48115fd028a9f6a77a01a2"
+    },
+    {
+      "file": "map_dg18n_2.md3",
+      "version": 303,
+      "bytes": 177968,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9a13c499f56501b3887c36a891c252d4bd413e717b893760cd38de0aa1fca518"
+    },
+    {
+      "file": "map_dg18n_3.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "97ea56f42a9991c9e159545ad3033c08dd197ffb2c330dd0e04ca25e073943bf"
+    },
+    {
+      "file": "map_dg18n_4.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "72df0b6401663daba761e947f28df43f47ce7e74e53fe01e44c641b05a449a98"
+    },
+    {
+      "file": "map_dg18n_5.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1e621e2790eb7f8a246d4046c4022d91ae7d5e0d91333257d7b3a48599292ccb"
+    },
+    {
+      "file": "map_dg19a_1.md3",
+      "version": 302,
+      "bytes": 100360,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c2e969bac61001f317d072e4f6042925c5273787ec687c02cceb0328c9bdb54a"
+    },
+    {
+      "file": "map_dg19a_2.md3",
+      "version": 302,
+      "bytes": 124180,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0ba350972287322c6f0a719135a7d9538a66062528a9fe70b4f6a4bd3787e6a3"
+    },
+    {
+      "file": "map_dg19a.md3",
+      "version": 302,
+      "bytes": 122140,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "64c4df324e5e90ae0459faf1dffd9311086a799bcfe4df3e0cdb0ac7870b1837"
+    },
+    {
+      "file": "map_dg19b_1.md3",
+      "version": 302,
+      "bytes": 35528,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dc5a7580062317e7ffd932b786ac86f9fdaf055649370be86f31b40de35691b8"
+    },
+    {
+      "file": "map_dg19b_2.md3",
+      "version": 302,
+      "bytes": 35388,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5583a8c04a247c35aac8ff225604a7670f753df037b18497333289ead07cf321"
+    },
+    {
+      "file": "map_dg19b.md3",
+      "version": 302,
+      "bytes": 36224,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "adf898b55e5a90d3828232d9d0d077bca73440ee320aa21b6cdd7c49dec6da03"
+    },
+    {
+      "file": "map_dg19c_1.md3",
+      "version": 302,
+      "bytes": 35720,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "99e4fec09020847448cfe4e443d4b3ff4720d491adc60bfe9ea3bed5bc29ae3f"
+    },
+    {
+      "file": "map_dg19c_2.md3",
+      "version": 302,
+      "bytes": 35748,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b135f89efced9944f58d8b2bcef40be81f3df6b365f5ef4a6ca4d6fb11477900"
+    },
+    {
+      "file": "map_dg19c.md3",
+      "version": 302,
+      "bytes": 36248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f1b90356468d6b1b1c253951b03bc91ffcf139aae9dca26ef902d2c6e173076a"
+    },
+    {
+      "file": "map_dg19d_1.md3",
+      "version": 302,
+      "bytes": 36052,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "acc3dab6c8e46903d04068f9ff28cf86d34fead0f3590fde34d9c44ca661c8ff"
+    },
+    {
+      "file": "map_dg19d_2.md3",
+      "version": 302,
+      "bytes": 35864,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0eff5adedfefcfc4675f625e36cd49d057b6cade7b9aa8fc27b52bc39caadcf0"
+    },
+    {
+      "file": "map_dg19d.md3",
+      "version": 302,
+      "bytes": 42556,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "14bf106ffbe23b2087759bd901b0d7c79afe8af86fc814157c5334cbadcf2e6f"
+    },
+    {
+      "file": "map_dg19e_1.md3",
+      "version": 302,
+      "bytes": 36224,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "156407cbf70ee3f93db5cbfb2934ac8355f48e4a88dc3af9647f856559d27d69"
+    },
+    {
+      "file": "map_dg19e_2.md3",
+      "version": 302,
+      "bytes": 35128,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3240a0b55479b2e63a5df5da5cba8f52b558ae104b66a7d36a03156dba09eb40"
+    },
+    {
+      "file": "map_dg19e.md3",
+      "version": 302,
+      "bytes": 42656,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6af49a5219c4fdaddc06faa1a6664d97100da004a8db5c70beac2bcb30a64950"
+    },
+    {
+      "file": "map_dg19f_1.md3",
+      "version": 302,
+      "bytes": 38156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8834fed40db6f867645febdcfce45c79b910b8d8246e229d6aa507a07699b8e0"
+    },
+    {
+      "file": "map_dg19f_2.md3",
+      "version": 302,
+      "bytes": 38252,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8e62230bc98b73e192ff36889bcc19eb02f750e601053902f2fd407ea856e44c"
+    },
+    {
+      "file": "map_dg19f.md3",
+      "version": 302,
+      "bytes": 34796,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "21a9957603336dc0b985a0a497c338fb382f598224ee19c472077338e6bbdc9a"
+    },
+    {
+      "file": "map_dg20.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fff20e4d47151eff6effcd3d31ddde8dc75142979e800d8fb5024908f6cdb099"
+    },
+    {
+      "file": "map_dg22a.md3",
+      "version": 302,
+      "bytes": 8432,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "423180366312698b7448cf8f464b06c352eb1e08d84fc3285e1784eca4c4c255"
+    },
+    {
+      "file": "map_dg22b.md3",
+      "version": 302,
+      "bytes": 24884,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cff73c374d7da96cbec8eec723fbc6368a36823dea8d6866801a1f036fa31d1d"
+    },
+    {
+      "file": "map_dg22c.md3",
+      "version": 302,
+      "bytes": 23324,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4774842aa44ebad81d960192261f7c2a339e0635eb992e292acd89ca0e937307"
+    },
+    {
+      "file": "map_dg22d.md3",
+      "version": 302,
+      "bytes": 28712,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6e6fd09a4a4a5a0e5c102c6a2443ab7b2eac96a4cc1d401a0373820cbc3d9f27"
+    },
+    {
+      "file": "map_dg22e.md3",
+      "version": 302,
+      "bytes": 14204,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "693d9094a05785a70eaf614a7b3676bb00a2fce81e611b31e79278bf9a8b2d8f"
+    },
+    {
+      "file": "map_dg22f.md3",
+      "version": 302,
+      "bytes": 19460,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "608c279943546fc966be2de0af98008e74f447b41981e85f1fe34aa555c9fcf7"
+    },
+    {
+      "file": "map_dg22g.md3",
+      "version": 302,
+      "bytes": 47156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "04bae58a4a558c9e0a9f1f1ca9068ee3ecada8678e0bb64d1c4d95a647c9fd6b"
+    },
+    {
+      "file": "map_dg22h.md3",
+      "version": 302,
+      "bytes": 8504,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "acb5e3c6a3499b0526f760af58a13131b2c7bb2813dd8948025fdf473e8627af"
+    },
+    {
+      "file": "map_dg22i_1.md3",
+      "version": 302,
+      "bytes": 23340,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a79cc0519d5496c7aa66ef580cfa092b2f3b4e6d1275a0a2871c32d05d8b116d"
+    },
+    {
+      "file": "map_dg22i_2.md3",
+      "version": 302,
+      "bytes": 23276,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ac414b33fbc901992bd5d97dff83a175f6ff17757e4dcff0defdd0f0bfef7fd5"
+    },
+    {
+      "file": "map_dg22i_3.md3",
+      "version": 302,
+      "bytes": 48424,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ee0c8280a518b948ed57a2b3f44b6a0b485a886b460cd6f30b32732297c165d7"
+    },
+    {
+      "file": "map_dg22i_4.md3",
+      "version": 302,
+      "bytes": 47064,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "55cf26f8c148047ad8669e2b6e4e25714af344f32841071455950cb45860f199"
+    },
+    {
+      "file": "map_dg22j_1.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5873540af16b8020e7b6597b3b5028c62115ad5e0f13982ea34221217fa91cb3"
+    },
+    {
+      "file": "map_dg22j_2.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5873540af16b8020e7b6597b3b5028c62115ad5e0f13982ea34221217fa91cb3"
+    },
+    {
+      "file": "map_dg22j_3.md3",
+      "version": 302,
+      "bytes": 36380,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0edf557f6a250182bc5b052a6d6f8a54e9eb895cc9aecbf21cbe6f12e7a5039b"
+    },
+    {
+      "file": "map_dg22j_4.md3",
+      "version": 302,
+      "bytes": 20996,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b5df632ccffa4e37ad73cf30fdae66c97b5c7a33aa127903b91b5fa964ef4614"
+    },
+    {
+      "file": "map_dg22j_5.md3",
+      "version": 302,
+      "bytes": 19556,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4d9fcf94d3bf97f57b3a01b6429d4fcec5cd9a065b3322ea4ea4826d8f03e704"
+    },
+    {
+      "file": "map_dg22j_6.md3",
+      "version": 302,
+      "bytes": 33524,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5d1f99a816273a1839c40bc48ef6930fb26d57c1d3122f73f6aea9abd603cbda"
+    },
+    {
+      "file": "map_dg22j_7.md3",
+      "version": 302,
+      "bytes": 33524,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5d1f99a816273a1839c40bc48ef6930fb26d57c1d3122f73f6aea9abd603cbda"
+    },
+    {
+      "file": "map_dg22j_8.md3",
+      "version": 302,
+      "bytes": 33524,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0ac9cadceca06085c44ba90956f0258f471fb3fa59535fa216d5e5fc29ffd39f"
+    },
+    {
+      "file": "map_dg23a.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b6816c00f2db68d3f85b6e859bb05cd4f8a9771cbd97bc958da012cf184eda2e"
+    },
+    {
+      "file": "map_dg23b.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fa817ffedc87d250b2ffb7164df678040093c9d5bd71fc44deccf1e8ba6c1301"
+    },
+    {
+      "file": "map_dg23c.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e65f5612d4b2ba10c1131028c89f0fd55118221d577573dafc39d4cef048e4a9"
+    },
+    {
+      "file": "map_dg23d.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "285e0187ebfcee5c7e78482ca21219aadeef6339a8ecb5751459898a4dcdf182"
+    },
+    {
+      "file": "map_dg23e.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b96021fde0d232de8468f3ae799ed04e402c01e82e08773d7ad735a6f28077cf"
+    },
+    {
+      "file": "map_dg23f.md3",
+      "version": 302,
+      "bytes": 6508,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b709315dd5f20948637e070046ecf52a48d0b323858b817a36fb94146ede84db"
+    },
+    {
+      "file": "map_dg23g.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0ffae648f15e11dde6331e65c8d4f56e16ccd582a54018e962e653baa4b49da1"
+    },
+    {
+      "file": "map_dg23h.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "56d54d2b2a1c9d957a8b8312438dd925f9e0659de4406a6b0171f022c29bd836"
+    },
+    {
+      "file": "map_dg23i.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bbd1c5cab0338d8481ac729e7ede2fd5b78847f809ea3f606c08ee1d30d400e6"
+    },
+    {
+      "file": "map_dg23j.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7cd4b8d2af6a347efef20949732b2d57f4ab4c31aa27852ac5ef0fceb0845b5f"
+    },
+    {
+      "file": "map_dg23k.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "02b2e07507a8cb6d11b99e1180ade2d03d1d14ae921fdfb3397f8ff4544a8113"
+    },
+    {
+      "file": "map_dg23l.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "95652a6c9e4fb0db9fd193b566751245119e893b361bc9e844482ac77d9e91cc"
+    },
+    {
+      "file": "map_dg23m.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2586c7fe8b5f5611b4b7e91efc96456b49f1436d810dcb8fa01c0c2fe4be2e4b"
+    },
+    {
+      "file": "map_dg23n.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cfb7ef11bad2680630f2f47a8fbbf88475622df7dbddcaeeb75dec8d3efa4b11"
+    },
+    {
+      "file": "map_dg27a_1.md3",
+      "version": 303,
+      "bytes": 43864,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2a07697c0c95fce2dcb1c57ffbb767dc67b7c66a4e17c6b0ada5788a93d8adf1"
+    },
+    {
+      "file": "map_dg27a_2.md3",
+      "version": 303,
+      "bytes": 44056,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a7e3c5bd72fc9964bac31ea8ea7cf581dce8235d7c0e8cf7b523b67f63e490eb"
+    },
+    {
+      "file": "map_dg27b.md3",
+      "version": 303,
+      "bytes": 91268,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ce4e8bc95ba79a46e700dec25523c8d289f0035ddd59f4016863c10ee292df7b"
+    },
+    {
+      "file": "map_dg27c.md3",
+      "version": 303,
+      "bytes": 37724,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "60e6c8073d07dd81ef34906d2ebda58d6c072ad919419f85672342afbb4678b7"
+    },
+    {
+      "file": "map_dg27d_2.md3",
+      "version": 303,
+      "bytes": 14928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5f9692f4ca07769fb6b3820e5ddb7ca96abac66af30a515f1e0075025d3a0a96"
+    },
+    {
+      "file": "map_dg27d.md3",
+      "version": 303,
+      "bytes": 14928,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4b0a3e72c417fdc7e81bcfef074afdc91d44d40201ad6610f60da59e65a222d7"
+    },
+    {
+      "file": "map_dg27e.md3",
+      "version": 303,
+      "bytes": 14096,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ac6cac79480d6ffa2b58c7fa4fefb89f389fa27496c5630dae5dffaa3c28c21c"
+    },
+    {
+      "file": "map_dg27f.md3",
+      "version": 303,
+      "bytes": 14096,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b8a7d0f2601af41a33e1a143249c5203f536660bb2cc8d5d5320e9da3ffdb338"
+    },
+    {
+      "file": "map_dg27g.md3",
+      "version": 303,
+      "bytes": 14144,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2b7201ac4e2b06534dd64e7fad27e0dcb5de51e9a2f06765c5bea5c1b5d1b9b1"
+    },
+    {
+      "file": "map_dg27h.md3",
+      "version": 303,
+      "bytes": 14096,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2e4489ceadae19befbb25f00987350c571ffaa6a51c16b18d9a19fd1e42df347"
+    },
+    {
+      "file": "map_dg27i.md3",
+      "version": 303,
+      "bytes": 18996,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "655c503d2b856b2f014720c9f241e2cf438014455a4763c4b7d0762950ff9a40"
+    },
+    {
+      "file": "map_dg27j_1.md3",
+      "version": 303,
+      "bytes": 14952,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1f75ab8d9ba7534ce4af7b7a054543669009ae91f1bca2a663c62ecc85e240f1"
+    },
+    {
+      "file": "map_dg27j_2.md3",
+      "version": 303,
+      "bytes": 14952,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c85798cba0772ca4b705e22a5a325d1736b7cc8d0fcb7f4a1224e40344c93e12"
+    },
+    {
+      "file": "map_dg27k.md3",
+      "version": 303,
+      "bytes": 81240,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "43f1c735fcc1fe127b2d09cf83713ec4ae32930b122ad106a36cfda23911eb66"
+    },
+    {
+      "file": "map_dg29a.md3",
+      "version": 303,
+      "bytes": 151132,
+      "trailing_bytes": 96,
+      "byte_identical": true,
+      "sha256": "703c0181300e6e50cb62f99731031196c561272ee1356067feefadd9d81f95e7"
+    },
+    {
+      "file": "map_dg29b.md3",
+      "version": 303,
+      "bytes": 151084,
+      "trailing_bytes": 96,
+      "byte_identical": true,
+      "sha256": "eb4668ea77c32c166236f77db69f418ed58812fbda5418e80963d7797b7873cd"
+    },
+    {
+      "file": "map_dg29c.md3",
+      "version": 303,
+      "bytes": 151500,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e7d0ffb425086b401021143728077725f4a8bad97ee0a8886d360a4621e86ec1"
+    },
+    {
+      "file": "map_dg29d.md3",
+      "version": 303,
+      "bytes": 20376,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "45d74e7fc83b9a867249f1d854eabbd7bd4fef687f04b2675e166423981a8a0b"
+    },
+    {
+      "file": "map_dg31.md3",
+      "version": 303,
+      "bytes": 17504,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b9bdae68f1c6e3dab35255a08edf136525c53a802bfa0819542dd1ae2829e3e9"
+    },
+    {
+      "file": "map_dg32a_1.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1a45c18d531f7223ba8cb7826a5096afe8cce45c8ee1e2cf59d1c002361c539b"
+    },
+    {
+      "file": "map_dg32a_10.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f51e2f816a750158be50b803873fecceba85f1bcd0cae4626e9f7a0b93bf34af"
+    },
+    {
+      "file": "map_dg32a_11.md3",
+      "version": 303,
+      "bytes": 42172,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b33c8a5ce94c8858152bd102ced3d50cea68db0da1b564ce8bcc24a7400d6a27"
+    },
+    {
+      "file": "map_dg32a_12.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4b8ef70b4515cae3f04cf80400466f150329e7f5bbb157b5afb6419b2429eb2f"
+    },
+    {
+      "file": "map_dg32a_13.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "77e93d2802566ed54db64a5519d72829c7e575a3b6264606a6d8f9174f08820d"
+    },
+    {
+      "file": "map_dg32a_14.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b19f2bbd7ffe204aa859cff65dfc7683120c9ba50db40f3b51ec9ba3ecb85bc7"
+    },
+    {
+      "file": "map_dg32a_15.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "234890c0f411bf9e68ca7f3bbba314be30d65fc45cc8fda7895bd35c5fcdda39"
+    },
+    {
+      "file": "map_dg32a_16.md3",
+      "version": 303,
+      "bytes": 42196,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "125498961773d36d872646a063d55f7c318edf2806300eeba58e4da4080da229"
+    },
+    {
+      "file": "map_dg32a_17.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d0b94be558e9fcb2132372c90b7b421a62dc847cdabfc3e0a97e194ee75eddad"
+    },
+    {
+      "file": "map_dg32a_18.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "535ebea32968c53334250e5052667ffd18b562ee8cfa45779f85b484a66def89"
+    },
+    {
+      "file": "map_dg32a_19.md3",
+      "version": 303,
+      "bytes": 42140,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "636802e0addc14390db45a6f2e3aa88fe7e04564cf551afe450666d5f16ce28f"
+    },
+    {
+      "file": "map_dg32a_2.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c36968306b9b542e5897a9cae03ac92c96e325c1c4124962daf45d4587261a8e"
+    },
+    {
+      "file": "map_dg32a_20.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6dadf91f79ab64251a139f4560d1e41861c769cac77103ebc50ec312ef4a3f53"
+    },
+    {
+      "file": "map_dg32a_21.md3",
+      "version": 303,
+      "bytes": 42140,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f76f28412f18ba6db2e69a031d11e9e3ae9417c9f1d977cc0d335464ef1c2d40"
+    },
+    {
+      "file": "map_dg32a_22.md3",
+      "version": 303,
+      "bytes": 42156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5762f77037f429e2777e55f2df8508c5aee71199e582b182ce1854f7c21c1c3b"
+    },
+    {
+      "file": "map_dg32a_23.md3",
+      "version": 303,
+      "bytes": 42092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e6b41aa2e3819000d7c7eeeebee294f8ecca83339c4faff669d87ecbf97ed61c"
+    },
+    {
+      "file": "map_dg32a_24.md3",
+      "version": 303,
+      "bytes": 42156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "911cb1dbd3fcd6f69692f94c8d1115c8f027b10d48b76ff7966c889695e955da"
+    },
+    {
+      "file": "map_dg32a_25.md3",
+      "version": 303,
+      "bytes": 42156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "02223821c1d5721e0fcaa14c4c90582bf8092a5fb742efe9c9487d2c93c28c62"
+    },
+    {
+      "file": "map_dg32a_26.md3",
+      "version": 303,
+      "bytes": 42108,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "49ae66f93c4e2a4445c98aee1860b673726cb6429a4bb665a2692fa740820ff1"
+    },
+    {
+      "file": "map_dg32a_3.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "aed3a76eb67d0e44170f406d8d6608e81709e324e9cafd1b3ecd68496973ce50"
+    },
+    {
+      "file": "map_dg32a_4.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a14498f708366b4ff288a3e627cc099521d10a3bb3fc4ede0793c7eacda5b332"
+    },
+    {
+      "file": "map_dg32a_5.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c50ebbd0274611e2a1a71752f34fa062c9bef4ae4368b5e32df5ac0713b33708"
+    },
+    {
+      "file": "map_dg32a_6.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3c150ec6006b9bd12e1742981f3869278f04e01a5a2022addd26b57bdc89a479"
+    },
+    {
+      "file": "map_dg32a_7.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7801a243abd52e8429d704a2bc5c001af7a9af106fce6a27c67c931998c898b2"
+    },
+    {
+      "file": "map_dg32a_8.md3",
+      "version": 303,
+      "bytes": 42196,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bf80dbe56f4ebb02717762b75e9d5ea69c308f101ffded570958bbf2ddac8084"
+    },
+    {
+      "file": "map_dg32a_9.md3",
+      "version": 303,
+      "bytes": 42148,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ba2bc3cc8eb0b4bf478fe81f90274b31917cf97a9239c72c0bff4970f5890a16"
+    },
+    {
+      "file": "map_dg32a.md3",
+      "version": 303,
+      "bytes": 87140,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "60b125a51a3a3011737fd71fff1390fd0d4d294ce8b154f7a0525483a8ca752c"
+    },
+    {
+      "file": "map_dg32c.md3",
+      "version": 303,
+      "bytes": 41652,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e96c8cf38258e940989c76fc32246e5ec6c15f620108fde05066d8bbd9d51272"
+    },
+    {
+      "file": "map_dg32d.md3",
+      "version": 303,
+      "bytes": 41796,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7523532c490ede02d6f2417f6a071d5229cbb3be8672cbb05645e543197a78a2"
+    },
+    {
+      "file": "map_dg33a_1.md3",
+      "version": 303,
+      "bytes": 42820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6395106efeef54c39b2be204cb258772a58bfe2e94ec1b31e6bd611b62f4ea1c"
+    },
+    {
+      "file": "map_dg33a_10.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "75e0aabe5174708a94c58759a6997c4c31e0d79b754a3852be9132161680169e"
+    },
+    {
+      "file": "map_dg33a_11.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6c11987d21eabfd6920fcfbedfdc7f4ac4292dfb1e11dda30e3c546dbf90e72e"
+    },
+    {
+      "file": "map_dg33a_12.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ee7dfd6e0b102f5fee4dc15ff765818bea711d762da9025401dcf590b979f73f"
+    },
+    {
+      "file": "map_dg33a_13.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cc8d7ebf675d6c35f22a411d695fbf97d19eae1379d0d3ee9228b1a45c5d6989"
+    },
+    {
+      "file": "map_dg33a_14.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d57a0c7b462fa27ab57b9907c0d4f08abfdeca8b5c03d2eef7d572d421ae2431"
+    },
+    {
+      "file": "map_dg33a_15.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a168a32bae9af11c51259a3a7e25698be19c6b58c0f915238bcaac8da2d2496c"
+    },
+    {
+      "file": "map_dg33a_16.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c0556d71861f479564cc98895f9dfbece5f7a7505cf7de1d4bbf3c53b27b7643"
+    },
+    {
+      "file": "map_dg33a_17.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6f8e917f26d9d2577167113667ba8f6eb490a55278c5202e3f5ca04706a0f8d9"
+    },
+    {
+      "file": "map_dg33a_18.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d15410621313fd4102fe6e7285fad53ec38684b497852f4324fa99b9b26c112b"
+    },
+    {
+      "file": "map_dg33a_2.md3",
+      "version": 303,
+      "bytes": 42820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "33d9650e0aaf5cef0c5d9ebabe7a8d784fc5a5db7b682e753411a45813512473"
+    },
+    {
+      "file": "map_dg33a_3.md3",
+      "version": 303,
+      "bytes": 42820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "04d34342fe2afe73d051b042788dd6eed711561da7b80ba76c28eed9cdac28f2"
+    },
+    {
+      "file": "map_dg33a_4.md3",
+      "version": 303,
+      "bytes": 42820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6f3bded4c03a0a83af0de9222c1248f75481a07914dbaa1678f7fb0561e78b1f"
+    },
+    {
+      "file": "map_dg33a_5.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "71f8404fb1b117485e760bfac6163364d7aa4347f698517411a97e1257f0bb2b"
+    },
+    {
+      "file": "map_dg33a_6.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "177331e10aa90ebec74c2110e66c031e1e19c24912e921e6b5cbf70f67a7ff53"
+    },
+    {
+      "file": "map_dg33a_7.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2012bcd852def49743297c74a238553b375d67e4ebaeec81af5ac878fcaa7a0a"
+    },
+    {
+      "file": "map_dg33a_8.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "37ea7b69257cb874e815a1a66434cd6dccba7f69f37c3a32af75d07221a1ed12"
+    },
+    {
+      "file": "map_dg33a_9.md3",
+      "version": 303,
+      "bytes": 42868,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "739ce1c1225262d06b6ee995b9420e55455ff93177df422d9a0a005ccbafc802"
+    },
+    {
+      "file": "map_dg33a.md3",
+      "version": 303,
+      "bytes": 41740,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9826ec07099ea7a71f883ab827dc3894c0814fbe5f87e18a3b17b28ba416290a"
+    },
+    {
+      "file": "map_dg33b_1.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0d841dcd2d4b743a603abee9445e66a8d9223e84820f0eebfcd741723ea3287c"
+    },
+    {
+      "file": "map_dg33b_10.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c8c23a488af6d45b254aaa69b836566676e8f53c53d9a24b83cab351b621c609"
+    },
+    {
+      "file": "map_dg33b_11.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4374ca939cf526ed7e63a95009f5e1a4dc361e312e51d14be26fbe55e05a81c0"
+    },
+    {
+      "file": "map_dg33b_12.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "573cdc0b280a6e3fe29fa5b1200526c05dd500931011f19ce863fed9ea46cffb"
+    },
+    {
+      "file": "map_dg33b_13.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0daf55e709a6d3fcb1d902643b61f1312dabca9527905e63d96ebb562821ca8e"
+    },
+    {
+      "file": "map_dg33b_2.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8b00b63fc07e704ff8a2a947e7b495c3f1a4f7bdd4be9da3131bce9bd2e0b85c"
+    },
+    {
+      "file": "map_dg33b_3.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a05bb36e1c048a08c5895f52762de4b7eb03295f795c614da521d3560c44a86a"
+    },
+    {
+      "file": "map_dg33b_4.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dfd3c01b9ed8138441bcfa5a85caa591bc4a6ac7a3f7611a87f95e52484ba7e8"
+    },
+    {
+      "file": "map_dg33b_5.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "35b9324c75b9e51add0f6ac0f3f018f9adc934e44839e38e3af4bae9aff0d0ed"
+    },
+    {
+      "file": "map_dg33b_6.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "762682680cb4bffa2b972cf9a4095ca189a81b1a01820266db7279cea315c293"
+    },
+    {
+      "file": "map_dg33b_7.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ace952fdb7f9fc29bb28e29eb0a03b06e485789ef924965189c9fb29cdea6b27"
+    },
+    {
+      "file": "map_dg33b_8.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a89402bd3f18f75795c22548f7a807b405de155515655f0308eafae0f8efe3bb"
+    },
+    {
+      "file": "map_dg33b_9.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3177352c77b45d9a9e111e85b9f67fe5185908c46e69e55d2ac9dfc6dbf45ab3"
+    },
+    {
+      "file": "map_dg33b.md3",
+      "version": 303,
+      "bytes": 20060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c84134d5fc508e1a365abe8f3c9e9f316b708582ab23324e0226deb635df0b34"
+    },
+    {
+      "file": "map_dg33c_1.md3",
+      "version": 303,
+      "bytes": 41684,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ed5c45c49d51f8e42fdbdc7ea53eaaa162b58b1418536e8cdb0be518813abb59"
+    },
+    {
+      "file": "map_dg33c_10.md3",
+      "version": 303,
+      "bytes": 41684,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "883edc1cccf90629e90e210509395b1271de37ae778d2c335d43d0d306eef19e"
+    },
+    {
+      "file": "map_dg33c_2.md3",
+      "version": 303,
+      "bytes": 43004,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "53928fc9c2638d802ccb699981e00f59cded6290b31d09d3fd987307a5d3637e"
+    },
+    {
+      "file": "map_dg33c_3.md3",
+      "version": 303,
+      "bytes": 41684,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "48f0b50bac1a93dd5c3f854343cf8aa8ea12ca1424fbe29d8cb1031f6bf7673b"
+    },
+    {
+      "file": "map_dg33c_4.md3",
+      "version": 303,
+      "bytes": 41684,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "069a71a77f8f7b198c2791fe46b480a184cd8b40b22d74073f57f24ddb76eafb"
+    },
+    {
+      "file": "map_dg33c_5.md3",
+      "version": 303,
+      "bytes": 42884,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "302c4a9b00fc044e44ff436a6538ae5617f3dc2a9b445994f77d361aa984922e"
+    },
+    {
+      "file": "map_dg33c_6.md3",
+      "version": 303,
+      "bytes": 41684,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "79c8c5e13244cbf964c76eab84d085147e0aea998e803204a4be932d06a34583"
+    },
+    {
+      "file": "map_dg33c_7.md3",
+      "version": 303,
+      "bytes": 42980,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "79b288de469d51143da9984f953b6b361223b258173b57f6be7836c87ff6341f"
+    },
+    {
+      "file": "map_dg33c_8.md3",
+      "version": 303,
+      "bytes": 41684,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "41a30cbcc705057a41e5cbeb1342c8bbc5b3b8965217c42137eb0641f4944827"
+    },
+    {
+      "file": "map_dg33c_9.md3",
+      "version": 303,
+      "bytes": 41684,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "d886e6624243e424fa4b9812d2fc0d702e7c26058fb89290c3dc5ba20ac85cda"
+    },
+    {
+      "file": "map_dg33c.md3",
+      "version": 303,
+      "bytes": 86012,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0ea7a8d0755d7a7ac38e9d1824b48508008db8c1fb2fdaf468a84df2fbd293fc"
+    },
+    {
+      "file": "map_ev22\u2014\u2014.md3",
+      "version": 303,
+      "bytes": 25104,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a597f979e43e1dceb1adb24769aec311ef18183b9806612aa5f9fc7ffcefec00"
+    },
+    {
+      "file": "map_ev22.md3",
+      "version": 301,
+      "bytes": 63688,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "134198f3b3d42337323a82c81e5de9882bfe4f7cfa2bdb56a80696dbb76500ed"
+    },
+    {
+      "file": "map_fd00.md3",
+      "version": 303,
+      "bytes": 31964,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ccbd6349d546436bdfb77ff7b0dbc611c0750b7f322f1ffef4a9f84c2ad3e3e4"
+    },
+    {
+      "file": "map_fd00a.md3",
+      "version": 302,
+      "bytes": 32156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3252f97f0585204b5415354d2088ffc03e6ad252a16e9aeabc645f0d9ec8e0b4"
+    },
+    {
+      "file": "map_fd00b.md3",
+      "version": 302,
+      "bytes": 32156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c89ff3897ca50c904766535b4d99e9b956beff0db6cc0813afd68c8b6c96e3f5"
+    },
+    {
+      "file": "map_fd00c.md3",
+      "version": 302,
+      "bytes": 32156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d582a4789139abd8504cc233188ca512fe3ea48ebe2dd2f13d1c6c00da824df2"
+    },
+    {
+      "file": "map_fd00d.md3",
+      "version": 302,
+      "bytes": 32156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a5a07e93588f2a1dd30006703331db2e50830c9b705b0f6513a8f993e6139c95"
+    },
+    {
+      "file": "map_fd00e.md3",
+      "version": 302,
+      "bytes": 32156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "31bd18bade2aa4a762b7c19e85aacd9c0a70ff10e88fc93ef529005f1823ca3c"
+    },
+    {
+      "file": "map_fd00f.md3",
+      "version": 303,
+      "bytes": 31940,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2e3f8de46e02bcf54a4e7d6c40e8e6cc18778ceb8d92e103391b6b6bd4874fd7"
+    },
+    {
+      "file": "map_fd00g.md3",
+      "version": 303,
+      "bytes": 31940,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b8f48a9704c5f7cd6e93118703243593584b9f7b3ef33329e84d942694f4bced"
+    },
+    {
+      "file": "map_fd00h.md3",
+      "version": 303,
+      "bytes": 31940,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d9fadd31a7cce28e8274dcfe55cab198147501380e1c30952b5848ad422d5d68"
+    },
+    {
+      "file": "map_fd00i.md3",
+      "version": 303,
+      "bytes": 31964,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "53973b66390634cf5994d6c7bbaacfc8263b6817409935151138ffe75cc8f5cc"
+    },
+    {
+      "file": "map_fd01h.md3",
+      "version": 303,
+      "bytes": 51304,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "c5a1f88a9bf11fab91cefe49d030815914d794232ac56550162f6df3204dc49f"
+    },
+    {
+      "file": "map_fd02e.md3",
+      "version": 302,
+      "bytes": 190976,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "33375db887248cab88d4c7fe14c1e9a3b15ccc99cbe3eaf7af6fafff6ff168b6"
+    },
+    {
+      "file": "map_fd02f.md3",
+      "version": 303,
+      "bytes": 51616,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "66a5b07917d8568e77ecf43518a4da8fd08731c26ac47905c7c883e8640a1f9d"
+    },
+    {
+      "file": "map_fd03e.md3",
+      "version": 303,
+      "bytes": 51712,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "cc8d80a1fe9a132cca8784ec4c66913cf94601f32b3bc6608d79ee107f4b58c7"
+    },
+    {
+      "file": "map_fd04f.md3",
+      "version": 302,
+      "bytes": 194064,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6b224b415673d1bd2527e2d4a9ea4c3686cf9e4efcb8821fe358f51ce79c6fcf"
+    },
+    {
+      "file": "map_fd04g.md3",
+      "version": 303,
+      "bytes": 49696,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "5ed0307c40fd19de19f42872681530b9c55fe4eade53f52e2c82638cb5a70ca0"
+    },
+    {
+      "file": "map_fd05.md3",
+      "version": 302,
+      "bytes": 27196,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "77f330ca6c362eaa45b29bc776c4a87bf30ec2d70a788a7eac16219683e73dcc"
+    },
+    {
+      "file": "map_fd05.md3.md3",
+      "version": 302,
+      "bytes": 26676,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "37292e61c0d69701596748e90c15ad53f262637ac6a5c7bb2f8cf4dd6eca7557"
+    },
+    {
+      "file": "map_fd05a.md3",
+      "version": 303,
+      "bytes": 193840,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7f5e5c85628bac021482cea7f1587e5dbd6cde8ea63e870a45243e2c4b76645e"
+    },
+    {
+      "file": "map_fd05b.md3",
+      "version": 302,
+      "bytes": 193264,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8a6408fb91a1637d616431e6896506b4e0471f6ba131c85fc9b0f11496dcabb6"
+    },
+    {
+      "file": "map_fd05c.md3",
+      "version": 303,
+      "bytes": 193888,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c8fbeb32bb5cdacb2c63b59282da09fceb1baf22d8d3f93144fd4e198ca7af83"
+    },
+    {
+      "file": "map_fd05d.md3",
+      "version": 302,
+      "bytes": 194104,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "15465d038f067be39df5dd133eecbbdf5aad2e4f665344d5ce0712e62371faa3"
+    },
+    {
+      "file": "map_fd05e.md3",
+      "version": 302,
+      "bytes": 36516,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4195334c20a283f31c5e4611737d2cfcddd1ccfb476aaefdd093b07bec6dcadd"
+    },
+    {
+      "file": "map_fd05f.md3",
+      "version": 302,
+      "bytes": 20276,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "272fe748a619bf2aa155d988b5303a100c003c827b7ca4879e0af23b180e6aea"
+    },
+    {
+      "file": "map_fd05g.md3",
+      "version": 303,
+      "bytes": 51400,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "93697eead44e840f784e5339063db6f02423e95e49f782b9c659cf5f8dcff4c2"
+    },
+    {
+      "file": "map_fd05k.md3",
+      "version": 303,
+      "bytes": 49456,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "dbbed39f1b435352f5dcbdcd38966fadd245923a8a4f15193c5d8ffb0282d128"
+    },
+    {
+      "file": "map_fd06a.md3",
+      "version": 302,
+      "bytes": 196984,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e08b775ee56c1b3e88b80d145bbeb9efa5566eb884be7729bb64b227c5b44cdf"
+    },
+    {
+      "file": "map_fd06b.md3",
+      "version": 302,
+      "bytes": 199848,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "df85f38f8f71285b7711627b6eaf6d9a71ffc8d39adde49576100accc6b10705"
+    },
+    {
+      "file": "map_fd06c.md3",
+      "version": 302,
+      "bytes": 193420,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8dc5776a77a58ddd59fb324d2ffb4fc5166e401b2f57e5e528f11b03ecbad6c3"
+    },
+    {
+      "file": "map_fd06d.md3",
+      "version": 302,
+      "bytes": 193864,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fdee3a4a975d6a481dab364e53bd1a59dbdcc5a55f31b376464d768e25ef71d9"
+    },
+    {
+      "file": "map_fd06e_1.md3",
+      "version": 303,
+      "bytes": 26504,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3c084ece9ea7ec385af1bc5b236e0f093b3b38d9ec10153fd5e5ac5ae4d4460a"
+    },
+    {
+      "file": "map_fd06e_2.md3",
+      "version": 303,
+      "bytes": 26588,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "73c1769ecc828c6333c6183dcc7e8e888bf36457d9677baf7c1b9ca20c72d149"
+    },
+    {
+      "file": "map_fd06e.md3",
+      "version": 302,
+      "bytes": 53780,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2d72a3302a239b3640b52032368d32e2b2ae3c1550ca076f43f7bd042c57575d"
+    },
+    {
+      "file": "map_fd06g.md3",
+      "version": 303,
+      "bytes": 49760,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "fc6318aa23e8cc2b756ce6a1522c87c0056105d86a4bc02239b238285ee21577"
+    },
+    {
+      "file": "map_fd07_12.md3",
+      "version": 303,
+      "bytes": 8472,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1fde81d78b8bc5476043013ce2aebb14a684863cd66c4f5b87614d798ae21d97"
+    },
+    {
+      "file": "map_fd07.md3",
+      "version": 302,
+      "bytes": 24704,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "27071fbd13fe653834d3006fee06cf38859bfdd79fbc2a91c2b8cb80981bd717"
+    },
+    {
+      "file": "map_fd07a.md3",
+      "version": 303,
+      "bytes": 194292,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bb2158f206094f52c00e4f853436be380b272f573a66cd47bbe7b2fa0462bb61"
+    },
+    {
+      "file": "map_fd07b.md3",
+      "version": 303,
+      "bytes": 193400,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c94a7c610903c95e0c82cfafcd18300c69ebf04c1173039b3e619e76ec386057"
+    },
+    {
+      "file": "map_fd07c.md3",
+      "version": 303,
+      "bytes": 193156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3dc4a81185847ba6fe73ffe7f39fdd711264c3dfeb2d7caca7ddf5a085e3725a"
+    },
+    {
+      "file": "map_fd07d.md3",
+      "version": 303,
+      "bytes": 195040,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0e95f4b5c433c8f32cfb8bc8234d964d340548685c974ed5488357649d2d9850"
+    },
+    {
+      "file": "map_fd07e.md3",
+      "version": 303,
+      "bytes": 53344,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "b770d7c42e95a4eac70fe960a7be7b6b3b8f77142baefe478366680821f0134e"
+    },
+    {
+      "file": "map_fd07memts.md3",
+      "version": 303,
+      "bytes": 53344,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "8b01bd211f459a4859dd867727afac8612be836702735a5c14dfe1f2febf27ef"
+    },
+    {
+      "file": "map_fd08.md3",
+      "version": 302,
+      "bytes": 26348,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "467b2fd6274be41c1031efb0cbca84ac4d1aca3cba6289bd413adc88698d41b9"
+    },
+    {
+      "file": "map_fd09a.md3",
+      "version": 302,
+      "bytes": 195136,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2d501859e9af461245f1c2b45e57460d183c8712b6bd44cd020fe35c55845597"
+    },
+    {
+      "file": "map_fd09b.md3",
+      "version": 302,
+      "bytes": 240948,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8c489238e8575e8ade4d66bd7276c663f2d6c105d46beb08cb4e52254eb618fa"
+    },
+    {
+      "file": "map_fd09c.md3",
+      "version": 302,
+      "bytes": 258916,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a03f02c623a7957b206246d3bc9122f29cfc4fe999b75c35efb4368b35e5a9b4"
+    },
+    {
+      "file": "map_fd09d.md3",
+      "version": 302,
+      "bytes": 107684,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c28dea821d5b101caf393545041bbf7d9a990fc66a112ac9a4375ba09a89ed83"
+    },
+    {
+      "file": "map_fd09e.md3",
+      "version": 303,
+      "bytes": 51976,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "444db44810a57ca340d831494e68e6f933b1d1602ceb3327b95829591e795805"
+    },
+    {
+      "file": "map_fd09f.md3",
+      "version": 302,
+      "bytes": 31436,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5e407d48ee00bc1521156cfa840d938e50e05ccb3a9ca0dee9e9d5f65b083bd6"
+    },
+    {
+      "file": "map_fd09g.md3",
+      "version": 302,
+      "bytes": 31428,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cc4bcc1badc1daae2ba42ad8630c63a0f1afe2896b4be7de5a714d697a55279d"
+    },
+    {
+      "file": "map_fd10a.md3",
+      "version": 302,
+      "bytes": 33540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bca8d372e75b4ab2b07a1032b977573327a666ca9d9335aa87ca0b35b4cdbff7"
+    },
+    {
+      "file": "map_fd10b.md3",
+      "version": 302,
+      "bytes": 35072,
+      "trailing_bytes": 24,
+      "byte_identical": true,
+      "sha256": "9004fe79606d68f94c6315a6f99638ec862ced86a08cd0f13d2702f20204cb27"
+    },
+    {
+      "file": "map_fd11.md3",
+      "version": 302,
+      "bytes": 9668,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7b53e6ac96528efebc8c60bd42f12e58a9c7cf52fa205fc53d3e694784099eff"
+    },
+    {
+      "file": "map_fd11a.md3",
+      "version": 302,
+      "bytes": 151252,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a2f2ca6c7bde9913db2472a5cd3e2d520da8ba437dd3692380fb87bbabc99126"
+    },
+    {
+      "file": "map_fd11b.md3",
+      "version": 302,
+      "bytes": 150652,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "77f9ebd8b0c9be43a57cf432e31d6e6d3e46784177790976fa39f180baa94ab6"
+    },
+    {
+      "file": "map_fd11c_1.md3",
+      "version": 302,
+      "bytes": 150092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "29aa7620be84b8d740e24d4c41810aca9a5a06a1b7fd4a1218955404c78eae81"
+    },
+    {
+      "file": "map_fd11c.md3",
+      "version": 302,
+      "bytes": 150700,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9b6ae8ceb08e9e876e1fc5d98c1fe1c00ab21c1572c4f9c3346261c7445b636f"
+    },
+    {
+      "file": "map_fd11d.md3",
+      "version": 302,
+      "bytes": 124372,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "62d41d4463d04586769e615fbc28e42be2f3c96e9e7cec3a8a9bbf74faf1c8ec"
+    },
+    {
+      "file": "map_fd11e.md3",
+      "version": 303,
+      "bytes": 124044,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5c486f9d10144de3509e4f439e77bb2d73f6c4e3e227b1bededa95dd5c64ce05"
+    },
+    {
+      "file": "map_fd11f.md3",
+      "version": 302,
+      "bytes": 137124,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5a92f91e90e932f83662d93f8e2aee15af6d2282347831cfa898ad2f1f25b391"
+    },
+    {
+      "file": "map_fd11g.md3",
+      "version": 302,
+      "bytes": 58036,
+      "trailing_bytes": 64,
+      "byte_identical": true,
+      "sha256": "45a5a6b72052ad78db150dcc412a8075a4f512504bc078d8862b99352a739723"
+    },
+    {
+      "file": "map_fd11i_memt.md3",
+      "version": 303,
+      "bytes": 49664,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "30f0860f9a824266e17a968f31480ae25352a41b2f538ccd3ebcd130737b9adf"
+    },
+    {
+      "file": "map_fd11i.md3",
+      "version": 303,
+      "bytes": 49696,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "de7e58eb9257dd07d4babe88c94d0fc4d5d6b892c83dc9938d148bd7a07b0594"
+    },
+    {
+      "file": "map_fd13a.md3",
+      "version": 302,
+      "bytes": 26816,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "30e2a2f4f96f356b22f7695af71ec9e63f7f9086951095b3c1b87724fc8dc3c7"
+    },
+    {
+      "file": "map_fd13b.md3",
+      "version": 302,
+      "bytes": 26816,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bb8ad31a83a1ce2641169cce7cb81f8e3ce9965406299242554b6302732e5e38"
+    },
+    {
+      "file": "map_fd13c.md3",
+      "version": 302,
+      "bytes": 108800,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dadb3d717a3824bb51f973d8a6363225d50a951e338aa8c6add0aee29b449d7b"
+    },
+    {
+      "file": "map_fd13d.md3",
+      "version": 302,
+      "bytes": 50936,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3b8f9a99a4217acbe7558b4b046cfa95bc93b440202465664546c168dbcb95a0"
+    },
+    {
+      "file": "map_fd13e.md3",
+      "version": 302,
+      "bytes": 50912,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "69900b87a4c940a3e856f6d0dadf658b22440e414e4ba4c9456865a2b065dede"
+    },
+    {
+      "file": "map_fd13f.md3",
+      "version": 302,
+      "bytes": 50936,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dcf3044f90806bed0e1625d521175c19f8aa39a406bcfc5b0a7f0a11be921c38"
+    },
+    {
+      "file": "map_fd13g.md3",
+      "version": 302,
+      "bytes": 50988,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "33fc8d01a367b12108eadd982869d19c2fe3920bbe499684019e34f8960e58d4"
+    },
+    {
+      "file": "map_fd13h.md3",
+      "version": 302,
+      "bytes": 30476,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3639e6e4c53d2775817ff6808487ff342444ee348bc466ba2847389d4a3a4d98"
+    },
+    {
+      "file": "map_fd13i.md3",
+      "version": 302,
+      "bytes": 27560,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f8cb0d956a6b6d3e7f499d496378ec1fd469b5ef4313d41cd35202a59275bdbe"
+    },
+    {
+      "file": "map_fd13memts.md3",
+      "version": 302,
+      "bytes": 109432,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9dbf11cc3fada2c9f0be7095b081d236a0dfd04d60b2dc49e6800c393801b25e"
+    },
+    {
+      "file": "map_fd14a.md3",
+      "version": 302,
+      "bytes": 193496,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "663b63c20d2614f107b89ce5cb5944b9b8830668ddb8715cee736f8c93069d54"
+    },
+    {
+      "file": "map_fd14b.md3",
+      "version": 302,
+      "bytes": 33220,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "552e4177710958bebda7658649250933f9196d8d15874d13636f3ebf3a7be40f"
+    },
+    {
+      "file": "map_fd14c.md3",
+      "version": 302,
+      "bytes": 54164,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fa18f29eda18947cc5b10489d018cfef548cd41870b679788a6afa4bee37a67a"
+    },
+    {
+      "file": "map_fd14d.md3",
+      "version": 302,
+      "bytes": 148540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "49808ab8d156eff0ccca2e638a5e39775c2b084c87f5c0bb1fca29af747bc97c"
+    },
+    {
+      "file": "map_fd14e.md3",
+      "version": 302,
+      "bytes": 62136,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "74e7e1b3703d430827ee46a5dace0fc159cbaa8e834c030258da602ce0ee5fd7"
+    },
+    {
+      "file": "map_fd14f.md3",
+      "version": 302,
+      "bytes": 30484,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "929446583813104cfdcf6fe9230c497ea795170a3fa194679de6bc8fc396f5b4"
+    },
+    {
+      "file": "map_fd14g.md3",
+      "version": 302,
+      "bytes": 77840,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0a492727270e52e848c3a8ddea553fd3dded2aeda7a189d6918094b3a56ccec2"
+    },
+    {
+      "file": "map_fd15.md3",
+      "version": 302,
+      "bytes": 44524,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cda67d52d3555501e37f706339f3c8fab1dd48f5de9cde242e37fc49596b3b07"
+    },
+    {
+      "file": "map_fd15a.md3",
+      "version": 302,
+      "bytes": 194224,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5926e57f4a1083896e61a0b44edbce0a1c36d897a07099668e694e87459c58b6"
+    },
+    {
+      "file": "map_fd15b.md3",
+      "version": 302,
+      "bytes": 194488,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "09ab0af0f3bb8696fb7674e218984a1aa82fa21db082d0d7174b00f65b8ea7c7"
+    },
+    {
+      "file": "map_fd15c.md3",
+      "version": 302,
+      "bytes": 193944,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3942cebbca7cc26ee50448d6f4c5a01cf53b69eddfb389514400aaf40722b0d1"
+    },
+    {
+      "file": "map_fd15d.md3",
+      "version": 302,
+      "bytes": 193888,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "20e6032ebdfdc3a34642c06fdb7c0f771496e6cbbb489b8d540b736d59be9833"
+    },
+    {
+      "file": "map_fd16.md3",
+      "version": 303,
+      "bytes": 12380,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "90b396fe70adee79c0a2064692cf23c5697f4a85c93242c3dea43fbcd7312d99"
+    },
+    {
+      "file": "map_fd16a.md3",
+      "version": 303,
+      "bytes": 192804,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0e7aa8414e887e5c40f25ea22397d74eac9e9ec8bf7589549859c9c8262e7b97"
+    },
+    {
+      "file": "map_fd16b.md3",
+      "version": 302,
+      "bytes": 194104,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "658088338bc4a68d732dc93835148e14b803cfbd9288f78bfed6892f7c81bcfc"
+    },
+    {
+      "file": "map_fd16c.md3",
+      "version": 303,
+      "bytes": 191052,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a747fbf4c69967c1394d284b58d1d39dd6158ec7e45dcbce1c9a9decf44d7ccc"
+    },
+    {
+      "file": "map_fd16d.md3",
+      "version": 302,
+      "bytes": 47228,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a558df4d19e3329b5f66731215af6818af5fcdf85349a5f818f626fdd275fbfb"
+    },
+    {
+      "file": "map_fd16e.md3",
+      "version": 302,
+      "bytes": 189728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "debdb0de24237cc972c46b30f8410f00e3d6d06dd10644959d43e9d3d8dabc3d"
+    },
+    {
+      "file": "map_fd16f.md3",
+      "version": 302,
+      "bytes": 189112,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c070d822e723c907a5db41851d4610dc566c4f98dfac4323db74f10ca5a43e63"
+    },
+    {
+      "file": "map_fd16g.md3",
+      "version": 302,
+      "bytes": 191208,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "44ae668406a19fc7184bded37ead87e2ed163f0fd472fdfff963021741db277a"
+    },
+    {
+      "file": "map_fd21.md3",
+      "version": 302,
+      "bytes": 46540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8ed83ca4b309523473e22ffd8d251ac88c415bb946353950b09b201fd1d1e395"
+    },
+    {
+      "file": "map_fd21a.md3",
+      "version": 303,
+      "bytes": 190048,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "944685b99a06791ca4858f254ff071aea4ae2b8ef18c1a6e7d99169c213dd9fd"
+    },
+    {
+      "file": "map_fd21b.md3",
+      "version": 302,
+      "bytes": 201856,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c6703342c47ff14bce7c247108807211b94570e752a6ca227add18f434f5c35a"
+    },
+    {
+      "file": "map_fd21c.md3",
+      "version": 303,
+      "bytes": 195784,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "eaabed2d9a25b137a2a89bd15c72cee105643fb746c71ed5178ad11aee988f88"
+    },
+    {
+      "file": "map_fd21d.md3",
+      "version": 302,
+      "bytes": 190640,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2d049cfe93f858029ae9575a7639b80a9cfb37b1e550c51e16db8e26cab61e80"
+    },
+    {
+      "file": "map_fd22a.md3",
+      "version": 302,
+      "bytes": 180704,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "927c94e8b35bd1337b43ed3687032d82169fd2c436202edfde392694f52d7a9f"
+    },
+    {
+      "file": "map_fd22b.md3",
+      "version": 302,
+      "bytes": 149380,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4ffda1a1301d2b03086242a0a5691986713aa9bac4203f9c62dca43d5afd53eb"
+    },
+    {
+      "file": "map_fd22c.md3",
+      "version": 302,
+      "bytes": 284840,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3d7adc9be8181c15a6cb434a21d027b8bb9236f1fc115d489494d8c1315a6836"
+    },
+    {
+      "file": "map_fd22d.md3",
+      "version": 302,
+      "bytes": 7456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7383c1443da63e7b0f6c006f8cb47d180244d9428d0b08c1bc14f0111ffec0ee"
+    },
+    {
+      "file": "map_fd22e.md3",
+      "version": 302,
+      "bytes": 6432,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d74c991964c7fe6b27bef8b136f764aca3b71890040b330ed8771e95434dc2f5"
+    },
+    {
+      "file": "map_fd24a.md3",
+      "version": 303,
+      "bytes": 47600,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "5c2934bdc7bf02c98342306df40bcdb0b245460bef435c2a980573b341b34534"
+    },
+    {
+      "file": "map_fd24b_memts.md3",
+      "version": 302,
+      "bytes": 70068,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "34ddec3cd6107fde0b21fbe187ae4f7a6e30f53f5e06f46b9373e8399a421120"
+    },
+    {
+      "file": "map_fd24b.md3",
+      "version": 302,
+      "bytes": 69716,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f8274752c188b634709a5dd6f38e5d9433a463b04465b8fdd5df866c726d2dde"
+    },
+    {
+      "file": "map_fd24c.md3",
+      "version": 302,
+      "bytes": 8432,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cd63f3d7a086d2ba66c5488175c1a51fe9a8582b372c72b98c25024aea90e7ef"
+    },
+    {
+      "file": "map_fd24d.md3",
+      "version": 302,
+      "bytes": 9476,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ed418838052d41c2c2baf964cadc10764899e31a666efe2b4207d9d6bdbf86f5"
+    },
+    {
+      "file": "map_fd25a.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "92faf2048796d955c211925ee22b034dbd4138e2e1ecd3074261284cffb6e320"
+    },
+    {
+      "file": "map_fd25b.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b2e263c09f16565a697d231b35c01240fb26d0e9f70fcae73c90488febce11dc"
+    },
+    {
+      "file": "map_fd25c.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ed806b10819ff5240a93a1a22559749202778a7f28b3830af5ebb81b6bfec204"
+    },
+    {
+      "file": "map_fd25d.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "461ddc4c8c92aea0098dbd10c2fa0a3f97617159147769fe451eeb7bfbdcc216"
+    },
+    {
+      "file": "map_fd25e.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8a82c62ffcd3a5b84d1b76838286370c4b8d9c4cfc0caea4e5cf54580c4b5447"
+    },
+    {
+      "file": "map_fd25f.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "30bb64956968b331d0ea980b7c0d9af50a1203685ef933cf99e8e8173113baa4"
+    },
+    {
+      "file": "map_fd25g.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cdee92914a8e065e87c0cff2d83ac86ea6f6612fb76193b55f9b81afa83fbb23"
+    },
+    {
+      "file": "map_fd25h.md3",
+      "version": 302,
+      "bytes": 122316,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6732e3d02eceb638c1060f6a67e9ec1689e383d32b12c2c26f14d630353d2dbf"
+    },
+    {
+      "file": "map_fd25i.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bff23dff3c910909a462140623e7781011c7f9a55b5904d1a4b48e7f7721e4e6"
+    },
+    {
+      "file": "map_fd25j.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fcf8fbacf7430b328574b2d1f1bd53f64417fec5e085e4684a8cbc841d431a5f"
+    },
+    {
+      "file": "map_fd25k.md3",
+      "version": 302,
+      "bytes": 122412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dd42cdb9558aa6ebb3222f34a1c3bf17a3cab2ee6cb67ce3218a64cb76dcf413"
+    },
+    {
+      "file": "map_fd27a_ev.md3",
+      "version": 303,
+      "bytes": 189820,
+      "trailing_bytes": 184,
+      "byte_identical": true,
+      "sha256": "6e6ae286b56a3cee9e7aa9188410d92770e47792f14669d85d47a7b68ae263cd"
+    },
+    {
+      "file": "map_fd27a.md3",
+      "version": 303,
+      "bytes": 189820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "39140b972d577ff13cc1dc56f31e66c4ecc7f54a36eb80e4f81ad50ccd6cca13"
+    },
+    {
+      "file": "map_fd27b.md3",
+      "version": 303,
+      "bytes": 189844,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "eaa304a2fe4c4ffd92d49be4fbbead48ea2fb6056d0b5a535f402e1615f0f099"
+    },
+    {
+      "file": "map_fd27c.md3",
+      "version": 303,
+      "bytes": 189592,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "88133cc044b6a84fb6c290e3c5442031395361cd9b000ace2f166ff7a32913dd"
+    },
+    {
+      "file": "map_fd27d_1.md3",
+      "version": 303,
+      "bytes": 60696,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e57bf60b6c7afc1029ed6e77b79f531428f6cbb9a3cd9e818706c065dde07bc3"
+    },
+    {
+      "file": "map_fd27d_2.md3",
+      "version": 303,
+      "bytes": 60696,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e57bf60b6c7afc1029ed6e77b79f531428f6cbb9a3cd9e818706c065dde07bc3"
+    },
+    {
+      "file": "map_fd27e_1.md3",
+      "version": 303,
+      "bytes": 9572,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a88850b42cab7b466814e17f379076ee5c37358ff64489cf586f699b5ab09100"
+    },
+    {
+      "file": "map_fd27e_2.md3",
+      "version": 303,
+      "bytes": 9572,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "510ed4786a4dddb24874f9f3ec3d976a60eb9cad6d2606e908a2f5285f2533bc"
+    },
+    {
+      "file": "map_fd28g.md3",
+      "version": 303,
+      "bytes": 123248,
+      "trailing_bytes": 600,
+      "byte_identical": true,
+      "sha256": "92a907e3ee20cdfcc3e8a7fa9ab0069a641801e47e8eaf884db6b6d744498aab"
+    },
+    {
+      "file": "map_fd28h.md3",
+      "version": 303,
+      "bytes": 122816,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cf9588c45eedb3931541593c7deb64d984f19fd7a1065952a7b2275f1930f54a"
+    },
+    {
+      "file": "map_fs01.md3",
+      "version": 303,
+      "bytes": 51248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f39e98f63f1c7bfd05f94c72f083d19ab5c9b69b37fa8d0ed760574cc2eb4a8f"
+    },
+    {
+      "file": "map_fs02.md3",
+      "version": 303,
+      "bytes": 51560,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b9744d99aee58468eac8df6cb705b344b25bf1630ccae01d42565f89938a47d6"
+    },
+    {
+      "file": "map_fs03.md3",
+      "version": 303,
+      "bytes": 51656,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "848df9981765d1c3b8e99ab9d488ea6fb8e55d1943a7fdca2f48498c82f6d758"
+    },
+    {
+      "file": "map_fs04.md3",
+      "version": 302,
+      "bytes": 49640,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "367fd7fe385e1809e9541755745dac7c7e4ec6aeb1632934fe9aaae2e77b5c30"
+    },
+    {
+      "file": "map_fs05.md3",
+      "version": 303,
+      "bytes": 51344,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e82d786399b5da82596113a2cb44ba841f37d4b930e35ca6423d6495f0f51875"
+    },
+    {
+      "file": "map_fs05a.md3",
+      "version": 302,
+      "bytes": 49400,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dd825116b9a64f8cecc2671a73bcdbe0a380b39a718aeaf9943be1da9e4c3c37"
+    },
+    {
+      "file": "map_fs06_1.md3",
+      "version": 303,
+      "bytes": 49728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "66f32fe2adb3ee55e725a83d65548c4ba6db83b8134eea93cd44253da8a396d4"
+    },
+    {
+      "file": "map_fs06.md3",
+      "version": 303,
+      "bytes": 49728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9273f84b38094fe7516c35d435eb7d524faa16fae1a5efe692403c86a67dd093"
+    },
+    {
+      "file": "map_fs07.md3",
+      "version": 302,
+      "bytes": 53288,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "643fc7bc6223b08a78bc6758ef7293fd6d95051b53fa986cbba276fc6296a8a1"
+    },
+    {
+      "file": "map_fs09.md3",
+      "version": 302,
+      "bytes": 51920,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f1a5efb415afec5fa471e0102a0c98e2caf901a12b8c43bbbccadead48a08954"
+    },
+    {
+      "file": "map_fs11.md3",
+      "version": 303,
+      "bytes": 49640,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "24fb21fd363e432bcbe861fa04028129e9c69268aaa48b02c13a44bf419f388b"
+    },
+    {
+      "file": "map_g27.md3",
+      "version": 303,
+      "bytes": 45776,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "006d5e8ddba2195100c173da6494e25adc97d097fe52c714fedc1ae20aef273d"
+    },
+    {
+      "file": "map_mn02.md3",
+      "version": 303,
+      "bytes": 42448,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8c865c49dfd8fb3970a614f121d08e79800df8bc7d12f84331b074dc0c3968ba"
+    },
+    {
+      "file": "map_mn02a.md3",
+      "version": 302,
+      "bytes": 217964,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0fd32fae0c7fafab8b04aa163bb67e47f4679df7e223478a7979c02f2c479096"
+    },
+    {
+      "file": "map_mn02b.md3",
+      "version": 302,
+      "bytes": 218180,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8cadbf5f9e11061caf0fa817964022bbc835cbe87c71102d60d67f300c93ce1a"
+    },
+    {
+      "file": "map_mn02c.md3",
+      "version": 302,
+      "bytes": 241768,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4e4afda67524c850783e6e31b9cff093c2a71a52598ea39ee723a8030558ff93"
+    },
+    {
+      "file": "map_mn02d.md3",
+      "version": 302,
+      "bytes": 109920,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bf6b3314b768cd3e1fd3305bbe83943cc565d6454a9fc4d35d59d27ac74fd363"
+    },
+    {
+      "file": "map_mn03.md3",
+      "version": 302,
+      "bytes": 42408,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "315702e1b74da79abc8a6fe7ac2a4d7f9bc73c8ca30eb9400230dbf51cced60a"
+    },
+    {
+      "file": "map_mn03a.md3",
+      "version": 302,
+      "bytes": 217700,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "41c148945451493b5e94a29fdd83abda0df091c5f0fe9dc29915b5f8a36c6498"
+    },
+    {
+      "file": "map_mn03b.md3",
+      "version": 302,
+      "bytes": 217844,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "09cb0d26bd8ac6d8201c13f973b785f3e72ea79c4e995f188f84cd780109b58a"
+    },
+    {
+      "file": "map_mn03c.md3",
+      "version": 302,
+      "bytes": 241624,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0d2d3fd69535759538e66e1a66905a7d956da4f75c5e855e8b955f409ec63ff7"
+    },
+    {
+      "file": "map_mn03d.md3",
+      "version": 302,
+      "bytes": 108644,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a545c69de3538055916eca5e9339265d0c51f3065c96d50fded723cf91c0f6bd"
+    },
+    {
+      "file": "map_mn04.md3",
+      "version": 302,
+      "bytes": 42432,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a007f7aae53591813217b5b88c3571a77d65c6c1654b667507d5baa6aa6e1a03"
+    },
+    {
+      "file": "map_mn04a.md3",
+      "version": 302,
+      "bytes": 218372,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "99621a031b293f4f59fb03d5931b93187bc4ca3533e5ef4f56c37fd63ba42d58"
+    },
+    {
+      "file": "map_mn04b.md3",
+      "version": 302,
+      "bytes": 217916,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f4ffbf2f2f47cfa94c8440a5754ad1f6babf863e2891950368c8dcf83eabc436"
+    },
+    {
+      "file": "map_mn04c.md3",
+      "version": 302,
+      "bytes": 241768,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "adace494c4b3174861fffdcab78d93de7c619d87e7c4fb33cfd0ad75966c6fb0"
+    },
+    {
+      "file": "map_mn04d.md3",
+      "version": 302,
+      "bytes": 193016,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e1f9c7986682e7b91b71ee1e4acbd9e50a219a4111550a1bfbf3150f62ee14e1"
+    },
+    {
+      "file": "map_mn06.md3",
+      "version": 302,
+      "bytes": 42424,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "43dbefdc0b73af5a66052c487b3033b065d24ccbb7aa43fc625967c578b156fa"
+    },
+    {
+      "file": "map_mn06a.md3",
+      "version": 302,
+      "bytes": 218068,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2b58c416b2de52d0b36eaf07098d4972aad14351092fe74788a6b56a0df4198d"
+    },
+    {
+      "file": "map_mn06b.md3",
+      "version": 302,
+      "bytes": 218096,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b7064628d8d5455b7786299588af5f2a88acbb87071398d60aeba4513eadd74a"
+    },
+    {
+      "file": "map_mn06c.md3",
+      "version": 302,
+      "bytes": 291972,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d69c42bb741beef2cfa7d47dbcddd3f1baa23fa02232e6eac86e1760cd49cb20"
+    },
+    {
+      "file": "map_mn06d.md3",
+      "version": 302,
+      "bytes": 108512,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dace81ca1ed32c30a7c731d487e0a7b54f7ff61ad0a86a8aae5a6c806e69ffed"
+    },
+    {
+      "file": "map_mn07.md3",
+      "version": 302,
+      "bytes": 42432,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2115a938fbe6189d3cefbb50411592e63202cf21ab2aa4044f283f0a97318e49"
+    },
+    {
+      "file": "map_mn07a.md3",
+      "version": 302,
+      "bytes": 218084,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3f068d13a7571dae7f89eb294f2a35d52d1cc15558017b937716496ec26748d5"
+    },
+    {
+      "file": "map_mn07b.md3",
+      "version": 302,
+      "bytes": 217796,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3d2bfff7f996839acb7d948a7736ab2534346266bc4640abae49cf81fd7cdc89"
+    },
+    {
+      "file": "map_mn07c.md3",
+      "version": 302,
+      "bytes": 241768,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "214cd605cbc09ed67c1c6004e0871ed40b1442cfefec0df34ab51ad90359b8fa"
+    },
+    {
+      "file": "map_mn07d.md3",
+      "version": 302,
+      "bytes": 108164,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "985f5949bfc3f90258b92612d8c3a0696aa4d47724ba2c8ec682e1e4c900936c"
+    },
+    {
+      "file": "map_pa03c.md3",
+      "version": 302,
+      "bytes": 159604,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "175f1fe8d93d4b3b0331e32f88f69271d3fa1ebdafa8713f737150699c263a97"
+    },
+    {
+      "file": "map_pa04_15.md3",
+      "version": 302,
+      "bytes": 22784,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f7dd968261e5e4b33b873deb54c05868f035b0e4ac6e2326193cde2044ffa66a"
+    },
+    {
+      "file": "map_pa04_16.md3",
+      "version": 302,
+      "bytes": 66392,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "afc2710f4be104eacca73fd789a38eb383b67f07c54d637c39793d9e7cec3208"
+    },
+    {
+      "file": "map_pa04_16b.md3",
+      "version": 302,
+      "bytes": 66312,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "468ad06451719ebb8cfd4a63ae5b945130daa3d5891fdd4d24ab852b05ba64b3"
+    },
+    {
+      "file": "map_pa04_18.md3",
+      "version": 302,
+      "bytes": 41444,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b3deb6b4c624bdc47645e773dd8774ad18e7f08c290556e60f099ae5e21f8180"
+    },
+    {
+      "file": "map_pa04_19.md3",
+      "version": 302,
+      "bytes": 66152,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "379019a036eaccf757e46f584988763bc63edc93a1ab4fa7e00a594279a1e826"
+    },
+    {
+      "file": "map_pa04_19a.md3",
+      "version": 302,
+      "bytes": 69600,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "73845a6b8df23d2516263befe28669faed5d95c1263dc22703c3da8583428050"
+    },
+    {
+      "file": "map_pa04_19b.md3",
+      "version": 302,
+      "bytes": 69792,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "90d6bf3cd7f322784d6cd2dc8ef816285e07ec284cdf85269f188091ea92e7ac"
+    },
+    {
+      "file": "map_pa04_20.md3",
+      "version": 302,
+      "bytes": 198244,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d941ee875224e684373cdcfd6fbec067d0f3929253c81634b397d22c67f0fdab"
+    },
+    {
+      "file": "map_pa04_9.md3",
+      "version": 302,
+      "bytes": 12632,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cb048b9e141f7dd7ef9e24f86f215f8c671c255f3b6f7b3862b9756aa749c5da"
+    },
+    {
+      "file": "map_pa04.md3",
+      "version": 303,
+      "bytes": 57844,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "26fdf694fba210dd31da07ec4cfc538eba8f7c22d63deb2001a4aabcb28d1e45"
+    },
+    {
+      "file": "map_pa05_8.md3",
+      "version": 302,
+      "bytes": 3504,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f464bdcf719ee59652905f9a438b2d70dd1b9fc7491ea26722034149db2ea92c"
+    },
+    {
+      "file": "map_pa05.md3",
+      "version": 302,
+      "bytes": 201004,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "261c137a884d5db200db12c72fe9e270168f154d5fcd6b231fb6802b1ad3758a"
+    },
+    {
+      "file": "map_pa05a.md3",
+      "version": 303,
+      "bytes": 193288,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5250fdfd6d732b2ffb8fbb155a61f28a481b2ffcf73c8940420098c70e5d055f"
+    },
+    {
+      "file": "map_pa05b.md3",
+      "version": 303,
+      "bytes": 193284,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "825ff935b10c143085124bd1ebd7fa7eee7fe7cc80f482bf19d20f1ad1671cfd"
+    },
+    {
+      "file": "map_pa05c.md3",
+      "version": 303,
+      "bytes": 193300,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9deb306918e005586889951b23449f41e4f4f271b5b9d4743c830b4446f42016"
+    },
+    {
+      "file": "map_pa05d.md3",
+      "version": 302,
+      "bytes": 194092,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "696ba3d765abdfed6484a3aadfb2d39d4a830179f356bd93f6388f24d7e1a107"
+    },
+    {
+      "file": "map_pa05e.md3",
+      "version": 302,
+      "bytes": 50256,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "547647c230ba41b8ebd7fc066518a497b66fecea1fcbf597eecbd86e48a05c0a"
+    },
+    {
+      "file": "map_pa05f.md3",
+      "version": 303,
+      "bytes": 192592,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1e7af895ac3376eeaa3a7c52ada7930c9442c1b762936f96ba7753be43073737"
+    },
+    {
+      "file": "map_pa05g.md3",
+      "version": 303,
+      "bytes": 193528,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "aff8184fbc50898d502da1da8005b8c8f5fffdeb1d1c41097bfa4e0c46022cb0"
+    },
+    {
+      "file": "map_pa05h.md3",
+      "version": 303,
+      "bytes": 193816,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cfa9cd59f5498df519c276735916937f4d76c2f84ac636c231275c72768029e2"
+    },
+    {
+      "file": "map_pa05i.md3",
+      "version": 303,
+      "bytes": 192400,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "df93144a13c4786a5d9da909fea18efa17dc4e3281db49cffd48de248b5500ff"
+    },
+    {
+      "file": "map_pa06a.md3",
+      "version": 302,
+      "bytes": 193864,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5de8d4b85dd2288a96cd30c3967967cb2bfef6f493f2a94995c88fd13a65632b"
+    },
+    {
+      "file": "map_pa06b.md3",
+      "version": 302,
+      "bytes": 193792,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "af2496c27bda0705e4778dab9a23ece0e2ec5f5f9ab3d50f488487b4a7b4ee48"
+    },
+    {
+      "file": "map_pa15a.md3",
+      "version": 303,
+      "bytes": 146704,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bfd30bf08a7cec0a9c74d8237adc2082e0d7e4904100093fab678e1b120be8a6"
+    },
+    {
+      "file": "map_pa15b.md3",
+      "version": 303,
+      "bytes": 90248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5f1e13fe61cbe4e1a56adff53f73ba3ab19259e42620879e7a99be61a6a61190"
+    },
+    {
+      "file": "map_pa22.md3",
+      "version": 302,
+      "bytes": 76944,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "98bdd450f5f706bffc64682acc9f152d71dbfacf16dcd8ac7edf8dffaf3c9006"
+    },
+    {
+      "file": "map_pa22a.md3",
+      "version": 302,
+      "bytes": 77016,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d89dbcaf670b9b77de3b093c486f5964ca27ca656bff5f57b02fa60ceba99d2f"
+    },
+    {
+      "file": "map_pa22b.md3",
+      "version": 302,
+      "bytes": 67896,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "346b4dbf2464b1fe72a039eb251577742f80b93f4bf650d76558299192c7b94d"
+    },
+    {
+      "file": "map_pa22c.md3",
+      "version": 302,
+      "bytes": 76792,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fc2473d8cc00bd84c58192b3cb1d1838c3d83ee6bee826c0a541b5fd39a8da59"
+    },
+    {
+      "file": "map_pa22d.md3",
+      "version": 302,
+      "bytes": 60728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5e0f0a738ee73f545881a1353cec1045e098d0c463d7c5818a736b5172b7d3fa"
+    },
+    {
+      "file": "map_pa22e.md3",
+      "version": 302,
+      "bytes": 59064,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "db1bb94b5a0887a747fffeb926865f81cdf84af06f082690bbe54597870f6547"
+    },
+    {
+      "file": "map_sd00a.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "793ec7270286f3a603eb1db2e8450d58d6ca5ee4d720ea1d866c71e0d415e6ee"
+    },
+    {
+      "file": "map_sd00b.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e4e5a81aa4bfaa0e8f828e2360a30eb97ab13a50aa98b698fbb310ea97170e45"
+    },
+    {
+      "file": "map_sd00c.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0dcb3a6cefcb56bc45cee39117307d15b9fe961436521fb1c796d8a62d2f8cf2"
+    },
+    {
+      "file": "map_sd00d.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6c8037edfa7eb756a8de9a75cada5abdaaa9ed553aa3ffb084bc39efdb120ecb"
+    },
+    {
+      "file": "map_sd00e.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "42d1ea39d60b638327751c8759b7c67740fc9658f0ab7b61e3d1a348ad7f8ed9"
+    },
+    {
+      "file": "map_sd00f.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "63a0db60820e8bfaeae9b44ed8b29a53bfdd47d5480d989e2c262f65b7ef8d57"
+    },
+    {
+      "file": "map_sd00g.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1766f75ad7cd08b62dd9c70dbb6d8e0d371fb1d1a670728bf5d77177e9a047a6"
+    },
+    {
+      "file": "map_sd00h.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f7d214f63d7a5cd62b5430a66e1f10a11ae92674034f94de124a8adb21081ee4"
+    },
+    {
+      "file": "map_sd00i.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "11e657c824a3cf9073fe11fb2fa972e68da3de57afa99f1136b26e6dccf03e95"
+    },
+    {
+      "file": "map_sd00j.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3e0bf7f08363c420c03165c01dd96b5bbdaf2208540c75dcfddcd59597ffd94e"
+    },
+    {
+      "file": "map_sd00k.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0b8bdec04162fd48bd618531015db91a3334037bf530e632b3fcf91176724555"
+    },
+    {
+      "file": "map_sd00l.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "73e00f0009306ed7c39648777d7941db938489dd450e97577c39d2ad524aa223"
+    },
+    {
+      "file": "map_sd00m.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2dad0204c8b4fa7edf4b20740c4e1c303a635a4065bbe528436462607c92f3d6"
+    },
+    {
+      "file": "map_sd00n.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "86ff40e28a9159c871f843733e50397ea548285577e9f038765e4fb7e24c30fe"
+    },
+    {
+      "file": "map_sd00o.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2c6ff0c5f121ef1e6116d6cf0ae7665fee3ec9c7121c0db194a33a1a0b1ec7e2"
+    },
+    {
+      "file": "map_sd00p.md3",
+      "version": 302,
+      "bytes": 13088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f2118168b3aab60b09b8f48e698c6b417afc42422b86aca64da6eb07a0933a9a"
+    },
+    {
+      "file": "map_sq00_01.md3",
+      "version": 302,
+      "bytes": 31280,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "02ad994c3081fcbfa22e5ce59e308440a021c67ee848b921c8c4ec1a9e6946ce"
+    },
+    {
+      "file": "map_sq00_02.md3",
+      "version": 301,
+      "bytes": 3940,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9204676d49f4c6d0433695aa9d0abf69b8f51fbb05a1c151339f4b9df8da7766"
+    },
+    {
+      "file": "map_sq00_06.md3",
+      "version": 302,
+      "bytes": 5164,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1001d58016dd6ed3ae828ab0983226fb4632be3b01bd65562f049e6f36392dbe"
+    },
+    {
+      "file": "map_sq00_10.md3",
+      "version": 302,
+      "bytes": 8608,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0f9a68d0b2897a957a3634f5890c6cf7e8496362490219aeb593592d192df50b"
+    },
+    {
+      "file": "map_sq00_14a.md3",
+      "version": 302,
+      "bytes": 6456,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "96b2da3fe523d4a8cbe0f1563ba029ca6d8435b6df241eb641005e1f99d67e44"
+    },
+    {
+      "file": "map_sq00_14b.md3",
+      "version": 302,
+      "bytes": 2772,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5a3b45285b577cb61ab1689c3b5f2e943457fb1445fc933231c60c2f649a8a07"
+    },
+    {
+      "file": "map_sq00_14c.md3",
+      "version": 302,
+      "bytes": 2748,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "34786aa6b9728c14fe646da0bd27ebae872d3abcf971a66069c3af5020d18ba3"
+    },
+    {
+      "file": "map_sq00_14d.md3",
+      "version": 302,
+      "bytes": 3260,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2da12c6469520e8fdb242418cc3398d49d81da236ed2b809ee61e2af76813110"
+    },
+    {
+      "file": "map_sq00_14e.md3",
+      "version": 302,
+      "bytes": 3260,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2da12c6469520e8fdb242418cc3398d49d81da236ed2b809ee61e2af76813110"
+    },
+    {
+      "file": "map_sq00_14f.md3",
+      "version": 302,
+      "bytes": 3284,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e98146dec6cadb6cc800ec8e89bc72c5682d1949087db54bf1efaab5274f1045"
+    },
+    {
+      "file": "map_sq00_14g.md3",
+      "version": 302,
+      "bytes": 3284,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e98146dec6cadb6cc800ec8e89bc72c5682d1949087db54bf1efaab5274f1045"
+    },
+    {
+      "file": "map_sq00_14h.md3",
+      "version": 302,
+      "bytes": 3260,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "78661172b996ed15b662975c14d056ef29015b78aec37dc7b7b8992cf3617757"
+    },
+    {
+      "file": "map_sq00_14i.md3",
+      "version": 302,
+      "bytes": 3260,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "78661172b996ed15b662975c14d056ef29015b78aec37dc7b7b8992cf3617757"
+    },
+    {
+      "file": "map_sq00_14j.md3",
+      "version": 302,
+      "bytes": 3260,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7004c07b2d49cac6ab2cc5f6d8ce669198e82d89e64f759ee382cab4ff33fbd8"
+    },
+    {
+      "file": "map_sq00_14k.md3",
+      "version": 302,
+      "bytes": 3260,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7004c07b2d49cac6ab2cc5f6d8ce669198e82d89e64f759ee382cab4ff33fbd8"
+    },
+    {
+      "file": "map_sq00_event01.md3",
+      "version": 303,
+      "bytes": 75820,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fdfe2dce963a90a9f314877d3bf6405e6d443cd1df6dfca3b2b6f287f99b5928"
+    },
+    {
+      "file": "map_sq00_event02.md3",
+      "version": 303,
+      "bytes": 75740,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "974445bebcac4cdf6604d6b5b71807bdf2c78105bca9ef77ccd1191d95428933"
+    },
+    {
+      "file": "map_sq00_event03.md3",
+      "version": 303,
+      "bytes": 76060,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "731b1fcad054702853bde888465f8cc49b66a0ee7116b7de012873e359a3f9fa"
+    },
+    {
+      "file": "map_sq00_event04.md3",
+      "version": 303,
+      "bytes": 76140,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "052f572f81286e94665a56c5162fdd117d336a5dad99b80508bef1d40ac2c2b3"
+    },
+    {
+      "file": "map_sq00.md3",
+      "version": 303,
+      "bytes": 76156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0a7ca580f0832df3269d96886af714d35fb8662ba57f57d88fbf02dbc5ff4287"
+    },
+    {
+      "file": "map_sq03_2.md3",
+      "version": 301,
+      "bytes": 3604,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2ef51aad9e02691b4f71d7ae64d4ac9619bbefc38937c501317bd62bae0e1d30"
+    },
+    {
+      "file": "map_sq03_3.md3",
+      "version": 302,
+      "bytes": 3520,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0ab176a0cf1f62d83820ce64abf07a927351a0ea72031fda9d1ad2df3ea6704b"
+    },
+    {
+      "file": "map_sq03.md3",
+      "version": 302,
+      "bytes": 28856,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bf1f0571fab54e94c9f7404a3ebce9966dda3455056b0b5d5905abf34b13dcaa"
+    },
+    {
+      "file": "map_sq04_01.md3",
+      "version": 302,
+      "bytes": 9396,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bdb6d00f6ab41025d0649575730834a80c177648d85762a1c3a58b13f6433e15"
+    },
+    {
+      "file": "map_sq04_01(1).md3",
+      "version": 302,
+      "bytes": 9372,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "370c73f3589c4f5e36af5d616bce3b2ca878496f1c81593cee2b0d8b537bf2e9"
+    },
+    {
+      "file": "map_sq04_02.md3",
+      "version": 302,
+      "bytes": 3664,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "638a39e66b591c1e5893c5703672ac884a09bb8975085aca1cdd3bf935622a59"
+    },
+    {
+      "file": "map_sq04_07.md3",
+      "version": 302,
+      "bytes": 3568,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e478578797d29e27abbf9947b733cab468ff9443fb02880c7784ece94ece7d10"
+    },
+    {
+      "file": "map_sq04.md3",
+      "version": 302,
+      "bytes": 37500,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2ec5af80cd8b6b59ea08b98c1f08f43c52c31b21014b71104221fab4e94af3bd"
+    },
+    {
+      "file": "map_sq05_13.md3",
+      "version": 302,
+      "bytes": 6828,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "677d878830188356e616a27b5b7a720be942524c1ee15114df552c9b1fc56ece"
+    },
+    {
+      "file": "map_sq05.md3",
+      "version": 303,
+      "bytes": 39024,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8cf8b5c337da11590a584eb84efdc5d64911c28de09e110e62ac3da7c67677b1"
+    },
+    {
+      "file": "map_sq06_1.md3",
+      "version": 303,
+      "bytes": 6528,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0e47a939e2afa497824b90ba54515ff62646afc1c2a5866e0a339269634c79a5"
+    },
+    {
+      "file": "map_sq06.md3",
+      "version": 302,
+      "bytes": 7860,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8f9303142af1593e0fc07673e78257f1b62db3e3f3a607d5506dcd4e75f611fd"
+    },
+    {
+      "file": "map_sq07_1.md3",
+      "version": 303,
+      "bytes": 6792,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "dcbed1f1e35f5df4428922f2bd928749a773e5f2c74b2255c2dbb8137993646d"
+    },
+    {
+      "file": "map_sq07_2.md3",
+      "version": 303,
+      "bytes": 10736,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8b8d10de94afcf0570d9d1da170245bb06c96af12e8f0b48953762c22eb6009f"
+    },
+    {
+      "file": "map_sq07_3.md3",
+      "version": 303,
+      "bytes": 5204,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8a47f7ef3e94358f5af72225faf7eeae45e9798c3518a1d2843b1e608267b47e"
+    },
+    {
+      "file": "map_sq07.md3",
+      "version": 303,
+      "bytes": 116544,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "d3161f636da1ef9cf2399705e362be12428a0e15e1c4a974dfea07547ccee5f8"
+    },
+    {
+      "file": "map_sq09_13.md3",
+      "version": 302,
+      "bytes": 7900,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0b18894d06f49b24153b45632cb170e714a7c18d582d84fea91737f8ae4ce970"
+    },
+    {
+      "file": "map_sq09.md3",
+      "version": 302,
+      "bytes": 6412,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c287384b6401cae3ec10939b6dd575f51108bf3e03781ef927059d9b0b56a5ad"
+    },
+    {
+      "file": "map_sq10_02.md3",
+      "version": 302,
+      "bytes": 4484,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9431003f6e352582d2b6785ce43ec854f07860addfc055081677156a893e1cfa"
+    },
+    {
+      "file": "map_sq10_14.md3",
+      "version": 302,
+      "bytes": 3576,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7e061e969aae914acc29c78c6cfee0cbc1387a7aceb38184eb1d4bfd3712aad9"
+    },
+    {
+      "file": "map_sq10.md3",
+      "version": 302,
+      "bytes": 11540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "03ff3b10d837196b994f545a77eb2131bfa37399432959d614317edbb415eec2"
+    },
+    {
+      "file": "map_sq11_01.md3",
+      "version": 302,
+      "bytes": 4924,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "40ac09cd427cf28d19c3df1cfeb1c39db0e751abae59cb869a3d252461e8682b"
+    },
+    {
+      "file": "map_sq11_02.md3",
+      "version": 302,
+      "bytes": 2908,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "674d3a3a6f6615d2ed274a9f33d386e81db7f8a8e0b1216533c8739bdcd30664"
+    },
+    {
+      "file": "map_sq11_14_1.md3",
+      "version": 302,
+      "bytes": 2660,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "236a72c00cc936453f8bb9d4bf2a95f74d89d128c5182ea5f15960fd4e4dcfc0"
+    },
+    {
+      "file": "map_sq11_14.md3",
+      "version": 302,
+      "bytes": 2660,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7f54689f51abddb8d5eb06284d490dfc4c5aa4d5cc052d127e8fd938e396188f"
+    },
+    {
+      "file": "map_sq11.md3",
+      "version": 303,
+      "bytes": 63448,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "5efd82d261ef8cccf099250d125ea5162d93871e7b52dc6769888eaf5232fc7a"
+    },
+    {
+      "file": "map_sq13.md3",
+      "version": 302,
+      "bytes": 5856,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ff79d84b5bfb28bd6d0017e9f10e7013a0dcd5725c788e6e21eb20fe7c43d79d"
+    },
+    {
+      "file": "map_sq14.md3",
+      "version": 302,
+      "bytes": 31788,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "61be51a75a181b8184f1b0f661b89920e917a4ef09467c0bccc605c58f6b2848"
+    },
+    {
+      "file": "map_sq17_13.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7b6441e5573cbf860b4a8cf785a688b396f334d23eb9b7820a35e42d3fe0fb59"
+    },
+    {
+      "file": "map_sq17.md3",
+      "version": 302,
+      "bytes": 53340,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c3bd59ae33efc69f1d39fb8a33c1165863717bba6e1812dc847d695d4c3ddc57"
+    },
+    {
+      "file": "map_sq17a_13.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9bb0e0fa2018680f59fe6d08579aac7165969abf00fc72fa8b78fae9772e41d8"
+    },
+    {
+      "file": "map_sq17b_13.md3",
+      "version": 302,
+      "bytes": 6328,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9bb0e0fa2018680f59fe6d08579aac7165969abf00fc72fa8b78fae9772e41d8"
+    },
+    {
+      "file": "map_sq21.md3",
+      "version": 302,
+      "bytes": 47416,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "85c74c88d33bc2381d2ff3e3cc4b28db94458d982f326e05af6ed1e8a19ca36e"
+    },
+    {
+      "file": "map_sq22.md3",
+      "version": 303,
+      "bytes": 24400,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7e334c249733ab1ab9a9f96d46b095681f3aaa1e800e77c3f53289d97d66a2a5"
+    },
+    {
+      "file": "map_sq26a.md3",
+      "version": 302,
+      "bytes": 21840,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2cca66f0a33c0c60eaf1cbb55ea1bd728c5a7126fc8cea3cc167a08ebbb081ce"
+    },
+    {
+      "file": "map_sq26b.md3",
+      "version": 302,
+      "bytes": 21840,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f51ef2e38248708606bb3d7ce32a6bb751098b00bc019293ca0719aa796d04a9"
+    },
+    {
+      "file": "map_sq26c.md3",
+      "version": 302,
+      "bytes": 24976,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ea8ff894b8d873c364c43fbebc9f290da507a20afc47c492aae13605a9d2b25e"
+    },
+    {
+      "file": "map_sq26d.md3",
+      "version": 302,
+      "bytes": 91676,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2c0ec905f4baa14931fd5cdfb766d48f88cf3212695162e878ce3d39737aa65a"
+    },
+    {
+      "file": "map_sq27a_1.md3",
+      "version": 303,
+      "bytes": 9476,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2691c5fbb65bee01c430995cffd36eef9eaf56b30a7b7c3b51cfff542fa78f8c"
+    },
+    {
+      "file": "map_sq27a_2.md3",
+      "version": 303,
+      "bytes": 9500,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1774dc4bdc47e1f2999fa071c005627774feb47adeb4e895d7c0b55e1b172e00"
+    },
+    {
+      "file": "map_sq29a.md3",
+      "version": 303,
+      "bytes": 13576,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "aa3538803fe596263c079f02a27cb5bcde718211b0805964ccf4fd6f5226fbd0"
+    },
+    {
+      "file": "map_sq29b.md3",
+      "version": 303,
+      "bytes": 13644,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3ab9a36c493cc088c8be1cc23f4e0c09601491586b442cfc8c4e5708d2c59f54"
+    },
+    {
+      "file": "map_uw03.md3",
+      "version": 302,
+      "bytes": 153348,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3383ecdaff0bce7ade6b823bf5bbbd34eea0fc1164a2dde214b74ee6450b1287"
+    },
+    {
+      "file": "map_uw04.md3",
+      "version": 302,
+      "bytes": 151756,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0c20545c6cc0e60fe46628a89cf9fbb67271cad9847b91e1bfc601ea7bef534d"
+    },
+    {
+      "file": "map_uw04a.md3",
+      "version": 302,
+      "bytes": 49392,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "3ab85ea3987ad9614fcc1a9e9df77bc357074026b7430470719dc8ec92772c3f"
+    },
+    {
+      "file": "map_ycdt.md3",
+      "version": 303,
+      "bytes": 24400,
+      "trailing_bytes": 208,
+      "byte_identical": true,
+      "sha256": "da11484e4bbf408b02c7a460c439898aa527cf32d19df00ba8918257342cfbab"
+    },
+    {
+      "file": "mapd01a.md3",
+      "version": 302,
+      "bytes": 146712,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "fc4efacee77e8637fd1738d7cc51f985f7aca86e29edfa150b5912e947d60c69"
+    },
+    {
+      "file": "mapd01b.md3",
+      "version": 302,
+      "bytes": 193248,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "87c07d0cb4d7c3274d91c6abb5d812c5f6eba24b5531641fc069bf4dab070e86"
+    },
+    {
+      "file": "mapd02a.md3",
+      "version": 303,
+      "bytes": 192144,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "298c34eeb6c101a6f0bbf704171cfe9dcf9ad59c87eccf0b6e7f3730f9960aa1"
+    },
+    {
+      "file": "mapf01a.md3",
+      "version": 302,
+      "bytes": 192576,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f2be605fa8a751c76a88d050de020f654cc95fc1b8f97bfda696b636145a4d99"
+    },
+    {
+      "file": "mapf01b.md3",
+      "version": 302,
+      "bytes": 195984,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "7369e380cc132f3c86973c5eebee9d815d953e6e66bc090a30964f6184d50249"
+    },
+    {
+      "file": "mapf01c.md3",
+      "version": 302,
+      "bytes": 193720,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1d77a9be8e083e479d5618de1c8ca1ff6507cfd0e115c002d096643155495aea"
+    },
+    {
+      "file": "mapf01d.md3",
+      "version": 302,
+      "bytes": 195136,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "ba44861c7ac3c83378d043ad9df62789635b39c3c802b7de8371e2f92d944535"
+    },
+    {
+      "file": "mapf01e.md3",
+      "version": 302,
+      "bytes": 198192,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "336906406df7bc3fa3dbe4fc067f9a26aed552328dea61f606505281ef7226bd"
+    },
+    {
+      "file": "mapf01f.md3",
+      "version": 302,
+      "bytes": 193832,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a9e9cbe1c66a8e3f4465e402d9daf3357726f9d52581371b3436ff54f15ed591"
+    },
+    {
+      "file": "mapf01g.md3",
+      "version": 302,
+      "bytes": 194080,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "880f580d2bda7ea04b41d44c31db4a676854cc772ebd4498f94cfcbbc78d5322"
+    },
+    {
+      "file": "mapf02a.md3",
+      "version": 302,
+      "bytes": 191696,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "206cb2383e902bcd62445aef512840e5694215557902f1b5f34956b62a45d8bb"
+    },
+    {
+      "file": "mapf02b.md3",
+      "version": 302,
+      "bytes": 191042,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b1b4e1e29ec918be957f9bea01e2b908559000eb54d3bce8ef48fe6babd16a6f"
+    },
+    {
+      "file": "mapf02c.md3",
+      "version": 302,
+      "bytes": 193008,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "db4efc7b4d270e7812c5314f1baca43351876a4f650641dfab46ffe540bfebfe"
+    },
+    {
+      "file": "mapf02d.md3",
+      "version": 302,
+      "bytes": 191824,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "88a1e06f1dd23c10befb993e961ed1cfdfa6c5d5b27bb1c0b7920fd18c13944d"
+    },
+    {
+      "file": "mapf03a.md3",
+      "version": 303,
+      "bytes": 192520,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1aea9fb2ccb8180fbec07b5adec10c4691e8b64d1ab8b13643d116ded2ba72dc"
+    },
+    {
+      "file": "mapf03b.md3",
+      "version": 302,
+      "bytes": 188416,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bd7ae2bafd6388ebda039508cf0b774207a4eb68d674a18b3cda699e4b253199"
+    },
+    {
+      "file": "mapf03c.md3",
+      "version": 302,
+      "bytes": 189288,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "60e138446cdd38cdf8cf2e5c92c3ce00991fff8a914d44f437116cec011764a8"
+    },
+    {
+      "file": "mapf03d.md3",
+      "version": 302,
+      "bytes": 192680,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "05d79244eb0c451566ae495411d86d335fc1e4264cf97b8ae74455231f74bf02"
+    },
+    {
+      "file": "mapf04a.md3",
+      "version": 302,
+      "bytes": 188744,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f84f85b973881b7c648e9fdfe7deda93777e4f12a10e19b3249cc822d2914c23"
+    },
+    {
+      "file": "mapf04b.md3",
+      "version": 302,
+      "bytes": 188528,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "cfe63d5c6e002b745346f6ffe0765dfe0a048df95c4717e65b32e2c8013e338a"
+    },
+    {
+      "file": "mapf04c.md3",
+      "version": 302,
+      "bytes": 189640,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "816ae455262466463320ac07fc5bc3f0420e8179dbf9b457bd26b32b88b5e8a5"
+    },
+    {
+      "file": "mapf04d.md3",
+      "version": 302,
+      "bytes": 190760,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "adb464ab927673bbbb79a157e9f262f199fd7179a3ff27d49c4cb3762804522d"
+    },
+    {
+      "file": "mapf04e.md3",
+      "version": 302,
+      "bytes": 192880,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a892502df2f2aac5cafaf01850ba77165d63c79295442206ab5923d6e82954cd"
+    },
+    {
+      "file": "mapg01.md3",
+      "version": 303,
+      "bytes": 25680,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2efae0b3da3f81a4c92d6e0b823e25a688f5e09cc229062a09fbf170f4f46b4d"
+    },
+    {
+      "file": "mapg02.md3",
+      "version": 302,
+      "bytes": 26976,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b40eb21b0f0e7d479f77caa247532c4041b821251673364bed40aa27a5929194"
+    },
+    {
+      "file": "mapg03.md3",
+      "version": 302,
+      "bytes": 25568,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6435fd8a831678a61ee2114dde595fdcd8b158b85ea56cde80b8b8548f82c7ea"
+    },
+    {
+      "file": "mapg04.md3",
+      "version": 302,
+      "bytes": 24824,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9bd4d16044bd4cc4d81a5e980f4f60932365dd053dd937a10a4aef686499407b"
+    },
+    {
+      "file": "mapg05.md3",
+      "version": 302,
+      "bytes": 26648,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2203bdfa62486dc2f89e8c96b1437b9dad7de3ad79698d80a79cee005c89aa9c"
+    },
+    {
+      "file": "mapg06.md3",
+      "version": 303,
+      "bytes": 26728,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0c79bf92808cb1663dd18496a5827cffafd9fd438c2fb113ac59bd4ce218019a"
+    },
+    {
+      "file": "mapp01.md3",
+      "version": 302,
+      "bytes": 197052,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e81136999537ccc5f05b5b5a65d81010347552229c1c0aa53c431b6112da7353"
+    },
+    {
+      "file": "mapp01a_1.md3",
+      "version": 302,
+      "bytes": 72712,
+      "trailing_bytes": 56,
+      "byte_identical": true,
+      "sha256": "d2bea76bb19706fb7584e692e2935eac3f2b57ce3058608f2e98361812197071"
+    },
+    {
+      "file": "mapp01a.md3",
+      "version": 302,
+      "bytes": 72760,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "82a8d80872979706f41b920bf8fa96e05d5a622f1943256fa149fd23c9ceb026"
+    },
+    {
+      "file": "mapp01b.md3",
+      "version": 302,
+      "bytes": 192808,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e8db3d1ade4f09bc803b83e0d7a50942e719c0031dfe4c641d4f91d4fa1dbd4e"
+    },
+    {
+      "file": "mapp02_1.md3",
+      "version": 302,
+      "bytes": 200540,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "c53e379df40cecd26ba07a808370e2c9ff6c673089724580f45e62dd23dcf0fc"
+    },
+    {
+      "file": "mapp02.md3",
+      "version": 302,
+      "bytes": 200732,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "184825f1d03b9ce96dcb885d96854e1a38e7a33fd02054e130420f83867f3ae4"
+    },
+    {
+      "file": "mapp02a.md3",
+      "version": 302,
+      "bytes": 60988,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "904afd0da0728b2cabc6af59f26bdae2225a89c6d8eb2e327bfa2fbe8e7e5524"
+    },
+    {
+      "file": "mapp02b.md3",
+      "version": 302,
+      "bytes": 189256,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4c3c67e557b5972544927df7fcfe87f1daaa18f2a6b6c1d6170c8269fe960bed"
+    },
+    {
+      "file": "mapp03.md3",
+      "version": 302,
+      "bytes": 188944,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "59609a97bd8bc22f741eac004cd8f2419b0f43eb837b71ce38ad630c2fa7ee26"
+    },
+    {
+      "file": "mapp03a.md3",
+      "version": 302,
+      "bytes": 96160,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "1dbde14b006e2af60f2e5553a4282a0bb378b5ff534224c755bcfbb7bb7afff9"
+    },
+    {
+      "file": "mapp03b.md3",
+      "version": 302,
+      "bytes": 95304,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "100a40b729b6e426cd4654d45bb459491acb6bdf5003d4a0d1b9e68659918b7e"
+    },
+    {
+      "file": "mapp03c.md3",
+      "version": 302,
+      "bytes": 127300,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "6190d0b38e60a390be2bb6c320b4a09d40054906138ed43fbf48e585a4735a84"
+    },
+    {
+      "file": "maps00.md3",
+      "version": 301,
+      "bytes": 63312,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "9e3a2bfb45800e6224616541b13ab48f15d2f74cffb567f6b938ea13e0e2f066"
+    },
+    {
+      "file": "maps01_1.md3",
+      "version": 302,
+      "bytes": 8156,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f812cd0785d02102f3dd83af28bd421d7aee2616a5e8b6348b0462d4dbf6c9bc"
+    },
+    {
+      "file": "maps01_2.md3",
+      "version": 302,
+      "bytes": 4604,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "f3a96135d3052149d4cfb419304de06e306e5cfbc34aa638784d9a41be5baf6f"
+    },
+    {
+      "file": "maps01_3.md3",
+      "version": 302,
+      "bytes": 3616,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "0451dc72500bcafa94461e0cfaad29805ec5ec39baa3394092970688a505f5f7"
+    },
+    {
+      "file": "maps01_9.md3",
+      "version": 302,
+      "bytes": 12688,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a413cbc7c293d2e0b2a64e2cc35792e9339cfcf710d5fa50e117095d029b7bb1"
+    },
+    {
+      "file": "maps01.md3",
+      "version": 303,
+      "bytes": 95784,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "8454569f8efd88128187b21e6dbf211907e3688f84c2fba67e7f9d71076aa9b6"
+    },
+    {
+      "file": "maps02_1.md3",
+      "version": 302,
+      "bytes": 9108,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "b21a06086aea78f2be6681ba26bca6fc08ba34270ed55bd4c8d915ebc76db1e2"
+    },
+    {
+      "file": "maps02_2.md3",
+      "version": 302,
+      "bytes": 3448,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "bffbec7bf76250e40e2d3c791385a649cfd2382d7f33d98cdbe3542c70d8e6b3"
+    },
+    {
+      "file": "maps02_4.md3",
+      "version": 302,
+      "bytes": 3620,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "e221dabf9b0abb2bf353da3b2c3803917548ca7fc23f0e7652a5d0582c07b91b"
+    },
+    {
+      "file": "maps02_5.md3",
+      "version": 302,
+      "bytes": 3568,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "a7ac5e27a5b4bd69b41741392af47462210258ec6bcdcf319171e56b7196e0c2"
+    },
+    {
+      "file": "maps02.md3",
+      "version": 302,
+      "bytes": 31088,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "961371f78e51a46332eae6baf407983d581694e63919a3e0262cd9d343a426cf"
+    },
+    {
+      "file": "maps03_1.md3",
+      "version": 301,
+      "bytes": 63312,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "4bd746f8635de8490d3b42da8b2161e04b445c070d95d659b3394e58fceb9df2"
+    },
+    {
+      "file": "maps03.md3",
+      "version": 301,
+      "bytes": 63392,
+      "trailing_bytes": 0,
+      "byte_identical": true,
+      "sha256": "2cafca931e67ead090fa9490bdbe9ed61ae0fe53a0f124b5f2e22d61daeec84b"
+    }
+  ]
+}

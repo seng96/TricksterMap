@@ -1,0 +1,13 @@
+PASS: actual EFF produces particles and changed pixels; portable archive exported; source unchanged.
+Map: C:\Memts\new-memts\deliverables\map\map_sq00.md3
+Anchor: 3304,636
+Changed pixels: 108450
+Animated pixels: 5207
+Particles: 586
+Render at1s ms: 274
+Source SHA256: 0a7ca580f0832df3269d96886af714d35fb8662ba57f57d88fbf02dbc5ff4287
+EFF 使用固定種子／60秒離線循環；深度排序、GPU alpha-test 與遊戲事件時序尚未逐像素驗收。
+半透明地磚已套用一般分支顏色；完整光照狀態未還原。
+動態頂點地磚以靜態位置預覽。
+場景動畫可選播放；時序未與遊戲內事件同步。
+精細預覽：場景深度遮擋尚未與遊戲逐像素驗收。

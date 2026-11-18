@@ -1,0 +1,2 @@
+PASS: hidden WinForms brush/undo/redo/export/reload/source-hash/companion-hashes/DrawToBitmap
+Source SHA256: 0a7ca580f0832df3269d96886af714d35fb8662ba57f57d88fbf02dbc5ff4287

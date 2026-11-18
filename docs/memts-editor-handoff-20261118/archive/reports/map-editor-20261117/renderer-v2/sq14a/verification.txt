@@ -1,0 +1,6 @@
+PASS: C# Core scene load, overview/detail/animation viewport render, source SHA unchanged
+MDN SHA256: A313237EEABB822FF2C4B4793A67167CF9AEFCA0D354F139F22BEBFC4CDA0F61
+Scene size: 2272x1760
+Animated objects: False
+地圖 EFF 粒子效果尚未合成。
+精細預覽：場景深度遮擋尚未與遊戲逐像素驗收。

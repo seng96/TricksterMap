@@ -1,0 +1,4 @@
+PASS: hidden MDI; fine/simple modes; anchor wheel zoom; middle/right/space pan; sized brush; undo/redo; scene export/reload; image import; blank map; source preservation
+Source SHA256: a313237eeabb822ff2c4b4793a67167cf9aefca0d354f139f22bebfc4cda0f61
+地圖 EFF 粒子效果尚未合成。
+精細預覽：場景深度遮擋尚未與遊戲逐像素驗收。

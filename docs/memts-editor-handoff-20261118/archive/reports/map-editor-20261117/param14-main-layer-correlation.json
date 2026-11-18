@@ -1,0 +1,6343 @@
+{
+  "corpus": "deliverables/map root MDN with LYR",
+  "checked": 699,
+  "param14_selects_order6": 694,
+  "param14_out_of_range": 1,
+  "exceptions": [
+    {
+      "file": "map_dg09f_3.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 5,
+      "order6_indices": []
+    },
+    {
+      "file": "map_fd05.md3.md3",
+      "param14": -1,
+      "layer_count": 4,
+      "selected_order": null,
+      "order6_indices": []
+    },
+    {
+      "file": "map_fd13g.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 5,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_19a.md3",
+      "param14": 1,
+      "layer_count": 4,
+      "selected_order": 5,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_19b.md3",
+      "param14": 1,
+      "layer_count": 4,
+      "selected_order": 5,
+      "order6_indices": [
+        2
+      ]
+    }
+  ],
+  "limitations": [
+    "Correlation over supplied corpus, not proof of native Param14 consumer semantics.",
+    "Blank map authoring chooses explicit Main Order6 index1 as a conservative inferred convention; gameplay loading remains unverified."
+  ],
+  "results": [
+    {
+      "file": "mapd01a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapd01b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapd02a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapf01a.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "mapf01b.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "mapf01c.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "mapf01d.md3",
+      "param14": 6,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        6
+      ]
+    },
+    {
+      "file": "mapf01e.md3",
+      "param14": 6,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        6
+      ]
+    },
+    {
+      "file": "mapf01f.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "mapf01g.md3",
+      "param14": 7,
+      "layer_count": 8,
+      "selected_order": 6,
+      "order6_indices": [
+        7
+      ]
+    },
+    {
+      "file": "mapf02a.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "mapf02b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapf02c.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "mapf02d.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "mapf03a.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapf03b.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapf03c.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapf03d.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapf04a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapf04b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapf04c.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapf04d.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapf04e.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapg01.md3",
+      "param14": 6,
+      "layer_count": 8,
+      "selected_order": 6,
+      "order6_indices": [
+        6
+      ]
+    },
+    {
+      "file": "mapg02.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "mapg03.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "mapg04.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "mapg05.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "mapg06.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapp01.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapp01a.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapp01a_1.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapp01b.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapp02.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapp02a.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapp02b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapp02_1.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "mapp03.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapp03a.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "mapp03b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "mapp03c.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "maps00.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "maps01.md3",
+      "param14": 6,
+      "layer_count": 9,
+      "selected_order": 6,
+      "order6_indices": [
+        6
+      ]
+    },
+    {
+      "file": "maps01_1.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "maps01_2.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "maps01_3.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "maps01_9.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "maps02.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "maps02_1.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "maps02_2.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "maps02_4.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "maps02_5.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "maps03.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "maps03_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01a.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01e.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01f.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01g.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01h.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01h_1.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01h_2.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01h_3.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg01i.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg02a.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg02b_1.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg02b_2.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg02b_3.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg02b_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg02b_5.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg03a.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg03b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg03c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg03d.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg03e.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg03f_1.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg03f_2.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg03f_4.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04a.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04b.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg04c.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg04d.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04e.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04f.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04g.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg04h_1.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04h_2.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04h_3.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04h_4.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg04h_5.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg04h_6.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05a.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg05a_1.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05a_2.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg05a_3.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg05a_4.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05b_1.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05b_2.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg05b_3.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg05b_4.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg05c.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05c_1.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05c_2.md3",
+      "param14": 2,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05c_3.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05c_4.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg05d.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg05d_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05d_2.md3",
+      "param14": 2,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05e.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg05e_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05e_2.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05f.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05f_1.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05f_2.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05f_3.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05g.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05g_ev.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05h.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05i_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05i_2.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg05i_3.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg05i_4.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg05i_5.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg05_15.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg06.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg06a.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg06b.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg06c.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg06d.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg06e.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg06g.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg06h.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg06i.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg06j.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg06k.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg06m.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg07.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07a.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg07d.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07e.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07g_1.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "file": "map_dg07g_2.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg07g_3.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg07g_4.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg07g_5.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07g_6.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg07g_7.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg08.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg08a_1.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg08a_2.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg08a_3.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg08a_4.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg08a_5.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09a.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg09d.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg09e.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg09f.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09f_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09f_1_ev.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09f_2.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg09f_3.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 5,
+      "order6_indices": []
+    },
+    {
+      "file": "map_dg09f_4.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg09f_5.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg11a.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg11b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg12.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg12a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg12b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg12c.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg12d.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg12e.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg12f_1.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg12f_2.md3",
+      "param14": 1,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg12f_3.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg12f_4.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg12f_5.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg12f_6.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg15.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg15a.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg15b.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg16a.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg16b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg16c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg16d.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg16e.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg18a.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg18a_2.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg18a_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18a_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18a_5.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18b.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18b_1.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18b_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18b_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18b_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18b_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18c.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18c_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18c_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18c_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18c_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18c_6.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18d.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18d_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18d_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18d_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18d_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18e.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg18e_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18e_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18e_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18e_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18e_6.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18f.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg18f_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18f_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18f_4.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18f_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18f_6.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18g.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg18g_2.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg18g_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18g_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18g_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18g_6.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18h.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18h_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18h_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18h_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18h_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18h_6.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18i.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg18i_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18i_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18i_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18i_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18i_6.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18j.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18j_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18j_3.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18j_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18j_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18j_6.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18k.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18k_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18k_3.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18k_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18k_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18k_6.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18l.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18l_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18l_3.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18l_4.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18l_5.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg18m_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18m_3.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18m_4.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18m_5.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18n_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg18n_3.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18n_4.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18n_5.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg18_memts.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg19a.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_dg19a_1.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg19a_2.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg19b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19b_1.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19b_2.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg19c.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19c_1.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19c_2.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19d.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg19d_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19d_2.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19e.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg19e_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19e_2.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg19f.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg19f_1.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg19f_2.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg20.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22b.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg22c.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22d.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg22e.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg22f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22g.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg22h.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22i_1.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22i_2.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22i_3.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg22i_4.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg22j_1.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22j_2.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22j_3.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg22j_4.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22j_5.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg22j_6.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22j_7.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg22j_8.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23a.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg23b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23c.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23e.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23f.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg23g.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg23h.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23i.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23j.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23k.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23l.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23m.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg23n.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg27a_1.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg27a_2.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg27b.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27c.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27d.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27d_2.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27e.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27f.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27g.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27h.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27i.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg27j_1.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27j_2.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_dg27k.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg29a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg29b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg29c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg29d.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg31.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg32a_1.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_10.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_11.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_12.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_13.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_14.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_15.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_16.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_17.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_18.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_19.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_2.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_20.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_21.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_22.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_23.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_24.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_25.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_26.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_3.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_4.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_5.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_6.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_7.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_8.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32a_9.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32c.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg32d.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_1.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_10.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_11.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_12.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_13.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_14.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_15.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_16.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_17.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_18.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_2.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_3.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_4.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_5.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_6.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_7.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_8.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33a_9.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_1.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_10.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_11.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_12.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_13.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_2.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_3.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_4.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_5.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_6.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_7.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_8.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33b_9.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_dg33c.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_dg33c_1.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_10.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_2.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_3.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_4.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_5.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_6.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_7.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_8.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_dg33c_9.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_ev22.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_ev22——.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd00.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00a.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00b.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00d.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00e.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00f.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00g.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00h.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd00i.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd01h.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd02e.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd02f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd03e.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd04f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd04g.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd05.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd05.md3.md3",
+      "param14": -1,
+      "layer_count": 4,
+      "selected_order": null,
+      "order6_indices": []
+    },
+    {
+      "file": "map_fd05a.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd05b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd05c.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd05d.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd05e.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd05f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd05g.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd05k.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd06a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd06b.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd06c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd06d.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd06e.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd06e_1.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd06e_2.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd06g.md3",
+      "param14": 2,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd07.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd07a.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd07b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd07c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd07d.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd07e.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd07memts.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd07_12.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd08.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd09a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd09b.md3",
+      "param14": 5,
+      "layer_count": 9,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd09c.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd09d.md3",
+      "param14": 4,
+      "layer_count": 8,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd09e.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd09f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd09g.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd10a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd10b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd11.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd11a.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd11b.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd11c.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd11c_1.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd11d.md3",
+      "param14": 6,
+      "layer_count": 8,
+      "selected_order": 6,
+      "order6_indices": [
+        6
+      ]
+    },
+    {
+      "file": "map_fd11e.md3",
+      "param14": 6,
+      "layer_count": 8,
+      "selected_order": 6,
+      "order6_indices": [
+        6
+      ]
+    },
+    {
+      "file": "map_fd11f.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd11g.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd11i.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd11i_memt.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd13a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd13b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd13c.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd13d.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd13e.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd13f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd13g.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 5,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd13h.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd13i.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd13memts.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd14a.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd14b.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd14c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd14d.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd14e.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd14f.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd14g.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd15.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd15a.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd15b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd15c.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd15d.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd16.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd16a.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd16b.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_fd16c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd16d.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd16e.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd16f.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd16g.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd21.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd21a.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd21b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd21c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd21d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd22a.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd22b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd22c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd22d.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd22e.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd24a.md3",
+      "param14": 1,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd24b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd24b_memts.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd24c.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd24d.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd25a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25c.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25d.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25e.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25f.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25g.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25h.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25i.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25j.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd25k.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fd27a.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd27a_ev.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd27b.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd27c.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd27d_1.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd27d_2.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fd27e_1.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd27e_2.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_fd28g.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fd28h.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_fs01.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fs02.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs03.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs04.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_fs05.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs05a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs06.md3",
+      "param14": 2,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs06_1.md3",
+      "param14": 2,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs07.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs09.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_fs11.md3",
+      "param14": 5,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_g27.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_mn02.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn02a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn02b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn02c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn02d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn03.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn03a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn03b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn03c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn03d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn04.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn04a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn04b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn04c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn04d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn06.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn06a.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn06b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn06c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn06d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn07.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn07a.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn07b.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_mn07c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_mn07d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa03c.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04.md3",
+      "param14": 2,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_15.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_pa04_16.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_16b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_18.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_pa04_19.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_19a.md3",
+      "param14": 1,
+      "layer_count": 4,
+      "selected_order": 5,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_19b.md3",
+      "param14": 1,
+      "layer_count": 4,
+      "selected_order": 5,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_20.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa04_9.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_pa05.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa05a.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_pa05b.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_pa05c.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_pa05d.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_pa05e.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa05f.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_pa05g.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_pa05h.md3",
+      "param14": 3,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_pa05i.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_pa05_8.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_pa06a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa06b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa15a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa15b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa22.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa22a.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa22b.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa22c.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa22d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_pa22e.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00a.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00b.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00c.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00d.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00e.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00f.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00g.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00h.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00i.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00j.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00k.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00l.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00m.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00n.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00o.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sd00p.md3",
+      "param14": 2,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq00.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq00_01.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_02.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_06.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_10.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14a.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14b.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14c.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14d.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14e.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14f.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14g.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14h.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14i.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14j.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_14k.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq00_event01.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq00_event02.md3",
+      "param14": 5,
+      "layer_count": 8,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_sq00_event03.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq00_event04.md3",
+      "param14": 4,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq03.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_sq03_2.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq03_3.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq04.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq04_01.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq04_02.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq04_07.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq05.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq05_13.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq06.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq06_1.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq07.md3",
+      "param14": 3,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_sq07_1.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq07_2.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq07_3.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq09.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq09_13.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq10.md3",
+      "param14": 3,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_sq10_02.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq10_14.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq11.md3",
+      "param14": 5,
+      "layer_count": 7,
+      "selected_order": 6,
+      "order6_indices": [
+        5
+      ]
+    },
+    {
+      "file": "map_sq11_01.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq11_02.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq11_14.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq11_14_1.md3",
+      "param14": 1,
+      "layer_count": 2,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq13.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_sq14.md3",
+      "param14": 3,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        3
+      ]
+    },
+    {
+      "file": "map_sq17.md3",
+      "param14": 4,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq17a_13.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq17b_13.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq17_13.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq21.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq22.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq26a.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq26b.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq26c.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq26d.md3",
+      "param14": 2,
+      "layer_count": 5,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_sq27a_1.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq27a_2.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    },
+    {
+      "file": "map_sq29a.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_sq29b.md3",
+      "param14": 4,
+      "layer_count": 6,
+      "selected_order": 6,
+      "order6_indices": [
+        4
+      ]
+    },
+    {
+      "file": "map_uw03.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_uw04.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_uw04a.md3",
+      "param14": 2,
+      "layer_count": 4,
+      "selected_order": 6,
+      "order6_indices": [
+        2
+      ]
+    },
+    {
+      "file": "map_ycdt.md3",
+      "param14": 1,
+      "layer_count": 3,
+      "selected_order": 6,
+      "order6_indices": [
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Compile Include="RendererVerify.cs" />
+    <Compile Include="../../../tools/map_editor/upstream/TricksterMap/Scene/*.cs" />
+    <Compile Include="../../../tools/map_editor/upstream/TricksterMap/IMapSceneRenderer.cs" />
+    <Compile Include="../../../tools/map_editor/upstream/TricksterMap/ViewportTransform.cs" />
+    <Compile Include="../../../tools/map_editor/upstream/TricksterMap/SceneEditing/*.cs" />
+    <ProjectReference Include="../../../tools/map_editor/upstream/TricksterMap.Core/TricksterMap.Core.csproj" />
+  </ItemGroup>
+</Project>

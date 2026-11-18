@@ -1,0 +1,9 @@
+PASS: C# Core scene load, overview/detail/animation viewport render, source SHA unchanged
+MDN SHA256: 0A7CA580F0832DF3269D96886AF714D35FB8662BA57F57D88FBF02DBC5FF4287
+Scene size: 4480x4160
+Animated objects: True
+半透明地磚已套用一般分支顏色；完整光照狀態未還原。
+地圖 EFF 粒子效果尚未合成。
+動態頂點地磚以靜態位置預覽。
+場景動畫可選播放；時序未與遊戲內事件同步。
+精細預覽：場景深度遮擋尚未與遊戲逐像素驗收。
