@@ -23,6 +23,7 @@ namespace TricksterMap
                 if (Directory.Exists(output) || File.Exists(output)) throw new IOException("Verification output must be new.");
                 Directory.CreateDirectory(output);
                 Application.EnableVisualStyles(); Application.SetCompatibleTextRenderingDefault(false);
+                SceneView.ScenePlaneCompositingVerification.Run();
                 string sourceHash = Hash(args[1]);
                 using (var main = new MDIParent())
                 {
@@ -44,15 +45,20 @@ namespace TricksterMap
                     }
                     var document = main.EditingDocument;
                     var form = main.CollisionEditors.First();
+                    var collisionOverlay = form.Controls.OfType<ToolStrip>().SelectMany(bar => bar.Items.OfType<ToolStripButton>())
+                        .Single(item => item.Text == "碰撞疊圖");
+                    Require(!collisionOverlay.Checked && !form.Canvas.ShowCollision, "Fine preview starts with a collision tint.");
                     var layer = form.Edits.Layer;
                     var original = (byte[])layer.Data.Clone();
                     form.VerifyViewportInteraction();
+                    form.Canvas.VerifyPointAndRangeGestures();
                     double zoom = form.Canvas.View.Zoom, ox = form.Canvas.View.OriginX, oy = form.Canvas.View.OriginY;
                     form.DetailedPreview = false; form.DetailedPreview = true;
                     Require(zoom == form.Canvas.View.Zoom && ox == form.Canvas.View.OriginX && oy == form.Canvas.View.OriginY,
                         "Preview mode switch changed the viewport.");
                     Require(original.SequenceEqual(layer.Data), "View interaction modified collision cells.");
                     form.BrushDiameter = 5; form.VerifyBrushStroke();
+                    Require(collisionOverlay.Checked && form.Canvas.ShowCollision, "Collision painting did not reveal the overlay.");
                     Require(form.Edits.IsDirty && form.Edits.CanUndo, "Sized brush handler did not edit a stroke.");
                     var painted = (byte[])layer.Data.Clone();
                     Require(painted.Zip(original, (a, b) => a != b).Count(changed => changed) > 1, "Sized brush changed only one cell.");
@@ -60,8 +66,10 @@ namespace TricksterMap
                     form.Edits.Redo(); Require(painted.SequenceEqual(layer.Data), "Redo did not restore the complete stroke.");
                     SaveControl(form, Path.Combine(output, "fine-preview.png"));
                     form.DetailedPreview = false; SaveControl(form, Path.Combine(output, "simple-preview.png"));
-                    form.DetailedPreview = true; form.Canvas.ShowCollision = false;
-                    SaveControl(form, Path.Combine(output, "map-style.png")); form.Canvas.ShowCollision = true;
+                    form.DetailedPreview = true; collisionOverlay.PerformClick();
+                    Require(!form.Canvas.ShowCollision, "The collision toggle did not restore the clean scene.");
+                    SaveControl(form, Path.Combine(output, "map-style.png"));
+                    VerifyMapOverlayControls(form, document.Map, output);
                     SaveControl(main, Path.Combine(output, "workspace.png"));
                     var author = main.Controls.OfType<TabControl>().First().TabPages.Cast<TabPage>()
                         .SelectMany(page => page.Controls.OfType<SceneAuthoringForm>()).First();
@@ -77,6 +85,7 @@ namespace TricksterMap
                         objectAuthor.VerifyObjectEdit();
                         SaveControl(objectAuthor, Path.Combine(output, "object-authoring.png"));
                     }
+                    VerifyFullMapPng(main, output);
                     string exported = Path.Combine(output, "verified.md3");
                     new MapBundleExportService().Export(document, exported, main.Preview.Scene);
                     var reopened = new MapDocumentService().Load(exported);
@@ -93,13 +102,69 @@ namespace TricksterMap
                     Require(Hash(document.Md3Path) == sourceHash, "Verification modified the source map.");
                     form.MarkSaved(); author.MarkSaved(); objectAuthor.MarkSaved();
                     File.WriteAllText(Path.Combine(output, "verification.txt"),
-                        "PASS: hidden MDI; fine/simple modes; EFF menu toggle and resource diagnostics; anchor wheel zoom; middle/right/space pan; sized brush; undo/redo; scene export/reload; image import; blank map; source preservation\r\nSource SHA256: " + sourceHash + "\r\n" +
+                        "PASS: hidden MDI; fine/simple modes; clean preview and collision overlay; additive planes and shadow multiplication; EFF menu toggle and resource diagnostics; anchor wheel zoom; middle/right/space pan; sized brush; undo/redo; point/range typed markers, hover, right-click edits, precise range frames, drag and resize; scene export/reload; image import; blank map; object drag/cancel/undo/redo; full-size scene PNG; source preservation\r\nSource SHA256: " + sourceHash + "\r\n" +
                         string.Join("\r\n", main.Preview.Warnings));
                 }
                 return 0;
             }
             catch (Exception ex)
             { if (Directory.Exists(output)) File.WriteAllText(Path.Combine(output, "verification-error.txt"), ex.ToString()); return 1; }
+        }
+
+        private static void VerifyMapOverlayControls(MapCollisionEditorForm form, Data.MapDataInfo map, string output)
+        {
+            var buttons = form.Controls.OfType<ToolStrip>().SelectMany(bar => bar.Items.OfType<ToolStripButton>()).ToArray();
+            var point = buttons.Single(item => item.Text == "顯示點位");
+            var range = buttons.Single(item => item.Text == "顯示範圍");
+            var overlay = form.Canvas.ObjectOverlay;
+            point.PerformClick();
+            Require(overlay.ShowPoints && !overlay.ShowRanges, "Point visibility also changed range visibility.");
+            range.PerformClick();
+            Require(overlay.ShowPoints && overlay.ShowRanges, "Range visibility did not turn on independently.");
+            SaveControl(form, Path.Combine(output, "point-range-overlay.png"));
+            var view = form.Canvas.View;
+            var onScreen = form.Canvas.ClientRectangle;
+            onScreen.Inflate(-30, -30);
+            foreach (var marker in map.PointObjects)
+            {
+                var pointer = new Point((int)Math.Round(view.ScreenX(marker.X)), (int)Math.Round(view.ScreenY(marker.Y)));
+                if (!onScreen.Contains(pointer)) continue;
+                overlay.SetHover(pointer);
+                Require(overlay.HoverDetails.Length > 0, "A visible point did not activate its hover card.");
+                SaveControl(form, Path.Combine(output, "point-hover.png"));
+                break;
+            }
+            point.PerformClick();
+            Require(!overlay.ShowPoints && overlay.ShowRanges, "Hiding points also hid ranges.");
+            range.PerformClick();
+            Require(!overlay.ShowRanges, "Range visibility did not turn off.");
+        }
+
+        private static void VerifyFullMapPng(MDIParent main, string output)
+        {
+            var menu = main.MainMenuStrip.Items.OfType<ToolStripMenuItem>().SelectMany(item => item.DropDownItems.OfType<ToolStripMenuItem>())
+                .Single(item => item.Text == "匯出全圖 PNG…");
+            Require(menu.Enabled, "PNG export menu is unavailable for the loaded scene.");
+            var renderer = main.Preview;
+            string fingerprint = MapEditFingerprint.ComputeScene(renderer.Scene);
+            string path = Path.Combine(output, "full-map.png");
+            main.ExportCurrentScenePng(path);
+            using (var saved = new Bitmap(path))
+            {
+                Require(saved.Width == renderer.Scene.Width && saved.Height == renderer.Scene.Height,
+                    "PNG export used viewport dimensions instead of map dimensions.");
+                foreach (int top in new[] { 0, saved.Height / 2, saved.Height - 1 })
+                {
+                    using (var sample = new Bitmap(saved.Width, 1))
+                    {
+                        using (var graphics = Graphics.FromImage(sample))
+                            renderer.Render(graphics, new Rectangle(0, 0, sample.Width, 1), 1, 0, -top);
+                        for (int x = 0; x < saved.Width; x++)
+                            Require(sample.GetPixel(x, 0) == saved.GetPixel(x, top), "PNG pixels differ from the scene renderer at 1:1.");
+                    }
+                }
+            }
+            Require(MapEditFingerprint.ComputeScene(renderer.Scene) == fingerprint, "PNG export modified the scene.");
         }
 
         internal static void SaveControl(Control control, string path)

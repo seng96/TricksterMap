@@ -12,7 +12,7 @@ using TricksterMap.Effects;
 namespace TricksterMap.SceneView
 {
     /// <summary>Viewport renderer. Original scene data remains in the shared Core model.</summary>
-    public sealed class SceneRenderer : IMapSceneRenderer, IDisposable
+    public sealed partial class SceneRenderer : IMapSceneRenderer, IDisposable
     {
         private readonly SceneImageCache cache = new SceneImageCache();
         private readonly Dictionary<SceneLayer, SceneBitmapSource> bitmaps = new Dictionary<SceneLayer, SceneBitmapSource>();
@@ -20,6 +20,7 @@ namespace TricksterMap.SceneView
         private readonly Dictionary<int, ImageAttributes> opacityAttributes = new Dictionary<int, ImageAttributes>();
         private NoriSceneResource objects;
         private MapEffectPreview effects;
+        private readonly bool hasAdditivePlanes;
         private bool disposed;
         public SceneDocument Scene { get; }
         public IEnumerable<string> Warnings => warnings.Concat(effects == null ? Enumerable.Empty<string>() : effects.Warnings).Distinct().OrderBy(value => value).ToArray();
@@ -63,6 +64,7 @@ namespace TricksterMap.SceneView
                 {
                     byte[] raw = SceneEnvelope.Unpack(File.ReadAllBytes(scene.Document.BacPath), 0xa0b0);
                     objects = new NoriSceneResource(raw, cache);
+                    hasAdditivePlanes = objects.HasAdditivePlanes;
                     foreach (string warning in objects.Warnings) warnings.Add(warning);
                     int missing = scene.Layers.SelectMany(layer => layer.Objects).Count(obj => !objects.Contains(obj.NameBytes));
                     if (missing > 0) warnings.Add("BAC 無對應或名稱重複的場景物件：" + missing + " 筆。");
@@ -104,6 +106,10 @@ namespace TricksterMap.SceneView
         }
 
         public void Render(Graphics graphics, Rectangle viewport, double zoom, double originX, double originY)
+            => Render(graphics, viewport, zoom, originX, originY, null);
+
+        internal void Render(Graphics graphics, Rectangle viewport, double zoom, double originX, double originY,
+            SceneObjectMovePreview move)
         {
             if (disposed) throw new ObjectDisposedException(nameof(SceneRenderer));
             if (graphics == null) throw new ArgumentNullException(nameof(graphics));
@@ -111,21 +117,18 @@ namespace TricksterMap.SceneView
                 double.IsNaN(originX) || double.IsInfinity(originX) || double.IsNaN(originY) || double.IsInfinity(originY))
                 throw new ArgumentOutOfRangeException(nameof(zoom));
             if (viewport.Width <= 0 || viewport.Height <= 0) return;
-            if (ShowEffects && effects != null && effects.HasEffects && (long)viewport.Width * viewport.Height <= 16000000)
+            bool drawEffects = ShowEffects && effects != null && effects.HasEffects;
+            bool shadows = objects != null && Scene.Layers.Any(layer => layer.Order == 5 && layer.Objects.Count > 0);
+            if (drawEffects || shadows || hasAdditivePlanes)
             {
-                using (var surface = new Bitmap(viewport.Width, viewport.Height, PixelFormat.Format32bppArgb))
-                {
-                    using (var buffer = Graphics.FromImage(surface))
-                        RenderBase(buffer, new Rectangle(0, 0, surface.Width, surface.Height), zoom, originX - viewport.Left, originY - viewport.Top);
-                    effects.Render(surface, zoom, originX - viewport.Left, originY - viewport.Top, AnimateObjects ? AnimationTimeSeconds : 1);
-                    graphics.DrawImageUnscaled(surface, viewport.Left, viewport.Top);
-                }
+                RenderBuffered(graphics, viewport, zoom, originX, originY, move, drawEffects);
                 return;
             }
-            RenderBase(graphics, viewport, zoom, originX, originY);
+            RenderBase(graphics, viewport, zoom, originX, originY, move);
         }
 
-        private void RenderBase(Graphics graphics, Rectangle viewport, double zoom, double originX, double originY)
+        private void RenderBase(Graphics graphics, Rectangle viewport, double zoom, double originX, double originY,
+            SceneObjectMovePreview move, Bitmap surface = null)
         {
             GraphicsState state = graphics.Save();
             try
@@ -141,7 +144,7 @@ namespace TricksterMap.SceneView
                     {
                         if (layer.Kind == 1) PaintBitmap(graphics, viewport, layer, index, zoom, left, top);
                         else if (layer.Kind == 2) PaintTiles(graphics, viewport, layer, zoom, left, top);
-                        PaintObjects(graphics, viewport, layer, zoom, left, top);
+                        PaintObjects(graphics, viewport, layer, zoom, left, top, move, surface);
                     }
                     catch (Exception ex) when (ex is IOException || ex is InvalidDataException || ex is ArgumentException || ex is OverflowException || ex is ExternalException)
                     { warnings.Add("圖層 " + index + " 預覽未完成：" + ex.Message); }
@@ -190,27 +193,26 @@ namespace TricksterMap.SceneView
                 }
         }
 
-        private void PaintObjects(Graphics graphics, Rectangle view, SceneLayer layer, double zoom, double left, double top)
+        private void PaintObjects(Graphics graphics, Rectangle view, SceneLayer layer, double zoom, double left, double top,
+            SceneObjectMovePreview move, Bitmap surface)
         {
             if (objects == null) return;
-            double seconds = double.IsNaN(AnimationTimeSeconds) || double.IsInfinity(AnimationTimeSeconds) ? 0 : AnimationTimeSeconds;
-            foreach (var obj in layer.Objects.OrderBy(value => (long)value.Y - value.Z))
+            foreach (var obj in OrderedObjects(layer, move))
             {
-                foreach (var sprite in objects.Sprites(obj.NameBytes, seconds, AnimateObjects))
+                bool moving = move?.Item == obj;
+                double x = moving ? move.X : obj.X, y = moving ? move.Y : obj.Y;
+                foreach (var sprite in CurrentSprites(obj))
                 {
-                    var destination = Destination(left + ((double)obj.X + sprite.X) * zoom,
-                        top + ((double)obj.Y - obj.Z + sprite.Y) * zoom, sprite.Width * zoom, sprite.Height * zoom);
+                    if (sprite.Opacity == 0) continue;
+                    var destination = Destination(left + (x + sprite.X) * zoom,
+                        top + (y - obj.Z + sprite.Y) * zoom, sprite.Width * zoom, sprite.Height * zoom);
                     if (!view.IntersectsWith(destination) || destination.Width <= 0 || destination.Height <= 0) continue;
-                    float x1 = (sprite.Flip & 1) == 0 ? destination.Left : destination.Right;
-                    float x2 = (sprite.Flip & 1) == 0 ? destination.Right : destination.Left;
-                    float y1 = (sprite.Flip & 2) == 0 ? destination.Top : destination.Bottom;
-                    float y2 = (sprite.Flip & 2) == 0 ? destination.Bottom : destination.Top;
-                    var image = sprite.Image;
-                    if (sprite.Opacity == 100)
-                        graphics.DrawImage(image, new[] { new PointF(x1, y1), new PointF(x2, y1), new PointF(x1, y2) },
-                            new RectangleF(0, 0, image.Width, image.Height), GraphicsUnit.Pixel);
-                    else graphics.DrawImage(image, new[] { new PointF(x1, y1), new PointF(x2, y1), new PointF(x1, y2) },
-                        new RectangleF(0, 0, image.Width, image.Height), GraphicsUnit.Pixel, Opacity(sprite.Opacity));
+                    string blend = sprite.Blend == NoriSceneSprite.AdditiveBlend ? "ADD" :
+                        layer.Order == 5 && sprite.Blend == 6 ? "SCENE_SHADOW" : null;
+                    if (blend != null && surface != null)
+                        CompositePlane(graphics, surface, view, destination, sprite, blend);
+                    else
+                        DrawPlane(graphics, destination, sprite);
                 }
             }
         }

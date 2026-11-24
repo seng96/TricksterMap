@@ -6,7 +6,7 @@ using TricksterMap.SceneView;
 
 namespace TricksterMap.SceneEditing
 {
-    internal sealed class SceneTileCanvas : Control
+    internal sealed partial class SceneTileCanvas : Control
     {
         private readonly SceneRenderer renderer;
         private SceneTileEditService edits;
@@ -29,11 +29,13 @@ namespace TricksterMap.SceneEditing
         {
             this.renderer = renderer; Dock = DockStyle.Fill; DoubleBuffered = true; TabStop = true;
             SetStyle(ControlStyles.ResizeRedraw | ControlStyles.Selectable, true);
-            MouseDown += Start; MouseMove += MovePointer; MouseUp += (s, e) => FinishInteraction();
+            MouseDown += Start; MouseMove += MovePointer;
+            MouseUp += Release;
             MouseWheel += Wheel; MouseLeave += (s, e) => { hover = null; Invalidate(); };
             MouseDoubleClick += (s, e) =>
             {
-                if (edits == null && e.Button == MouseButtons.Left && !SpacePanning)
+                if (edits == null && e.Button == MouseButtons.Left && !SpacePanning &&
+                    ((ModifierKeys & Keys.Shift) != 0 || FindObject(e.Location) == null))
                     PlacementRequested?.Invoke(View.WorldX(e.X), View.WorldY(e.Y));
             };
             MouseCaptureChanged += (s, e) => { if (!Capture) FinishInteraction(); };
@@ -56,10 +58,11 @@ namespace TricksterMap.SceneEditing
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            base.OnPaint(e); renderer.Render(e.Graphics, ClientRectangle, View.Zoom, View.OriginX, View.OriginY);
-            if (SelectionMarkerWorld.HasValue)
+            base.OnPaint(e); renderer.Render(e.Graphics, ClientRectangle, View.Zoom, View.OriginX, View.OriginY, objectMove);
+            var marker = DragMarker ?? SelectionMarkerWorld;
+            if (marker.HasValue)
             {
-                float markerX = (float)View.ScreenX(SelectionMarkerWorld.Value.X), markerY = (float)View.ScreenY(SelectionMarkerWorld.Value.Y);
+                float markerX = (float)View.ScreenX(marker.Value.X), markerY = (float)View.ScreenY(marker.Value.Y);
                 using (var pen = new Pen(Color.Yellow, 2))
                 {
                     e.Graphics.DrawEllipse(pen, markerX - 6, markerY - 6, 12, 12);
@@ -110,7 +113,12 @@ namespace TricksterMap.SceneEditing
                 panning = true; panStart = e.Location; autoFit = false; Cursor = Cursors.Hand;
                 if (!verifying) Capture = true; return;
             }
-            if (e.Button != MouseButtons.Left || edits == null) return;
+            if (e.Button != MouseButtons.Left) return;
+            if (edits == null)
+            {
+                if (e.Clicks == 1) StartObjectDrag(e.Location);
+                return;
+            }
             if (!Eraser && (TileWord & 65535) != 65535)
             {
                 int group = (int)((TileWord >> 16) & 255), tile = (int)(TileWord & 65535);
@@ -122,10 +130,17 @@ namespace TricksterMap.SceneEditing
             if (!verifying) Capture = true;
             PaintSegment(cell.Value, cell.Value); Invalidate();
         }
+        private void Release(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left) CommitObjectDrag(e.Location);
+            FinishInteraction();
+        }
         private void MovePointer(object sender, MouseEventArgs e)
         {
             if (panning)
             { View.Pan(e.X - panStart.X, e.Y - panStart.Y); panStart = e.Location; ViewChanged?.Invoke(this, EventArgs.Empty); Invalidate(); return; }
+            if (draggedObject != null) { UpdateObjectDrag(e.Location); return; }
+            if (edits == null) return;
             hover = Cell(e.Location);
             if (!hover.HasValue) { previous = null; Invalidate(); return; }
             var cell = hover.Value;
@@ -166,6 +181,7 @@ namespace TricksterMap.SceneEditing
         public void FinishInteraction()
         {
             bool active = stroking; edits?.EndStroke(); stroking = panning = false; previous = null; Cursor = Cursors.Default;
+            CancelObjectDrag();
             if (!verifying && Capture) Capture = false;
             if (active) Edited?.Invoke(this, EventArgs.Empty);
         }
