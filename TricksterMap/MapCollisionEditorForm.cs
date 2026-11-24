@@ -15,12 +15,16 @@ namespace TricksterMap
         private readonly ToolStripStatusLabel position = new ToolStripStatusLabel();
         private readonly ToolStripStatusLabel sceneStatus = new ToolStripStatusLabel();
         private readonly ToolStripComboBox mode = Combo(84, "簡易預覽", "精細預覽");
-        private readonly ToolStripButton overlay = new ToolStripButton("碰撞疊圖") { CheckOnClick = true, Checked = true };
+        private readonly ToolStripButton overlay = new ToolStripButton("碰撞疊圖") { CheckOnClick = true };
         private readonly NumericUpDown brushSize = new NumericUpDown { Minimum = 1, Maximum = 128, Value = 1, Width = 52 };
         private bool verificationMode;
+        private readonly MapDataInfo mapObjects;
+        private string savedObjectState;
         private string sceneMessage = "精細場景尚未載入";
         protected override bool ShowWithoutActivation => verificationMode;
         public event EventHandler Edited;
+        internal event EventHandler MapObjectsEdited;
+        internal event Action<object> MapObjectEditRequested;
         internal CollisionCanvas Canvas => canvas;
         public bool DetailedPreview
         {
@@ -33,10 +37,18 @@ namespace TricksterMap
             set => brushSize.Value = Math.Max(1, Math.Min(128, value));
         }
 
-        public MapCollisionEditorForm(ConfigLayer layer)
+        public MapCollisionEditorForm(ConfigLayer layer) : this(layer, null) { }
+
+        internal MapCollisionEditorForm(ConfigLayer layer, MapDataInfo mapObjects)
         {
             Text = "TricksterMap 地圖編輯器";
             Edits = new ConfigLayerEditService(layer); canvas = new CollisionCanvas(Edits);
+            this.mapObjects = mapObjects;
+            if (mapObjects != null)
+            {
+                canvas.ObjectOverlay = new ViewportMapObjectOverlay(mapObjects, canvas.View);
+                savedObjectState = MapEditFingerprint.Compute(mapObjects);
+            }
             var first = BuildBrushToolbar(); var second = BuildViewToolbar();
             var status = new StatusStrip();
             position.Text = "滾輪縮放；中鍵／右鍵或空白鍵＋左鍵拖曳平移";
@@ -45,9 +57,16 @@ namespace TricksterMap
                 MessageBox.Show(this, sceneStatus.ToolTipText, "場景預覽狀態", MessageBoxButtons.OK, MessageBoxIcon.Information);
             status.Items.Add(position); status.Items.Add(sceneStatus);
             Controls.Add(canvas); Controls.Add(status); Controls.Add(second); Controls.Add(first);
+            if (mapObjects != null) Controls.Add(BuildMapObjectToolbar());
             first.Dock = DockStyle.Top; second.Dock = DockStyle.Top;
             canvas.PositionChanged += value => position.Text = value;
             canvas.Changed += (s, e) => RefreshState();
+            canvas.CollisionStrokeStarted += () =>
+            {
+                if (canvas.Detailed && canvas.SceneRenderer != null) overlay.Checked = true;
+            };
+            canvas.ObjectPositionsChanged += (s, e) => { RefreshState(); MapObjectsEdited?.Invoke(this, EventArgs.Empty); };
+            canvas.ObjectEditRequested += item => MapObjectEditRequested?.Invoke(item);
             canvas.ViewChanged += (s, e) => zoomValue.Text = (canvas.View.Zoom * 100).ToString("0.#") + "%";
             KeyPreview = true; KeyDown += HandleKeys;
             KeyUp += (s, e) => { if (e.KeyCode == Keys.Space) { canvas.SpacePanning = false; canvas.EndInteraction(); e.Handled = true; } };
@@ -65,11 +84,50 @@ namespace TricksterMap
             var shape = Combo(64, "方形", "圓形"); shape.SelectedIndex = 0;
             shape.SelectedIndexChanged += (s, e) => { canvas.EndInteraction(); canvas.CircleBrush = shape.SelectedIndex == 1; canvas.Invalidate(); };
             brushSize.ValueChanged += (s, e) => { canvas.EndInteraction(); canvas.BrushSize = (int)brushSize.Value; canvas.Invalidate(); };
-            undo.Click += (s, e) => { canvas.EndInteraction(); Edits.Undo(); RefreshState(); };
-            redo.Click += (s, e) => { canvas.EndInteraction(); Edits.Redo(); RefreshState(); };
+            undo.Click += (s, e) => ChangeHistory(true);
+            redo.Click += (s, e) => ChangeHistory(false);
             toolbar.Items.AddRange(new ToolStripItem[] { brush, new ToolStripLabel("筆刷(格)"),
                 new ToolStripControlHost(brushSize), shape, new ToolStripSeparator(), undo, redo, state });
             return toolbar;
+        }
+
+        private ToolStrip BuildMapObjectToolbar()
+        {
+            var tools = new ToolStrip { GripStyle = ToolStripGripStyle.Hidden, Dock = DockStyle.Top };
+            var edit = Combo(125, "碰撞筆刷", "點位 Point", "範圍 Range");
+            var points = new ToolStripButton("顯示點位") { CheckOnClick = true, ForeColor = Color.DarkCyan };
+            var ranges = new ToolStripButton("顯示範圍") { CheckOnClick = true, ForeColor = Color.SaddleBrown };
+            points.CheckedChanged += (s, e) => SetMapObjectVisibility(points.Checked, ranges.Checked);
+            ranges.CheckedChanged += (s, e) => SetMapObjectVisibility(points.Checked, ranges.Checked);
+            edit.SelectedIndex = 0;
+            edit.SelectedIndexChanged += (s, e) =>
+            {
+                canvas.EndInteraction();
+                canvas.ObjectOverlay.Tool = (MapObjectTool)edit.SelectedIndex;
+                if (canvas.ObjectOverlay.Tool == MapObjectTool.Point) points.Checked = true;
+                if (canvas.ObjectOverlay.Tool == MapObjectTool.Range) ranges.Checked = true;
+                canvas.ShowMapObjectStatus(); RefreshState();
+            };
+            tools.Items.AddRange(new ToolStripItem[] { new ToolStripLabel("地圖編輯"), edit, points, ranges,
+                new ToolStripSeparator(), ViewportMapObjectLegend.Create() });
+            return tools;
+        }
+
+        private void SetMapObjectVisibility(bool points, bool ranges)
+        {
+            canvas.EndInteraction();
+            canvas.ObjectOverlay.ShowPoints = points;
+            canvas.ObjectOverlay.ShowRanges = ranges;
+            canvas.ShowMapObjectStatus(); canvas.Invalidate();
+        }
+
+        private void ChangeHistory(bool reverse)
+        {
+            canvas.EndInteraction();
+            if (canvas.EditingMapObjects) canvas.ChangeObjectHistory(reverse);
+            else if (reverse) Edits.Undo();
+            else Edits.Redo();
+            RefreshState();
         }
 
         private ToolStrip BuildViewToolbar()
@@ -124,15 +182,27 @@ namespace TricksterMap
                 if (!canvas.SpacePanning) { canvas.EndInteraction(); canvas.SpacePanning = true; }
                 e.Handled = true; e.SuppressKeyPress = true; return;
             }
+            if (e.KeyCode == Keys.Escape) { canvas.EndInteraction(); canvas.ShowMapObjectStatus(); e.SuppressKeyPress = true; return; }
             if (!e.Control) return;
-            if (e.KeyCode == Keys.Z) { canvas.EndInteraction(); Edits.Undo(); }
-            else if (e.KeyCode == Keys.Y) { canvas.EndInteraction(); Edits.Redo(); }
+            if (e.KeyCode == Keys.Z) ChangeHistory(true);
+            else if (e.KeyCode == Keys.Y) ChangeHistory(false);
             else if (e.KeyCode == Keys.D0) canvas.FitMap();
             else return;
             e.Handled = true; e.SuppressKeyPress = true; RefreshState();
         }
 
-        public void MarkSaved() { canvas.EndInteraction(); Edits.MarkSaved(); RefreshState(); }
+        public void MarkSaved()
+        {
+            canvas.EndInteraction(); Edits.MarkSaved();
+            if (mapObjects != null) savedObjectState = MapEditFingerprint.Compute(mapObjects);
+            RefreshState();
+        }
+
+        internal void RecordMapObjectDialogEdit(object original, object updated)
+        {
+            if (canvas.ObjectOverlay.RecordMetadataEdit(original, updated)) MapObjectsEdited?.Invoke(this, EventArgs.Empty);
+            canvas.ShowMapObjectStatus(); RefreshState();
+        }
         internal void VerifyBrushStroke() { canvas.VerifyBrushStroke(); }
         internal void VerifyViewportInteraction() { canvas.VerifyWheelAndPan(); }
         internal void PrepareVerificationView()
@@ -143,8 +213,10 @@ namespace TricksterMap
         }
         private void RefreshState()
         {
-            undo.Enabled = Edits.CanUndo; redo.Enabled = Edits.CanRedo;
-            state.Text = Edits.IsDirty ? "未儲存" : "已儲存";
+            undo.Enabled = canvas.EditingMapObjects ? canvas.ObjectOverlay.CanUndo : Edits.CanUndo;
+            redo.Enabled = canvas.EditingMapObjects ? canvas.ObjectOverlay.CanRedo : Edits.CanRedo;
+            bool mapDirty = mapObjects != null && MapEditFingerprint.Compute(mapObjects) != savedObjectState;
+            state.Text = Edits.IsDirty || mapDirty ? "未儲存" : "已儲存";
             canvas.RefreshData(); Edited?.Invoke(this, EventArgs.Empty);
         }
         protected override void Dispose(bool disposing)

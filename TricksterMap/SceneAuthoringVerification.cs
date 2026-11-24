@@ -40,6 +40,7 @@ namespace TricksterMap
                     {
                         objectForm.Size = new Size(1000, 700); objectForm.PrepareVerificationView();
                         objectForm.VerifyAddObject();
+                        objectForm.VerifyObjectDrag();
                         MapEditorVerification.SaveControl(objectForm, Path.Combine(output, "blank-object-placement.png"));
                     }
                 string path = Path.Combine(output, "blank-created.md3");

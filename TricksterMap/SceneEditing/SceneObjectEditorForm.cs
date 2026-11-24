@@ -9,7 +9,7 @@ using TricksterMap.SceneView;
 namespace TricksterMap.SceneEditing
 {
     /// <summary>Moves existing visual objects while preserving their opaque record bytes.</summary>
-    public sealed class SceneObjectEditorForm : Form
+    public sealed partial class SceneObjectEditorForm : Form
     {
         private readonly SceneRenderer renderer;
         private readonly SceneTileCanvas canvas;
@@ -18,6 +18,7 @@ namespace TricksterMap.SceneEditing
         private readonly ComboBox assets = new ComboBox { Dock = DockStyle.Top, DropDownStyle = ComboBoxStyle.DropDownList };
         private readonly NumericUpDown x = Number(), y = Number(), z = Number();
         private readonly Label details = new Label { Dock = DockStyle.Bottom, Height = 42, AutoEllipsis = true };
+        private readonly Label layerDetails = new Label { Dock = DockStyle.Top, Height = 48, Padding = new Padding(4, 3, 4, 1) };
         private readonly ToolStripLabel state = new ToolStripLabel();
         private readonly ToolStripButton undo = new ToolStripButton("復原"), redo = new ToolStripButton("重做");
         private readonly Dictionary<SceneLayer, SceneObjectEditService> histories = new Dictionary<SceneLayer, SceneObjectEditService>();
@@ -33,7 +34,7 @@ namespace TricksterMap.SceneEditing
         {
             this.renderer = renderer ?? throw new ArgumentNullException(nameof(renderer)); Text = "場景物件位置";
             canvas = new SceneTileCanvas(renderer);
-            var side = new Panel { Dock = DockStyle.Left, Width = 300 };
+            var side = new Panel { Dock = DockStyle.Left, Width = 338 };
             var coordinates = new TableLayoutPanel { Dock = DockStyle.Bottom, Height = 88, Padding = new Padding(4), ColumnCount = 4, RowCount = 3 };
             coordinates.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20));
             coordinates.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
@@ -47,15 +48,18 @@ namespace TricksterMap.SceneEditing
             var center = new Button { Text = "定位物件", Width = 90 };
             coordinates.Controls.Add(apply, 0, 2); coordinates.SetColumnSpan(apply, 2);
             coordinates.Controls.Add(center, 2, 2); coordinates.SetColumnSpan(center, 2);
-            side.Controls.Add(objects); side.Controls.Add(details); side.Controls.Add(coordinates); side.Controls.Add(layers);
-            side.Controls.Add(assets); side.Controls.Add(new Label { Text = "BAC 素材：選取後雙擊地圖放置", Dock = DockStyle.Top, Height = 20 });
+            side.Controls.Add(objects); side.Controls.Add(details); side.Controls.Add(coordinates);
+            side.Controls.Add(layerDetails); side.Controls.Add(layers);
+            side.Controls.Add(new Label { Text = "繪製順序由清單首列到末列（畫面由底到頂）\r\n同層依 Y−Z 排序，數值較大者後繪製", Dock = DockStyle.Top, Height = 40, Padding = new Padding(4, 4, 4, 0) });
+            side.Controls.Add(assets); side.Controls.Add(new Label { Text = "選取 BAC 素材後，雙擊空白處放置", Dock = DockStyle.Top, Height = 23, Padding = new Padding(4, 2, 4, 0) });
             var toolbar = new ToolStrip { Dock = DockStyle.Top, GripStyle = ToolStripGripStyle.Hidden };
             var fit = new ToolStripButton("符合畫面");
             var duplicate = new ToolStripButton("複製物件");
             var remove = new ToolStripButton("刪除物件");
             var add = new ToolStripButton("新增 BAC 物件");
             toolbar.Items.AddRange(new ToolStripItem[] { add, duplicate, remove, undo, redo, fit, state });
-            var bottom = new StatusStrip(); var hint = new ToolStripStatusLabel("選取既有 BAC 場景物件調整 X/Y/Z；旗標、名稱與未知欄位保持原樣。");
+            var bottom = new StatusStrip();
+            var hint = new ToolStripStatusLabel("左鍵點選或拖曳目前圖層物件 · 中鍵、右鍵或空白鍵＋左鍵平移");
             bottom.Items.Add(hint);
             Controls.Add(canvas); Controls.Add(side); Controls.Add(toolbar); Controls.Add(bottom);
             objectLayers = renderer.Scene.Layers.ToList();
@@ -67,11 +71,23 @@ namespace TricksterMap.SceneEditing
             layers.SelectedIndexChanged += (s, e) => { if (!refreshingLayerLabel) SelectLayer(); };
             objects.SelectedIndexChanged += (s, e) => SelectObject();
             apply.Click += (s, e) => ApplyPosition(); center.Click += (s, e) => CenterObject();
-            undo.Click += (s, e) => { current?.Undo(); OnEdited(); };
-            redo.Click += (s, e) => { current?.Redo(); OnEdited(); };
+            undo.Click += (s, e) => ChangeHistory(true);
+            redo.Click += (s, e) => ChangeHistory(false);
             duplicate.Click += (s, e) => DuplicateSelected(); remove.Click += (s, e) => DeleteSelected();
             add.Click += (s, e) => AddAssetAt(renderer.Scene.Width / 2.0, renderer.Scene.Height / 2.0, true);
             canvas.PlacementRequested += (worldX, worldY) => AddAssetAt(worldX, worldY, false);
+            canvas.ObjectSelected += item =>
+            {
+                int index = layer?.Objects.IndexOf(item) ?? -1;
+                if (index >= 0) objects.SelectedIndex = index;
+            };
+            canvas.ObjectMoved += (item, worldX, worldY) =>
+            {
+                int index = layer?.Objects.IndexOf(item) ?? -1;
+                if (index < 0) return;
+                current.SetPosition(index, worldX, worldY, item.Z);
+                OnEdited();
+            };
             fit.Click += (s, e) => canvas.FitMap();
             canvas.PositionChanged += text => hint.Text = text;
             KeyPreview = true;
@@ -79,8 +95,9 @@ namespace TricksterMap.SceneEditing
             {
                 if (e.KeyCode == Keys.Space)
                 { if (!canvas.SpacePanning) canvas.FinishInteraction(); canvas.SpacePanning = true; e.SuppressKeyPress = true; }
-                else if (e.Control && e.KeyCode == Keys.Z) { current?.Undo(); OnEdited(); e.SuppressKeyPress = true; }
-                else if (e.Control && e.KeyCode == Keys.Y) { current?.Redo(); OnEdited(); e.SuppressKeyPress = true; }
+                else if (e.KeyCode == Keys.Escape) { canvas.FinishInteraction(); e.SuppressKeyPress = true; }
+                else if (e.Control && e.KeyCode == Keys.Z) { ChangeHistory(true); e.SuppressKeyPress = true; }
+                else if (e.Control && e.KeyCode == Keys.Y) { ChangeHistory(false); e.SuppressKeyPress = true; }
             };
             KeyUp += (s, e) => { if (e.KeyCode == Keys.Space) { canvas.FinishInteraction(); canvas.SpacePanning = false; e.SuppressKeyPress = true; } };
             foreach (var asset in renderer.AvailableObjectNames) assets.Items.Add(asset);
@@ -97,11 +114,43 @@ namespace TricksterMap.SceneEditing
         }
 
         private static NumericUpDown Number() => new NumericUpDown { Width = 70, Minimum = int.MinValue, Maximum = int.MaxValue };
-        private string LayerLabel(SceneLayer item) => "L" + renderer.Scene.Layers.IndexOf(item) + " " + item.Name + " (" + item.Objects.Count + ")";
+        private string LayerLabel(SceneLayer item) =>
+            $"L{objectLayers.IndexOf(item)} · {item.Name} · {LayerRole(item)} ({item.Objects.Count})";
+
+        private static string LayerRole(SceneLayer item)
+        {
+            switch (item.Name.Trim().ToLowerInvariant())
+            {
+                case "타일": case "tile": case "바닥": case "floor": return "地面";
+                case "그림자": case "shadow": case "sh": return "陰影";
+                case "메인": case "main": return "主物件";
+                case "윗면": case "up": return "上方圖層";
+                case "이펙트": case "effect": return "場景特效";
+                case "물": case "water": return "水面";
+                case "땅위": case "tile2": return "地面裝飾";
+                default: return LayerKind(item);
+            }
+        }
+
+        private static string LayerKind(SceneLayer item)
+            => item.Kind == 2 ? "地磚" : item.Kind == 1 ? "圖像" : "物件";
+
+        private void ChangeHistory(bool reverse)
+        {
+            canvas.FinishInteraction();
+            if (current == null || (reverse ? !current.CanUndo : !current.CanRedo)) return;
+            if (reverse) current.Undo(); else current.Redo();
+            OnEdited();
+        }
         private void SelectLayer()
         {
+            canvas.FinishInteraction();
             layer = layers.SelectedIndex < 0 ? null : objectLayers[layers.SelectedIndex];
             current = layer == null ? null : histories[layer];
+            canvas.ObjectLayer = layer;
+            layerDetails.Text = layer == null ? "" :
+                $"第 {layers.SelectedIndex + 1}／{objectLayers.Count} 個繪製 · 原始 Order {layer.Order}\r\n" +
+                (layer.Kind == 0 ? "放置 BAC 物件。透明像素會露出底層。" : $"{LayerKind(layer)}先繪製，再畫此層的 BAC 物件。");
             RefreshList(0); RefreshState();
         }
         private void RefreshList(int selected)
@@ -114,8 +163,10 @@ namespace TricksterMap.SceneEditing
         }
         private void SelectObject()
         {
-            if (layer == null || objects.SelectedIndex < 0) { canvas.SelectionMarkerWorld = null; canvas.Invalidate(); return; }
+            if (layer == null || objects.SelectedIndex < 0)
+            { canvas.SelectedObject = null; canvas.SelectionMarkerWorld = null; canvas.Invalidate(); return; }
             var item = layer.Objects[objects.SelectedIndex]; x.Value = item.X; y.Value = item.Y; z.Value = item.Z;
+            canvas.SelectedObject = item;
             details.Text = "原始 flags 0x" + item.Flags.ToString("X8") + "（保留）\r\n原始紀錄 " + item.RawData.Length + " bytes";
             canvas.SelectionMarkerWorld = new PointF((float)((double)layer.X + item.X), (float)((double)layer.Y + item.Y - item.Z)); canvas.Invalidate();
         }

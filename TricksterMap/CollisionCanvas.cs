@@ -6,7 +6,7 @@ using System.Windows.Forms;
 namespace TricksterMap
 {
     /// <summary>Fixed-size viewport: wheel zoom, pan and brush share one map transform.</summary>
-    internal sealed class CollisionCanvas : Control
+    internal sealed partial class CollisionCanvas : Control
     {
         private readonly ConfigLayerEditService edits;
         private readonly CollisionGridImage grid;
@@ -19,11 +19,12 @@ namespace TricksterMap
         public int BrushSize { get; set; } = 1;
         public bool CircleBrush { get; set; }
         public bool SpacePanning { get; set; }
-        public bool ShowCollision { get; set; } = true;
+        public bool ShowCollision { get; set; }
         public float OverlayOpacity { get; set; } = .35f;
         public bool ShowGrid { get; set; }
         public IMapSceneRenderer SceneRenderer { get; set; }
         public event EventHandler Changed, ViewChanged;
+        public event Action CollisionStrokeStarted;
         public event Action<string> PositionChanged;
         public bool ValidGridStep => edits.Layer.BppX > 0 && edits.Layer.BppY > 0;
         private int StepX => ValidGridStep ? edits.Layer.BppX : 16;
@@ -41,7 +42,7 @@ namespace TricksterMap
             SetStyle(ControlStyles.ResizeRedraw | ControlStyles.Selectable, true); TabStop = true;
             MouseDown += Start; MouseMove += MovePointer; MouseWheel += Wheel;
             MouseEnter += (s, e) => { if (Form.ActiveForm != null && Form.ActiveForm.Contains(this)) Focus(); };
-            MouseUp += (s, e) => Finish(); MouseLeave += (s, e) => { hover = null; Invalidate(); };
+            MouseUp += Release; MouseLeave += (s, e) => { hover = null; ObjectOverlay?.ClearHover(); Invalidate(); };
             MouseCaptureChanged += (s, e) => { if (!Capture) Finish(); };
             LostFocus += (s, e) => { SpacePanning = false; Finish(); };
         }
@@ -86,7 +87,7 @@ namespace TricksterMap
             if (!Detailed || ShowCollision || SceneRenderer == null)
                 grid.Draw(graphics, bounds, Detailed && SceneRenderer != null ? OverlayOpacity : 1);
             if (ShowGrid && StepX * View.Zoom >= 8 && StepY * View.Zoom >= 8) DrawGrid(graphics);
-            if (hover.HasValue && !panning && !SpacePanning)
+            if (!EditingMapObjects && hover.HasValue && !panning && !SpacePanning)
             {
                 int size = Math.Max(1, Math.Min(128, BrushSize));
                 var box = new RectangleF((float)View.ScreenX((hover.Value.X - size / 2) * (double)StepX),
@@ -96,6 +97,7 @@ namespace TricksterMap
                 using (var pen = new Pen(Color.Yellow, 2))
                     if (CircleBrush) graphics.DrawEllipse(pen, box); else graphics.DrawRectangle(pen, box.X, box.Y, box.Width, box.Height);
             }
+            ObjectOverlay?.Draw(graphics, ClientRectangle);
         }
 
         private void DrawGrid(Graphics graphics)
@@ -123,13 +125,23 @@ namespace TricksterMap
             if (!verifying) Focus();
             if (e.Button == MouseButtons.Middle || e.Button == MouseButtons.Right || (SpacePanning && e.Button == MouseButtons.Left))
             {
-                Finish(); autoFit = false; panning = true; panStart = e.Location; Cursor = Cursors.Hand;
+                Finish();
+                rightClickPending = e.Button == MouseButtons.Right && ObjectOverlay != null;
+                if (!rightClickPending) { autoFit = false; Cursor = Cursors.Hand; }
+                panning = true; panStart = e.Location;
                 if (!verifying) Capture = true;
                 return;
             }
             if (e.Button != MouseButtons.Left) return;
+            if (EditingMapObjects)
+            {
+                Finish();
+                if (ObjectOverlay.Begin(e.Location) && !verifying) Capture = true;
+                ShowMapObjectStatus(); Invalidate(); return;
+            }
             Point? cell = Cell(e.Location); if (!cell.HasValue) return;
             Finish(); edits.BeginStroke(); previous = cell; stroking = true;
+            CollisionStrokeStarted?.Invoke();
             if (!verifying) Capture = true;
             PaintSegment(previous.Value, previous.Value);
         }
@@ -137,8 +149,20 @@ namespace TricksterMap
         {
             if (panning)
             {
+                if (rightClickPending)
+                {
+                    if (WithinRightClickThreshold(e.Location)) return;
+                    rightClickPending = false; autoFit = false; Cursor = Cursors.Hand;
+                }
                 View.Pan(e.X - panStart.X, e.Y - panStart.Y); panStart = e.Location;
                 ViewChanged?.Invoke(this, EventArgs.Empty); Invalidate(); return;
+            }
+            if (!stroking && !SpacePanning && ObjectOverlay?.SetHover(e.Location) == true) Invalidate();
+            if (EditingMapObjects)
+            {
+                if (ObjectOverlay.Dragging)
+                { ObjectOverlay.Move(e.Location); ShowMapObjectStatus(); Invalidate(); }
+                return;
             }
             hover = Cell(e.Location);
             if (!hover.HasValue) { previous = null; Invalidate(); return; }
@@ -163,8 +187,11 @@ namespace TricksterMap
         {
             bool active = stroking;
             edits.EndStroke(); previous = null; stroking = false; panning = false; Cursor = Cursors.Default;
+            rightClickPending = false;
+            ObjectOverlay?.Cancel();
             if (!verifying && Capture) Capture = false;
             if (active) Changed?.Invoke(this, EventArgs.Empty);
+            if (ObjectOverlay != null) Invalidate();
         }
 
         internal void VerifyBrushStroke()
@@ -217,7 +244,7 @@ namespace TricksterMap
         }
         protected override void Dispose(bool disposing)
         {
-            if (disposing) { grid.Dispose(); footprint.Dispose(); }
+            if (disposing) { grid.Dispose(); footprint.Dispose(); objectMenu?.Dispose(); }
             base.Dispose(disposing);
         }
     }

@@ -14,6 +14,7 @@ namespace TricksterMap
 {
     public partial class MDIParent : Form
     {
+        private static readonly string Caption = "TricksterMap " + typeof(MDIParent).Assembly.GetName().Version.ToString(3);
         private MapDocument document;
         private string savedFingerprint;
         private bool changedLanguage;
@@ -39,7 +40,7 @@ namespace TricksterMap
         public MDIParent()
         {
             InitializeComponent();
-            Text = "TricksterMap 0.3.1";
+            Text = Caption;
             animation = new SceneAnimationController(() =>
             {
                 foreach (var editor in collisionEditors)
@@ -53,6 +54,7 @@ namespace TricksterMap
             sceneLoader.Ready += renderer =>
             {
                 savedSceneFingerprint = sceneLoader.InitialFingerprint;
+                exportScenePng.Enabled = true;
                 animation.Bind(renderer);
                 sceneEditor = new SceneAuthoringForm(renderer);
                 var page = new TabPage("地圖場景製作");
@@ -61,7 +63,7 @@ namespace TricksterMap
                 tabControl1.TabPages.Add(page); sceneEditor.Show();
                 sceneEditor.Edited += (s, e) =>
                 {
-                    Text = "TricksterMap 0.3.1 - " + document.Md3Path + " *";
+                    Text = Caption + " - " + document.Md3Path + " *";
                     foreach (var editor in collisionEditors) editor.Canvas.Invalidate();
                     objectEditor?.RefreshView();
                 };
@@ -72,7 +74,7 @@ namespace TricksterMap
                 tabControl1.TabPages.Add(objectPage); objectEditor.Show();
                 objectEditor.Edited += (s, e) =>
                 {
-                    Text = "TricksterMap 0.3.1 - " + document.Md3Path + " *";
+                    Text = Caption + " - " + document.Md3Path + " *";
                     foreach (var editor in collisionEditors) editor.Canvas.Invalidate();
                     sceneEditor.RefreshView();
                 };
@@ -87,6 +89,7 @@ namespace TricksterMap
             fileMenu.DropDownItems.Insert(0, createMap);
             var resourceArchive = new ToolStripMenuItem("匯出完整遊戲資源包 ZIP…");
             resourceArchive.Click += (s, e) => ExportResourceArchive(); fileMenu.DropDownItems.Add(resourceArchive);
+            AttachScenePngExport();
         }
 
         public void OpenMap(string fileName) { OpenMap(fileName, true); }
@@ -95,6 +98,7 @@ namespace TricksterMap
         {
             if (askToDiscard && !ConfirmDiscard()) return;
             var next = new MapDocumentService().Load(fileName);
+            exportScenePng.Enabled = false;
             animation.Bind(null);
             while (tabControl1.TabPages.Count > 0)
             {
@@ -107,9 +111,9 @@ namespace TricksterMap
             savedFingerprint = MapEditFingerprint.Compute(next.Map);
             savedSceneFingerprint = null;
             foreach (var editor in collisionEditors)
-                editor.Edited += (s, e) => Text = "TricksterMap 0.3.1 - " + fileName +
-                    (collisionEditors.Any(c => c.Edits.IsDirty) || (sceneEditor?.IsDirty ?? false) || (objectEditor?.IsDirty ?? false) ? " *" : "");
-            Text = "TricksterMap 0.3.1 - " + fileName;
+                editor.Edited += (s, e) => Text = Caption + " - " + fileName +
+                    (savedFingerprint != MapEditFingerprint.Compute(next.Map) || (sceneEditor?.IsDirty ?? false) || (objectEditor?.IsDirty ?? false) ? " *" : "");
+            Text = Caption + " - " + fileName;
             sceneLoader.Load(next, collisionEditors);
         }
 
@@ -206,7 +210,7 @@ namespace TricksterMap
                     foreach (var editor in collisionEditors) editor.MarkSaved();
                     sceneEditor?.MarkSaved();
                     objectEditor?.MarkSaved();
-                    Text = "TricksterMap 0.3.1 - exported " + dialog.FileName;
+                    Text = Caption + " - exported " + dialog.FileName;
                 }
                 catch (Exception ex) { MessageBox.Show(this, ex.Message, "Export failed", MessageBoxButtons.OK, MessageBoxIcon.Error); }
             }

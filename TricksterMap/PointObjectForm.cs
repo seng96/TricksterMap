@@ -97,19 +97,22 @@ namespace TricksterMap
         private void EditSelectedItem()
         {
             if (pointList.SelectedIndices.Count > 0)
-            {
-                var index = pointList.Items.IndexOf(pointList.SelectedItems[0]);
+                EditAt(pointList.SelectedIndices[0], this);
+        }
 
-                var point = Map.PointObjects[index];
-
-                var createForm = new CreatePointObject()
+        internal bool EditAt(int index, IWin32Window owner)
+        {
+            if (index < 0 || index >= Map.PointObjects.Count) return false;
+            var point = Map.PointObjects[index];
+            using (var createForm = new CreatePointObject
                 {
                     Map = Map,
                     PointListForm = this,
                     isEditing = true,
-                    EditIndex = index
-                };
-
+                    EditIndex = index,
+                    StartPosition = FormStartPosition.CenterParent,
+                })
+            {
                 createForm.Text = Strings.EditPointObject;
                 createForm.btnCreate.Text = Strings.Edit;
                 createForm.txtId.Text = point.Id.ToString();
@@ -118,7 +121,7 @@ namespace TricksterMap
                 createForm.txtY.Text = point.Y.ToString();
                 createForm.cmbType.SelectedIndex = createForm.cmbType.FindStringExact(point.GetTypeName());
 
-                createForm.ShowDialog();
+                return createForm.ShowDialog(owner) == DialogResult.OK;
             }
         }
     }

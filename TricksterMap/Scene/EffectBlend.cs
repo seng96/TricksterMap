@@ -27,6 +27,7 @@ namespace TricksterMap.SceneView
                             int d = dst[x + channel], s = src[x + channel], value;
                             if (mode == "ADD") value = d + (s * alpha + 127) / 255;
                             else if (mode == "MULT") value = d * s / 255;
+                            else if (mode == "SCENE_SHADOW") value = (d * (65025 - alpha * (255 - s)) + 32512) / 65025;
                             else if (mode == "INVMULT") value = d * (255 - s) / 255;
                             else if (mode == "INVERSE") value = s * (255 - s) / 255;
                             else value = (s * alpha + d * (255 - alpha) + 127) / 255;

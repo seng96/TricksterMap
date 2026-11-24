@@ -16,7 +16,7 @@ namespace TricksterMap
             foreach (var layer in map.ConfigLayers)
                 if (layer.Type == 1)
                 {
-                    var editor = new MapCollisionEditorForm(layer);
+                    var editor = new MapCollisionEditorForm(layer, editors.Count == 0 ? map : null);
                     Add(tabs, "Collision " + layer.X + " x " + layer.Y, editor);
                     editors.Add(editor);
                 }
@@ -24,6 +24,30 @@ namespace TricksterMap
             points.RepopulateData(); Add(tabs, "Point objects", points);
             var ranges = new RangeObjectForm { Map = map };
             ranges.RepopulateData(); Add(tabs, "Range objects", ranges);
+            if (editors.Count > 0)
+            {
+                var viewport = editors[0];
+                viewport.MapObjectsEdited += (s, e) =>
+                {
+                    points.RepopulateData();
+                    ranges.RepopulateData();
+                };
+                viewport.MapObjectEditRequested += item =>
+                {
+                    if (item is PointObject point)
+                    {
+                        int index = map.PointObjects.IndexOf(point);
+                        if (points.EditAt(index, tabs.FindForm()))
+                            viewport.RecordMapObjectDialogEdit(point, map.PointObjects[index]);
+                    }
+                    else if (item is RangeObject range)
+                    {
+                        int index = map.RangeObjects.IndexOf(range);
+                        if (ranges.EditAt(index, tabs.FindForm()))
+                            viewport.RecordMapObjectDialogEdit(range, map.RangeObjects[index]);
+                    }
+                };
+            }
             return editors;
         }
 

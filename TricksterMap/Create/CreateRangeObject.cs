@@ -104,6 +104,7 @@ namespace TricksterMap.Create
         {
             if (!AddOrUpdateObject()) return;
             isEditing = false;
+            DialogResult = DialogResult.OK;
             Close();
         }
 

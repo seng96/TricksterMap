@@ -19,6 +19,7 @@ namespace TricksterMap.SceneView
         internal readonly List<string> Warnings = new List<string>();
         internal readonly List<SceneObjectAsset> Assets = new List<SceneObjectAsset>();
         internal bool HasAnimation => animations.Values.Any(frames => frames.Length > 1);
+        internal bool HasAdditivePlanes => animations.Values.Any(frames => frames.Any(FrameHasAdditivePlane));
 
         internal NoriSceneResource(byte[] raw, SceneImageCache cache) : this(new NoriAnimationIndex(raw), cache) { }
         internal NoriSceneResource(NoriAnimationIndex index, SceneImageCache cache)
@@ -61,6 +62,19 @@ namespace TricksterMap.SceneView
             foreach (var sprite in ReadFrame(frames[Math.Max(0, Math.Min(frames.Length - 1, frame))])) yield return sprite;
         }
 
+        private bool FrameHasAdditivePlane(int at)
+        {
+            int planes = ScenePixels.Int(raw, at + 4);
+            for (int i = 0; i < planes; i++)
+            {
+                int record = at + 8 + i * 28;
+                if (ScenePixels.Int(raw, record + 20) == NoriSceneSprite.AdditiveBlend &&
+                    ScenePixels.Int(raw, record) >= 0 && ScenePixels.Int(raw, record + 12) > 0)
+                    return true;
+            }
+            return false;
+        }
+
         private IEnumerable<NoriSceneSprite> ReadFrame(int at)
         {
             int planes = ScenePixels.Int(raw, at + 4);
@@ -73,7 +87,8 @@ namespace TricksterMap.SceneView
                 if (bitmap >= bitmaps.Length) throw new InvalidDataException("BAC bitmap index exceeds its table.");
                 int width = ScenePixels.Int(raw, bitmaps[bitmap] + 8), height = ScenePixels.Int(raw, bitmaps[bitmap] + 12);
                 yield return new NoriSceneSprite { Resource = this, BitmapIndex = bitmap, Width = width, Height = height, X = ScenePixels.Int(raw, record + 4),
-                    Y = ScenePixels.Int(raw, record + 8), Opacity = Math.Max(0, Math.Min(100, opacity)), Flip = flip };
+                    Y = ScenePixels.Int(raw, record + 8), Opacity = Math.Max(0, Math.Min(100, opacity)), Flip = flip,
+                    Blend = ScenePixels.Int(raw, record + 20) };
             }
         }
 
@@ -82,8 +97,9 @@ namespace TricksterMap.SceneView
 
     internal sealed class NoriSceneSprite
     {
+        internal const int AdditiveBlend = 4;
         internal NoriSceneResource Resource;
         internal Bitmap Image => Resource.GetBitmap(BitmapIndex);
-        internal int BitmapIndex, X, Y, Width, Height, Opacity, Flip;
+        internal int BitmapIndex, X, Y, Width, Height, Opacity, Flip, Blend;
     }
 }
